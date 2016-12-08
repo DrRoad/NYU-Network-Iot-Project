@@ -1,3 +1,4 @@
+package com.example.zalbhathena.socketstest;
 import java.net.Socket;
 import java.net.ServerSocket;
 import java.net.InetAddress;
@@ -24,9 +25,6 @@ public class ClientController implements Runnable{
 
     private Callbackable callback;
 
-    private String keepAlivePayload;
-    private long keepAliveFrequency;
-
     private boolean isConnected = false;
     private long lastPing = -1;
 
@@ -36,15 +34,14 @@ public class ClientController implements Runnable{
     private ClientTransmitter clientTransmitter = null;
 
     public ClientController(String serverIP, int serverPort, Callbackable callback,
-                            String keepAlivePayload, long keepAliveFrequency) {
+                            Object keepAlivePayload, long keepAliveFrequency) {
         this.serverIP = serverIP;
         this.serverPort = serverPort;
         this.callback = callback;
-        this.keepAlivePayload = keepAlivePayload;
-        this.keepAliveFrequency = keepAliveFrequency;
+        clientTransmitter = new ClientTransmitter(null, keepAlivePayload, keepAliveFrequency);
     }
 
-    private void connect()
+    public void connect()
     {
         lastPing = -1;
         isConnected = false;
@@ -61,6 +58,16 @@ public class ClientController implements Runnable{
         } catch (IOException e1) {
             e1.printStackTrace();
         }
+    }
+
+    public void setKeepAlivePayload(Object keepAlivePayload)
+    {
+        clientTransmitter.setKeepAlivePayload(keepAlivePayload);
+    }
+
+    public void setKeepAliveFrequency(long keepAliveFrequency)
+    {
+        clientTransmitter.setKeepAliveFrequency(keepAliveFrequency);
     }
 
     public boolean write(String payload)
@@ -87,7 +94,7 @@ public class ClientController implements Runnable{
                     }
                     //original connection part of handshake
                     else if (inString.equals("OPEN")) {
-                        clientTransmitter = new ClientTransmitter(socket, keepAlivePayload, keepAliveFrequency);
+                        clientTransmitter.setSocket(socket);
                         new Thread(clientTransmitter).start();
                         isConnected = true;
                     }

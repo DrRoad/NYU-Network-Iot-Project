@@ -1,3 +1,4 @@
+package com.example.zalbhathena.socketstest;
 import java.net.Socket;
 import java.net.ServerSocket;
 import java.net.InetAddress;
@@ -16,23 +17,19 @@ import java.util.concurrent.TimeoutException;
 
 public class ClientTransmitter implements Runnable{
     private Socket socket = null;
-    private String keepAliveMessage;
+    private Object keepAlivePayload;
     private long keepAliveFrequency = -1;
 
     private PrintWriter out = null;
     private long lastMessageTime = Long.MIN_VALUE;
 
-    public ClientTransmitter(Socket socket, String keepAliveMessage, long keepAliveFrequency)
+    public ClientTransmitter(Socket socket, Object keepAlivePayload, long keepAliveFrequency)
     {
-        this.socket = socket;
-        this.keepAliveFrequency = keepAliveFrequency;
-        this.keepAliveMessage = keepAliveMessage;
+        setSocket(socket);
+        setKeepAliveFrequency(keepAliveFrequency);
+        setKeepAlivePayload(keepAlivePayload);
 
-        try {
-            out = new PrintWriter(this.socket.getOutputStream());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+
     }
     public void run() {
         long currentTime = System.currentTimeMillis();
@@ -42,7 +39,7 @@ public class ClientTransmitter implements Runnable{
             if(currentTime >= lastMessageTime + keepAliveFrequency)
             {
                 System.out.println("yo!");
-                write(keepAliveMessage);
+                write(keepAlivePayload.toString());
 
                 long tempTime = System.currentTimeMillis();
                 try {
@@ -59,5 +56,26 @@ public class ClientTransmitter implements Runnable{
     public void write(String message) {
         out.println(message);
         out.flush();
+    }
+    
+    public void setSocket(Socket socket) {
+        this.socket = socket;
+        if(this.socket != null) {
+            try {
+                out = new PrintWriter(this.socket.getOutputStream());
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    public void setKeepAlivePayload(Object keepAlivePayload)
+    {
+        this.keepAlivePayload = keepAlivePayload;
+    }
+
+    public void setKeepAliveFrequency(long keepAliveFrequency)
+    {
+        this.keepAliveFrequency = keepAliveFrequency;
     }
 }
