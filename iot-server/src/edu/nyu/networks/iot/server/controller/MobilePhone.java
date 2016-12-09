@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
+import java.util.List;
+
 
 /**
  * Threaded client object for control of connected mobile phone clients.
@@ -19,6 +21,8 @@ class MobilePhone implements Runnable {
     private BufferedReader in = null;
     private PrintWriter out = null;
     private String imei = null;
+    private String type=null;
+    String ip;
     Location location;
     boolean isSensing;
     float speed;
@@ -27,10 +31,12 @@ class MobilePhone implements Runnable {
     long lastStartTimeStamp;
     long lastPingTimeStamp;
     long batteryLevel;
+    List<String> sensors;
 
 
     MobilePhone(Socket clientSocket) {
         this.clientSocket = clientSocket;
+        this.location = new Location(0, 0);
         try {
             in = new BufferedReader(
                     new InputStreamReader(clientSocket.getInputStream()));
@@ -45,12 +51,9 @@ class MobilePhone implements Runnable {
         write("Connection open.");
 
         while (true) {
-            String inString = read();
-            if (inString != null) {
-                //TODO: handle client messages here
-
-                System.out.println("Received message " + inString);
-            }
+            read();
+            //TODO: handle client messages here
+            Controller.update(imei, this.type,this);
         }
     }
 
@@ -69,7 +72,8 @@ class MobilePhone implements Runnable {
      * @return message
      */
     public String readMessage() {
-        return read();
+        read();
+        return this.imei;
     }
 
     public String getImei() {
@@ -89,15 +93,21 @@ class MobilePhone implements Runnable {
         this.imei = imei;
     }
 
-    private String read() {
+    private boolean read() {
         try {
-            return in.readLine();
+            String indata = in.readLine();
+            JsonObject tokens=indata.parseJson();
+            this.imei=JsonObject.get("i_m_e_i");
+            this.sensors=JsonObject.get("avail_sensors");
+            this.type=JsonObject.get("type");
+            return true;
         } catch (IOException e) {
-            return "ERROR READING IN";
+            return false;
         }
     }
 
     private void write(String message) {
+        System.out.println(message);
         out.println(message);
         out.flush();
     }

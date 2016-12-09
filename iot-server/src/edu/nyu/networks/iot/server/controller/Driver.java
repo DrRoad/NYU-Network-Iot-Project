@@ -60,8 +60,7 @@ public class Driver implements Runnable {
 			MobilePhone client = new MobilePhone(clientSocket);
 			client.sendMessage("Connection open, please send IMEI");
 			String imei = client.readMessage();
-			System.out.println(imei);
-			clientList.put(imei, client);
+			clientList.put(imei,client);
 			new Thread(client).start();
 		}
 	}
