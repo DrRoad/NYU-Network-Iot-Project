@@ -22,19 +22,25 @@ class Command {
 
 //For representing location
 class Location {
-    float x;
-    float y;
-    float z;
+    double lon;
+    double lat;
 
-    public Location() {
-    }
-
-    public Location(float x, float y, float z) {
-        this.x = x;
-        this.y = y;
-        this.z = z;
+    public Location(double x, double y) {
+        this.lon = x;
+        this.lat = y;
     }
 }
+
+class Value {
+    Location location;
+    Double value;
+
+    public Value(Location l, double v) {
+        this.location = l;
+        this.value = v;
+    }
+}
+
 
 public class Controller {
     private final static long PingInterval = 100;
@@ -48,6 +54,7 @@ public class Controller {
     private final static String SENDCOMP = "SENDCOMP";
 
     private static Map<String, MobilePhone> clientList = Collections.synchronizedMap(new HashMap<String, MobilePhone>());
+    private static Map<String, Queue<Value> data = Collections.synchronizedMap(new HashMap<String, LinkedList<Value>>());
 
     public static void startSensing(String imei) {
         System.out.println("Start sensing");
