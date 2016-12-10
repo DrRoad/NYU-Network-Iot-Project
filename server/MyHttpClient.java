@@ -9,9 +9,9 @@ import java.net.URL;
 public class MyHttpClient {
 
     private static final String USER_AGENT = "Mozilla/5.0";
-    
-    private static final String POST_URL = "http://localhost:18001";
-    
+
+    private static final String POST_URL = "http://128.122.140.161";
+
     private static final String POST_PARAMS = "userName=Shiva";
 
     public static void main(String[] args) throws IOException {
