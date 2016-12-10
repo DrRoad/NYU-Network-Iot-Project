@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="iot-server:jar">
+    <output-path>$PROJECT_DIR$/classes/artifacts/iot_server_jar</output-path>
+    <root id="archive" name="iot-server.jar">
+      <element id="module-output" name="iot-server" />
+      <element id="library" level="project" name="gson-2.8.0-javadoc" />
+      <element id="library" level="project" name="gson-2.8.0-sources" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/gson-2.8.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

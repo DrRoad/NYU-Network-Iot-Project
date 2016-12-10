@@ -5,8 +5,12 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
+import java.util.concurrent.ConcurrentLinkedQueue;
 
+import com.google.gson.JsonObject;
 
 /**
  * Threaded client object for control of connected mobile phone clients.
@@ -21,22 +25,25 @@ class MobilePhone implements Runnable {
     private BufferedReader in = null;
     private PrintWriter out = null;
     private String imei = null;
-    private String type=null;
-    String ip;
-    Location location;
-    boolean isSensing;
-    float speed;
-    float noise;
-    float pm;
-    long lastStartTimeStamp;
-    long lastPingTimeStamp;
-    long batteryLevel;
-    List<String> sensors;
+    // if you are iterating, make sure to wrap iteration in a synchronized block
+    private List<String> sensors = Collections.synchronizedList(new ArrayList<String>());
 
+    // Concurrent Linked List of received messages
+    private ConcurrentLinkedQueue<String> messageQueue = new ConcurrentLinkedQueue<String>();
+
+    // Only get/set these variables through getters and setters
+    // If you need to do any operation but get and set, use a synchronized method and remove volatile keyword
+    Location location;
+    volatile boolean isSensing;
+    volatile float speed;
+    volatile float noise;
+    volatile float pm;
+    volatile long lastStartTimeStamp;
+    volatile long lastPingTimeStamp;
+    volatile long batteryLevel;
 
     MobilePhone(Socket clientSocket) {
         this.clientSocket = clientSocket;
-        this.location = new Location(0, 0);
         try {
             in = new BufferedReader(
                     new InputStreamReader(clientSocket.getInputStream()));
@@ -51,14 +58,26 @@ class MobilePhone implements Runnable {
         write("Connection open.");
 
         while (true) {
-            read();
-            //TODO: handle client messages here
-            Controller.update(imei, this.type,this);
+            String inString = read();
+            if (inString != null) {
+                String message;
+                int messageLength;
+                try {
+                    messageLength = Integer.parseInt(inString);
+                    message = readLength(messageLength);
+                } catch (NumberFormatException e) {
+                    message = inString;
+                }
+                messageQueue.add(message);
+            }
         }
     }
 
     /**
-     * Send a message over associated socket to the client
+     * Send a message over associated socket to the client.
+     *
+     * This publicly accessible method is used to construct the final message format. The length of the message with
+     * a carriage return is the only header field, delimited by a \r\n.
      *
      * @param message string message to be sent.
      */
@@ -67,13 +86,22 @@ class MobilePhone implements Runnable {
     }
 
     /**
-     * Read a message from the socket
+     * Read a message from the socket buffer
      *
-     * @return message
+     * Use this method from the controller to check for a message, and if there is one, get it as a JsonObject.
+     *
+     * @return top message from the queue as a JsonObject, or null if none present
      */
-    public String readMessage() {
-        read();
-        return this.imei;
+    public JsonObject readMessage() {
+        String message = messageQueue.poll();
+        if (message == null) {
+            return null;
+        }
+        return MessageReader.readMessage(message);
+    }
+
+    public int getQueueSize(){
+        return this.messageQueue.size();
     }
 
     public String getImei() {
@@ -93,23 +121,39 @@ class MobilePhone implements Runnable {
         this.imei = imei;
     }
 
-    private boolean read() {
+    public String read() {
+        String message;
+
         try {
-            String indata = in.readLine();
-            JsonObject tokens=indata.parseJson();
-            this.imei=JsonObject.get("i_m_e_i");
-            this.sensors=JsonObject.get("avail_sensors");
-            this.type=JsonObject.get("type");
-            return true;
+            message = in.readLine();
         } catch (IOException e) {
-            return false;
+            return "ERROR READING IN";
         }
+
+        message = message.trim();
+        return message;
+    }
+
+    private String readLength(int bytes) {
+        char[] buffer = new char[bytes];
+
+        try {
+            in.read(buffer,0, bytes);
+        } catch (IOException e) {
+            return "ERROR READING IN";
+        }
+
+        return new String(buffer);
     }
 
     private void write(String message) {
-        System.out.println(message);
         out.println(message);
         out.flush();
     }
 
+    public void setSensors(List<String> sensors) {
+        synchronized (this.sensors) {
+            this.sensors = sensors;
+        }
+    }
 }
