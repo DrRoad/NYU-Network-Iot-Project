@@ -50,7 +50,7 @@ public class Driver implements Runnable {
 		try {
 			this.serverSocket = new ServerSocket(this.serverPort);
 		} catch (IOException e) {
-			throw new RuntimeException("Cannot open port" + this.serverPort, e);
+			throw new RuntimeException("Cannot open port " + this.serverPort, e);
 		}
 
 		while(!isStopped()) {
@@ -64,7 +64,7 @@ public class Driver implements Runnable {
 
 			MobilePhone client = new MobilePhone(clientSocket);
 			client.sendMessage("OPEN/r/n");
-			JsonObject messageObject = MessageReader.readMessage(client.read());
+            JsonObject messageObject = MessageReader.readMessage(client.read());
 
 			// make sure client opened with keep-alive
 			if (!MessageReader.isKeepAlive(messageObject)) {
