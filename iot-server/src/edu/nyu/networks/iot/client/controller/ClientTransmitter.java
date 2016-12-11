@@ -38,7 +38,6 @@ public class ClientTransmitter implements Runnable{
         {
             if(currentTime >= lastMessageTime + keepAliveFrequency)
             {
-                System.out.println("yo!");
                 write(keepAlivePayload.toString());
 
                 long tempTime = System.currentTimeMillis();
@@ -53,9 +52,13 @@ public class ClientTransmitter implements Runnable{
         }
     }
 
-    public void write(String message) {
-        out.println(message);
-        out.flush();
+    public boolean write(String message) {
+        if(out != null) {
+            out.println(message);
+            out.flush();
+            return true;
+        }
+        return false;
     }
     
     public void setSocket(Socket socket) {
