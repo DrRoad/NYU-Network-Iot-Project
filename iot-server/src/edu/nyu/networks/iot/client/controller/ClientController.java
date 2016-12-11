@@ -74,15 +74,18 @@ public class ClientController implements Runnable{
     {
         if(clientTransmitter != null)
         {
-            clientTransmitter.write(payload);
-            return true;
+            return clientTransmitter.write(payload);
         }
         return false;
     }
 
+    public boolean isConnected()
+    {
+        return isConnected;
+    }
+
     public void run(){
         connect();
-
         try {
             //waiting for initial response back from server
             while(true)
@@ -93,7 +96,7 @@ public class ClientController implements Runnable{
                         callback.callback(inString);
                     }
                     //original connection part of handshake
-                    else if (inString.equals("OPEN")) {
+                    else if (inString.equals("OPEN") || inString.equals("OPEN/r/n")) {
                         clientTransmitter.setSocket(socket);
                         new Thread(clientTransmitter).start();
                         isConnected = true;
