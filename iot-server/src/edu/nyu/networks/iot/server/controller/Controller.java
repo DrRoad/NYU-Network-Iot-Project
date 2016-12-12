@@ -44,6 +44,16 @@ public class Controller {
 
     private static Map<String, MobilePhone> clientList = Collections.synchronizedMap(new HashMap<String, MobilePhone>());
     private static Map<String, Stack<Value>> data = Collections.synchronizedMap(new HashMap<String, Stack<Value>>());
+    private static Database db;
+    static {
+        Database tmp = null;
+        try {
+            tmp = new Database();
+        } catch (Exception e) {
+
+        }
+        db = tmp;
+    }
 
 
     public static void startSensing(String imei, List<String> sensors) {
@@ -88,8 +98,11 @@ public class Controller {
         if (!clientList.containsKey(imei)) {
             return;
         }
+        try {
+            db.update(imei, v);
+        } catch (Exception e) {
 
-
+        }
     }
 
     public static void main(String[] args) {

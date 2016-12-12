@@ -48,7 +48,9 @@ public class MessageReader {
             Double noise = messageObject.get("noise").getAsDouble();
             Location l = new Location(lat, lon);
             Value v = new Value(l, noise);
-            Controller.addData(imei, v);
+            // stack not used for storing data any more
+            // Controller.addData(imei, v);
+            Controller.sendToDB(imei, v);
         }
         return messageObject;
     }

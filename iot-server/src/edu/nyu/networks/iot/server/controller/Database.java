@@ -3,16 +3,11 @@ package edu.nyu.networks.iot.server.controller;
 import java.sql.*;
 
 public class Database {
-    class ConnState {
-        Connection conn;
-        Statement stat;
-        public ConnState(Connection c, Statement s) {
-            conn = c;
-            stat = s;
-        }
-    }
 
-    public static ConnState initialize() throws Exception {
+    private static Connection conn;
+    private static Statement stat;
+
+    public Database() throws Exception {
         Class.forName("com.mysql.jdbc.Driver");
 
         // direct to an existing db
@@ -47,6 +42,14 @@ public class Database {
         // close db
 //        stat.close();
 //        conn.close();
-        return new ConnState(conn, stat);
+    }
+
+    public static void update(String imei, Value v) throws Exception {
+        stat.executeUpdate("insert into noise values(imei, v.Location.x, v.Location.y, v.value)");
+    }
+
+    public static void close() throws Exception {
+        conn.close();
+        stat.close();
     }
 }
