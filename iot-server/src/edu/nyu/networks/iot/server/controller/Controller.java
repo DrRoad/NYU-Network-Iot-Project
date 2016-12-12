@@ -1,24 +1,30 @@
 package edu.nyu.networks.iot.server.controller;
 
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.List;
-import java.util.ArrayList;
+import java.util.*;
 
 import com.google.gson.JsonObject;
 
 //For representing location
 class Location {
-    float x;
-    float y;
+    Double x;
+    Double y;
 
     public Location() {
     }
 
-    public Location(float x, float y) {
+    public Location(Double x, Double y) {
         this.x = x;
         this.y = y;
+    }
+}
+
+class Value {
+    Location location;
+    Double value;
+
+    public Value(Location l, Double v) {
+        this.location = l;
+        this.value = v;
     }
 }
 
@@ -37,6 +43,7 @@ public class Controller {
     private final static String SENDCOMP = "SENDCOMP";
 
     private static Map<String, MobilePhone> clientList = Collections.synchronizedMap(new HashMap<String, MobilePhone>());
+    private static Map<String, Stack<Value>> data = Collections.synchronizedMap(new HashMap<String, Stack<Value>>());
 
 
     public static void startSensing(String imei, List<String> sensors) {
@@ -70,6 +77,21 @@ public class Controller {
         clientList.get(imei).sendMessage(m.build());
     }
 
+    public static void addData(String imei, Value v) {
+        if (!clientList.containsKey(imei)) {
+            return;
+        }
+        data.get(imei).push(v);
+    }
+
+    public static void sendToDB(String imei, Value v) {
+        if (!clientList.containsKey(imei)) {
+            return;
+        }
+
+
+    }
+
     public static void main(String[] args) {
         System.out.println(Integer.getInteger("1234/r/n"));
 
@@ -98,16 +120,17 @@ public class Controller {
                     for (String imei : clientList.keySet()) {
                         for (int i = 0; i < MAXPOLL; i++) {
                             JsonObject message = clientList.get(imei).readMessage();
-                            if (message != null) {
-                                System.out.println(message.toString());
-//                              if (message.get("type").toString()==DATA){
-//                              TODO fit data handling part here @wenliang
-//                              continue;
-//                              }
-                                //clientList.get(imei).batteryLevel=Long.parseLong(message.get("battery-level").toString());
-                            } else {
-                                break;
-                            }
+//                            if (message != null) {
+//                                System.out.println(message.toString());
+////                              if (message.get("type").toString()==DATA){
+////                              TODO fit data handling part here @wenliang
+////                              continue;
+////                              }
+//                                //clientList.get(imei).batteryLevel=Long.parseLong(message.get("battery-level").toString());
+//                            } else {
+//                                break;
+//                            }
+                            if (message == null) { break; }
                             if (clientList.get(imei).lastPingTimeStamp > LiveInterval) {
                                 stopSensing(imei, new ArrayList<>());
                                 continue;

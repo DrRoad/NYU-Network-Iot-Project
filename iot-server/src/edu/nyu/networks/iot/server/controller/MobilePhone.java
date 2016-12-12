@@ -59,13 +59,20 @@ class MobilePhone implements Runnable {
 
         while (true) {
             String inString = read();
+            String inString1 = read();
             if (inString != null) {
                 String message;
-                int messageLength;
+                int messageLength = 0;
+                boolean isCompress = false;
                 try {
                     messageLength = Integer.parseInt(inString);
-                    message = readLength(messageLength);
+                    isCompress = Boolean.parseBoolean(inString1);
                 } catch (NumberFormatException e) {
+                    message = inString;
+                }
+                try {
+                    message = readLength(messageLength, isCompress);
+                } catch (Exception e) {
                     message = inString;
                 }
                 messageQueue.add(message);
@@ -134,7 +141,7 @@ class MobilePhone implements Runnable {
         return message;
     }
 
-    private String readLength(int bytes) {
+    private String readLength(int bytes, Boolean isCompress) throws Exception {
         char[] buffer = new char[bytes];
 
         try {
@@ -143,6 +150,9 @@ class MobilePhone implements Runnable {
             return "ERROR READING IN";
         }
 
+        if (isCompress) {
+            return MessageReader.decompress(new String(buffer));
+        }
         return new String(buffer);
     }
 

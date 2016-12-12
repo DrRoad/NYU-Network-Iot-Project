@@ -2,6 +2,10 @@ package edu.nyu.networks.iot.server.controller;
 
 import java.util.List;
 import java.lang.reflect.Type;
+import java.util.zip.GZIPInputStream;
+import java.io.BufferedReader;
+import java.io.ByteArrayInputStream;
+import java.io.InputStreamReader;
 
 
 import com.google.gson.Gson;
@@ -19,9 +23,41 @@ public class MessageReader {
 
     static Type listType = new TypeToken<List<String>>() {}.getType();
 
+    public static String decompress(String str) throws Exception {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        System.out.println("Input String length : " + str.length());
+        GZIPInputStream gis = new GZIPInputStream(new ByteArrayInputStream(str.getBytes("UTF-8")));
+        BufferedReader bf = new BufferedReader(new InputStreamReader(gis, "UTF-8"));
+        String outStr = "";
+        String line;
+        while ((line=bf.readLine())!=null) {
+            outStr += line;
+        }
+        //System.out.println("Output String lenght : " + outStr.length());
+        return outStr;
+    }
+
     static JsonObject readMessage(String message) {
         JsonObject messageObject = new Gson().fromJson(message, JsonObject.class);
+        String imei = messageObject.get("i_m_e_i").getAsString();
+        if (isData(messageObject)) {
+            Double lat = messageObject.get("lat").getAsDouble();
+            Double lon = messageObject.get("long").getAsDouble();
+            Double noise = messageObject.get("noise").getAsDouble();
+            Location l = new Location(lat, lon);
+            Value v = new Value(l, noise);
+            Controller.addData(imei, v);
+        }
         return messageObject;
+    }
+
+    static Boolean isData(JsonObject messageObject) {
+        if (messageObject.get("isData").getAsString() == "True") {
+            return true;
+        }
+        return false;
     }
 
     static Boolean isKeepAlive(JsonObject messageObject) {
