@@ -2,6 +2,7 @@ package edu.nyu.networks.iot.server.controller;
 
 import java.math.BigInteger;
 import java.util.*;
+import java.util.concurrent.TimeUnit;
 
 import com.google.gson.JsonObject;
 
@@ -33,6 +34,31 @@ class Value {
     public Value(Location l, Double v) {
         this.location = l;
         this.value = v;
+    }
+}
+
+class QueryData implements Runnable {
+    private String command = "python /path/to/query.py";
+
+    public QueryData() throws Exception {
+        TimeUnit.SECONDS.sleep(10000);
+    }
+
+    @Override
+    public void run() {
+        while (true) {
+            try {
+                Process p = Runtime.getRuntime().exec(command);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+            try {
+                TimeUnit.SECONDS.sleep(10);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
     }
 }
 
@@ -126,6 +152,22 @@ public class Controller {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
+
+        QueryData qd = null;
+        try {
+            qd = new QueryData();
+        } catch (Exception e) {
+
+        }
+        Thread query = new Thread(qd);
+        query.start();
+        try {
+            Thread.sleep(100);
+        } catch (InterruptedException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
 
         //TODO Suggest Breaking out into a new class, or not having as a separate thread
         Thread tick = new Thread(new Runnable() {
