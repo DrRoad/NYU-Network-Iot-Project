@@ -66,7 +66,9 @@ class MobilePhone implements Runnable {
                 boolean isCompress = false;
                 try {
                     messageLength = Integer.parseInt(inString);
+                   // System.out.println("Length: "+messageLength);
                     isCompress = Boolean.parseBoolean(inString1);
+                  //  System.out.println("Compressed: "+isCompress);
                 } catch (NumberFormatException e) {
                     message = inString;
                 }
@@ -75,7 +77,9 @@ class MobilePhone implements Runnable {
                 } catch (Exception e) {
                     message = inString;
                 }
-                messageQueue.add(message);
+               // System.out.println("Message:"+message);
+                if (!message.equals(""))
+                	messageQueue.add(message);
             }
         }
     }
@@ -90,7 +94,6 @@ class MobilePhone implements Runnable {
      */
     public void sendMessage(String message) {
         write(message);
-        System.out.println("Sent open message to client");
     }
 
     /**
@@ -134,15 +137,11 @@ class MobilePhone implements Runnable {
 
         try {
             message = in.readLine();
-
         } catch (IOException e) {
             return "ERROR READING IN";
         }
-//        if (message==null || message.length()==0){
-//            return message;
-//        }
+
         message = message.trim();
-        System.out.printf("Read message %s",message);
         return message;
     }
 
@@ -154,7 +153,6 @@ class MobilePhone implements Runnable {
         } catch (IOException e) {
             return "ERROR READING IN";
         }
-
         if (isCompress) {
             return MessageReader.decompress(new String(buffer));
         }
@@ -162,6 +160,7 @@ class MobilePhone implements Runnable {
     }
 
     private void write(String message) {
+    	System.out.println("WRITING message to client");
         out.println(message);
         out.flush();
     }

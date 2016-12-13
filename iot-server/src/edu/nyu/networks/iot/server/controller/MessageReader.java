@@ -40,23 +40,23 @@ public class MessageReader {
     }
 
     static JsonObject readMessage(String message) {
+    	System.out.println("Read message (MESSAGE READER):"+message);
         JsonObject messageObject = new Gson().fromJson(message, JsonObject.class);
-        String imei = messageObject.get("i_m_e_i").getAsString();
+       	String imei = messageObject.get("i_m_e_i").getAsString();
         if (isData(messageObject)) {
             Double lat = messageObject.get("lat").getAsDouble();
-            Double lon = messageObject.get("long").getAsDouble();
+            Double lon = messageObject.get("lon").getAsDouble();
             Double noise = messageObject.get("noise").getAsDouble();
             Location l = new Location(lat, lon);
             Value v = new Value(l, noise);
-            // stack not used for storing data any more
-            // Controller.addData(imei, v);
-            Controller.sendToDB(imei, v);
+            Controller.addData(imei, v);
         }
+        System.out.println("Message Reader returning:"+messageObject.toString());
         return messageObject;
     }
 
     static Boolean isData(JsonObject messageObject) {
-        if (messageObject.get("is_Data").getAsString() == "True") {
+        if (messageObject.get("is_data").getAsString() == "True") {
             return true;
         }
         return false;

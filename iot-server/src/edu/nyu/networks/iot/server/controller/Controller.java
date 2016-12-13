@@ -38,10 +38,10 @@ class Value {
 }
 
 class QueryData implements Runnable {
-    private String command = "python /path/to/query.py";
+    private String command = "python ~/Desktop/query.py";
 
     public QueryData() throws Exception {
-        TimeUnit.SECONDS.sleep(10000);
+        TimeUnit.SECONDS.sleep(100);
     }
 
     @Override
@@ -54,7 +54,7 @@ class QueryData implements Runnable {
             }
 
             try {
-                TimeUnit.SECONDS.sleep(10);
+                TimeUnit.SECONDS.sleep(1);
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -63,7 +63,7 @@ class QueryData implements Runnable {
 }
 
 public class Controller {
-    private final static long PingInterval = 10000;
+    private final static long PingInterval = 1000;
     private final static long LiveInterval = 50000;
     private final static long MaxRecordInterval = 10000;
     private final static long BatteryLevel = 10;
@@ -84,22 +84,23 @@ public class Controller {
         try {
             tmp = new Database();
         } catch (Exception e) {
-
+        	System.out.println("Ex when making DB");
         }
         db = tmp;
     }
 
 
     public static void startSensing(String imei, List<String> sensors) {
-        System.out.printf("Start sening to client %s",imei);
+
         if (clientList.get(imei).isSensing) {
             return;
         }
-        MessageBuilder m = new MessageBuilder(START);
+        MessageBuilder m = new MessageBuilder("start");
         m.withPeriod(10000L);
         clientList.get(imei).isSensing = true;
         clientList.get(imei).lastStartTimeStamp = System.currentTimeMillis();
         clientList.get(imei).sendMessage(m.build());
+        System.out.println("STARTING");
     }
 
     public static void stopSensing(String imei, List<String> sensors) {
@@ -107,7 +108,7 @@ public class Controller {
             return;
         }
 
-        MessageBuilder m = new MessageBuilder(STOP);
+        MessageBuilder m = new MessageBuilder("stop");
         clientList.get(imei).isSensing = false;
         clientList.get(imei).sendMessage(m.build());
     }
@@ -141,7 +142,7 @@ public class Controller {
     }
 
     public static void main(String[] args) {
-        System.out.println(Integer.getInteger("1234/r/n"));
+        //System.out.println(Integer.getInteger("1234/r/n"));
 
         Driver server = new Driver(9002, clientList);
         Thread serverThread = new Thread(server);
@@ -153,40 +154,39 @@ public class Controller {
             e.printStackTrace();
         }
 
-        QueryData qd = null;
+/*        QueryData qd = null;
         try {
             qd = new QueryData();
         } catch (Exception e) {
-
+        	System.out.println(e.getLocalizedMessage());
+        	System.out.println("err");
         }
         Thread query = new Thread(qd);
-        query.start();
-        try {
-            Thread.sleep(100);
-        } catch (InterruptedException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
+        query.start(); */
 
 
         //TODO Suggest Breaking out into a new class, or not having as a separate thread
         Thread tick = new Thread(new Runnable() {
-            long syncDataInterval=0;
-            boolean isStopped = false;
 
+            @Override
             public void run() {
+            	System.out.println("HELLO");
+            	boolean isStopped = false;
+                long syncDataInterval=0;
                 while (!isStopped) {
+
                     syncDataInterval += 1;
 
                     if (clientList.size() == 0) {
-                        System.out.println("No client states in the map!");
                         continue;
                     }
+                    System.out.println("Num Clients:" +clientList.size());
                     for (String imei : clientList.keySet()) {
                         for (int i = 0; i < MAXPOLL; i++) {
                             JsonObject message = clientList.get(imei).readMessage();
+                            System.out.println("Looping thru clients -> Client Message:");
                             if (message != null) {
-                                System.out.println(message.toString());
+                            	System.out.println(message.toString());
 //                              if (message.get("type").toString()==DATA){
 //                              TODO fit data handling part here @wenliang
 //                              continue;
@@ -196,14 +196,15 @@ public class Controller {
                                 break;
                             }
                             //if (message == null) { break; }
-//                            if (clientList.get(imei).lastPingTimeStamp > LiveInterval) {
-//                                stopSensing(imei, new ArrayList<>());
-//                                continue;
-//                            }
+                            if (clientList.get(imei).lastPingTimeStamp > LiveInterval) {
+                                stopSensing(imei, new ArrayList<>());
+                                continue;
+                            }
 //                            if (Integer.parseInt(message.get("battery_level").toString()) < BatteryLevel) {
 //                                stopSensing(imei,new ArrayList<>());
 //                                continue;
 //                            }
+                            System.out.println("HELLO IM OVER HERE");
                             clientList.get(imei).lastPingTimeStamp = System.currentTimeMillis();
                             startSensing(imei, new ArrayList<String>());
                             if (syncDataInterval==3){
@@ -223,6 +224,5 @@ public class Controller {
             }
         });
         tick.start();
-
     }
 }

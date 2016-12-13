@@ -54,6 +54,7 @@ public class Driver implements Runnable {
 		}
 
 		while(!isStopped()) {
+			System.out.println("HI");
 			Socket clientSocket = null;
 
 			try {
@@ -63,10 +64,9 @@ public class Driver implements Runnable {
 			}
 
 			MobilePhone client = new MobilePhone(clientSocket);
-            client.sendMessage("OPEN\r\n");
+			client.sendMessage("OPEN\r\n");
 			client.read();
 			client.read();
-
             JsonObject messageObject = MessageReader.readMessage(client.read());
 
 			// make sure client opened with keep-alive
