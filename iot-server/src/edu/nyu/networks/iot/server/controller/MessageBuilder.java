@@ -1,4 +1,4 @@
-package controller;
+package edu.nyu.networks.iot.server.controller;
 
 import java.util.List;
 import java.util.ArrayList;
