@@ -4,6 +4,13 @@ import java.util.*;
 
 import com.google.gson.JsonObject;
 
+/**
+ *
+ * <p>
+ *
+ * @author Wesley Painter, Wenliang Zhao, Hongtao Chen
+ */
+
 //For representing location
 class Location {
     Double x;

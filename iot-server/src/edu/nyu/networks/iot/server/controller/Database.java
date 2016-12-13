@@ -2,6 +2,13 @@ package edu.nyu.networks.iot.server.controller;
 
 import java.sql.*;
 
+/**
+ * Database class storing data from mobiles
+ * <p>
+ *
+ * @author Wenliang Zhao
+ */
+
 public class Database {
 
     private static Connection conn;

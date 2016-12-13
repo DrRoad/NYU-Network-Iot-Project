@@ -16,7 +16,7 @@ import com.google.gson.reflect.TypeToken;
  * Message reader class takes message as string and returns a JSON object.
  *
  * The class also provides several static convenience methods for interpreting the incoming messages.
- * @author Wesley Painter
+ * @author Wesley Painter, Wenliang Zhao
  *
  */
 public class MessageReader {
