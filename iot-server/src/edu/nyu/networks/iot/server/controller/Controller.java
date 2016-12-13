@@ -1,5 +1,6 @@
 package edu.nyu.networks.iot.server.controller;
 
+import java.math.BigInteger;
 import java.util.*;
 
 import com.google.gson.JsonObject;
@@ -105,8 +106,9 @@ public class Controller {
         if (!clientList.containsKey(imei)) {
             return;
         }
+        long ts = System.currentTimeMillis();
         try {
-            db.update(imei, v);
+            db.update(imei, ts, v);
         } catch (Exception e) {
 
         }

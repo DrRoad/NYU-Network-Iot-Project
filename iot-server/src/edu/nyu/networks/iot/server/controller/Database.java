@@ -1,6 +1,7 @@
 package edu.nyu.networks.iot.server.controller;
 
 import java.sql.*;
+import java.math.BigInteger;
 
 /**
  * Database class storing data from mobiles
@@ -33,10 +34,11 @@ public class Database {
         stat = conn.createStatement();
 
         // create a new table
-        stat.executeUpdate("create table noise(imei VARCHAR (80), lat DOUBLE, lon DOUBLE, noise DOUBLE )");
+        // imei number, unix ts, latitude, longitude, noise value
+        stat.executeUpdate("create table noise(imei VARCHAR (80), time BigInt, lat DOUBLE, lon DOUBLE, noise DOUBLE )");
 
         // example update
-        //stat.executeUpdate("insert into noise values('example1', 50.123456, 123.123456, -80.123456)");
+        //stat.executeUpdate("insert into noise values('example1', 1234567890, 50.123456, 123.123456, -80.123456)");
 
         // query
 //        ResultSet result = stat.executeQuery("select * from noise");
@@ -51,8 +53,15 @@ public class Database {
 //        conn.close();
     }
 
-    public static void update(String imei, Value v) throws Exception {
-        stat.executeUpdate("insert into noise values(imei, v.Location.x, v.Location.y, v.value)");
+    public static void update(String imei, long ts, Value v) throws Exception {
+        String query = " INSERT INTO noise (imei, time, lat, lon, noise)" + " values (?, ?, ?, ?, ?)";
+        PreparedStatement ps = conn.prepareStatement(query);
+        ps.setString(1, imei);
+        ps.setLong(2, ts);
+        ps.setDouble(3, v.location.x);
+        ps.setDouble(4, v.location.y);
+        ps.setDouble(5, v.value);
+        ps.execute();
     }
 
     public static void close() throws Exception {
