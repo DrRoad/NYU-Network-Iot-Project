@@ -38,10 +38,10 @@ class Value {
 }
 
 class QueryData implements Runnable {
-    private String command = "python ~/Desktop/query.py";
+    private String command = "python /Users/admin/Documents/Study/software/Programming/Course/Network/Course/Foundations/Project/NYU-Network-Iot-Project/iot-server/python/query.py";
 
     public QueryData() throws Exception {
-        TimeUnit.SECONDS.sleep(100);
+        Thread.sleep(10000);
     }
 
     @Override
@@ -54,7 +54,7 @@ class QueryData implements Runnable {
             }
 
             try {
-                TimeUnit.SECONDS.sleep(1);
+                Thread.sleep(5);
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -77,7 +77,7 @@ public class Controller {
     private final static String SENDCOMP = "SENDCOMP";
 
     private static Map<String, MobilePhone> clientList = Collections.synchronizedMap(new HashMap<String, MobilePhone>());
-    private static Map<String, Stack<Value>> data = Collections.synchronizedMap(new HashMap<String, Stack<Value>>());
+    //private static Map<String, Stack<Value>> data = Collections.synchronizedMap(new HashMap<String, Stack<Value>>());
     private static Database db;
     static {
         Database tmp = null;
@@ -100,7 +100,7 @@ public class Controller {
         clientList.get(imei).isSensing = true;
         clientList.get(imei).lastStartTimeStamp = System.currentTimeMillis();
         clientList.get(imei).sendMessage(m.build());
-        System.out.println("STARTING");
+       // System.out.println("STARTING");
     }
 
     public static void stopSensing(String imei, List<String> sensors) {
@@ -122,19 +122,17 @@ public class Controller {
         clientList.get(imei).sendMessage(m.build());
     }
 
-    public static void addData(String imei, Value v) {
-        if (!clientList.containsKey(imei)) {
-            return;
-        }
-        data.get(imei).push(v);
-    }
+//    public static void addData(String imei, Value v) {
+//        if (!clientList.containsKey(imei)) {
+//            return;
+//        }
+//        data.get(imei).push(v);
+//    }
 
     public static void sendToDB(String imei, Value v) {
-        if (!clientList.containsKey(imei)) {
-            return;
-        }
         long ts = System.currentTimeMillis();
         try {
+            System.out.println("Add one records!");
             db.update(imei, ts, v);
         } catch (Exception e) {
 
@@ -154,7 +152,7 @@ public class Controller {
             e.printStackTrace();
         }
 
-/*        QueryData qd = null;
+        QueryData qd = null;
         try {
             qd = new QueryData();
         } catch (Exception e) {
@@ -162,7 +160,7 @@ public class Controller {
         	System.out.println("err");
         }
         Thread query = new Thread(qd);
-        query.start(); */
+        query.start();
 
 
         //TODO Suggest Breaking out into a new class, or not having as a separate thread
@@ -170,7 +168,7 @@ public class Controller {
 
             @Override
             public void run() {
-            	System.out.println("HELLO");
+            	//System.out.println("HELLO");
             	boolean isStopped = false;
                 long syncDataInterval=0;
                 while (!isStopped) {
@@ -180,11 +178,11 @@ public class Controller {
                     if (clientList.size() == 0) {
                         continue;
                     }
-                    System.out.println("Num Clients:" +clientList.size());
+                   // System.out.println("Num Clients:" +clientList.size());
                     for (String imei : clientList.keySet()) {
                         for (int i = 0; i < MAXPOLL; i++) {
                             JsonObject message = clientList.get(imei).readMessage();
-                            System.out.println("Looping thru clients -> Client Message:");
+                          //  System.out.println("Looping thru clients -> Client Message:");
                             if (message != null) {
                             	System.out.println(message.toString());
 //                              if (message.get("type").toString()==DATA){
@@ -204,7 +202,7 @@ public class Controller {
 //                                stopSensing(imei,new ArrayList<>());
 //                                continue;
 //                            }
-                            System.out.println("HELLO IM OVER HERE");
+                            //System.out.println("HELLO IM OVER HERE");
                             clientList.get(imei).lastPingTimeStamp = System.currentTimeMillis();
                             startSensing(imei, new ArrayList<String>());
                             if (syncDataInterval==3){

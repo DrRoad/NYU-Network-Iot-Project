@@ -27,7 +27,9 @@ public class MessageReader {
         if (str == null || str.length() == 0) {
             return str;
         }
-        System.out.println("Input String length : " + str.length());
+       //
+        //
+        // System.out.println("Input String length : " + str.length());
         GZIPInputStream gis = new GZIPInputStream(new ByteArrayInputStream(str.getBytes("UTF-8")));
         BufferedReader bf = new BufferedReader(new InputStreamReader(gis, "UTF-8"));
         String outStr = "";
@@ -40,18 +42,18 @@ public class MessageReader {
     }
 
     static JsonObject readMessage(String message) {
-    	System.out.println("Read message (MESSAGE READER):"+message);
+    //	System.out.println("Read message (MESSAGE READER):"+message);
         JsonObject messageObject = new Gson().fromJson(message, JsonObject.class);
        	String imei = messageObject.get("i_m_e_i").getAsString();
-        if (isData(messageObject)) {
+        if (!isData(messageObject)) {
             Double lat = messageObject.get("lat").getAsDouble();
             Double lon = messageObject.get("lon").getAsDouble();
             Double noise = messageObject.get("noise").getAsDouble();
             Location l = new Location(lat, lon);
             Value v = new Value(l, noise);
-            Controller.addData(imei, v);
+            Controller.sendToDB(imei, v);
         }
-        System.out.println("Message Reader returning:"+messageObject.toString());
+       // System.out.println("Message Reader returning:"+messageObject.toString());
         return messageObject;
     }
 

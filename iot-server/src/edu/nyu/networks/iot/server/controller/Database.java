@@ -53,14 +53,17 @@ public class Database {
     }
 
     public static void update(String imei, long ts, Value v) throws Exception {
-        String query = " INSERT INTO noise (imei, time, lat, lon, noise)" + " values (?, ?, ?, ?, ?)";
-        PreparedStatement ps = conn.prepareStatement(query);
-        ps.setString(1, imei);
-        ps.setLong(2, ts);
-        ps.setDouble(3, v.location.x);
-        ps.setDouble(4, v.location.y);
-        ps.setDouble(5, v.value);
-        ps.execute();
+        String query = "INSERT INTO noise (imei, time, lat, lon, noise) VALUES (" + imei
+                + ", " + ts + ", " + v.location.x + ", " + v.location.y + ", " + v.value + ")";
+        System.out.println(query);
+//        PreparedStatement ps = conn.prepareStatement(query);
+//        ps.setString(1, imei);
+//        ps.setLong(2, ts);
+//        ps.setDouble(3, v.location.x);
+//        ps.setDouble(4, v.location.y);
+//        ps.setDouble(5, v.value);
+//        ps.execute();
+        stat.executeUpdate(query);
     }
 
     public static void close() throws Exception {

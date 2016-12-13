@@ -160,7 +160,7 @@ class MobilePhone implements Runnable {
     }
 
     private void write(String message) {
-    	System.out.println("WRITING message to client");
+    	//System.out.println("WRITING message to client");
         out.println(message);
         out.flush();
     }
