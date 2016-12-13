@@ -1,7 +1,6 @@
 package edu.nyu.networks.iot.server.controller;
 
 import java.sql.*;
-import java.math.BigInteger;
 
 /**
  * Database class storing data from mobiles
@@ -35,7 +34,7 @@ public class Database {
 
         // create a new table
         // imei number, unix ts, latitude, longitude, noise value
-        stat.executeUpdate("create table noise(imei VARCHAR (80), time BigInt, lat DOUBLE, lon DOUBLE, noise DOUBLE )");
+        stat.executeUpdate("CREATE TABLE IF NOT EXISTS noise(imei VARCHAR (80), time BigInt, lat DOUBLE, lon DOUBLE, noise DOUBLE )");
 
         // example update
         //stat.executeUpdate("insert into noise values('example1', 1234567890, 50.123456, 123.123456, -80.123456)");
