@@ -3,7 +3,76 @@
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 <title>Google Maps - pygmaps </title>
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true_or_false"></script>
+<style type="text/css">
+  #legend {
+  background: #FFF;
+  padding: 10px;
+  margin: 5px;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+}
+
+.color {
+  border: 1px solid;
+  height: 12px;
+  width: 12px;
+  margin-right: 3px;
+  float: left;
+}
+
+.c1 {
+  background: #334FFF
+}
+
+.c2 {
+  background: #3393FF
+}
+
+.c3 {
+  background: #33D4FF
+}
+
+.c4 {
+  background: #33FFF0
+}
+
+.c5 {
+  background: #33FFA5
+}
+
+.c6 {
+  background: #71FF33
+}
+
+.c7 {
+  background: #C7FF33
+}
+
+.c8 {
+  background: #FFFC33
+}
+
+.c9 {
+  background: #FFDA33
+}
+
+.c10 {
+  background: #FFAC33
+}
+
+.c11 {
+  background: #FF8333
+}
+
+.c12 {
+  background: #FF6E33
+}
+
+.c13 {
+  background: #FF3933
+}
+
+</style><script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true_or_false"></script>
 <script type="text/javascript">
 	function initialize() {
 		var centerlatlng = new google.maps.LatLng(40.763914, -73.979510);
@@ -14,133 +83,46 @@
 		};
 		var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
 
-/*
-var coords = [
-new google.maps.LatLng(40.754329, -73.979467),
-new google.maps.LatLng(40.754318, -73.979632),
-new google.maps.LatLng(40.754285, -73.979791),
-new google.maps.LatLng(40.754232, -73.979941),
-new google.maps.LatLng(40.754160, -73.980077),
-new google.maps.LatLng(40.754072, -73.980194),
-new google.maps.LatLng(40.753969, -73.980289),
-new google.maps.LatLng(40.753856, -73.980358),
-new google.maps.LatLng(40.753735, -73.980401),
-new google.maps.LatLng(40.753610, -73.980416),
-new google.maps.LatLng(40.753485, -73.980401),
-new google.maps.LatLng(40.753364, -73.980358),
-new google.maps.LatLng(40.753251, -73.980288),
-new google.maps.LatLng(40.753148, -73.980194),
-new google.maps.LatLng(40.753060, -73.980077),
-new google.maps.LatLng(40.752988, -73.979941),
-new google.maps.LatLng(40.752935, -73.979791),
-new google.maps.LatLng(40.752902, -73.979632),
-new google.maps.LatLng(40.752891, -73.979467),
-new google.maps.LatLng(40.752902, -73.979302),
-new google.maps.LatLng(40.752935, -73.979143),
-new google.maps.LatLng(40.752988, -73.978993),
-new google.maps.LatLng(40.753060, -73.978857),
-new google.maps.LatLng(40.753148, -73.978740),
-new google.maps.LatLng(40.753251, -73.978646),
-new google.maps.LatLng(40.753364, -73.978576),
-new google.maps.LatLng(40.753485, -73.978533),
-new google.maps.LatLng(40.753610, -73.978518),
-new google.maps.LatLng(40.753735, -73.978533),
-new google.maps.LatLng(40.753856, -73.978576),
-new google.maps.LatLng(40.753969, -73.978645),
-new google.maps.LatLng(40.754072, -73.978740),
-new google.maps.LatLng(40.754160, -73.978857),
-new google.maps.LatLng(40.754232, -73.978993),
-new google.maps.LatLng(40.754285, -73.979143),
-new google.maps.LatLng(40.754318, -73.979302),
-];
-
-var polygon = new google.maps.Polygon({
-clickable: false,
-geodesic: true,
-fillColor: "#C7FF33",
-fillOpacity: 1.000000,
-paths: coords,
-strokeColor: "#C7FF33",
-strokeOpacity: 1.000000,
-strokeWeight: 1
-});
-
-polygon.setMap(map);
- */
-
-var myLatLng = {lat: 40.754160, lng: -73.979993};
+var myLatLng = {lat: 40.753610, lng: -73.979467};
 var pinImage = new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|C7FF33");
 var marker = new google.maps.Marker({
-    position: myLatLng,
-    map: map,
-    title: 'Mobile1: 60.12 dB',
-    icon: pinImage
+	position: myLatLng,
+	map: map,
+title: "mobile1: 60.12",
+icon: pinImage
 });
 marker.setMap(map);
 
-/*
-var coords = [
-new google.maps.LatLng(40.774937, -73.979553),
-new google.maps.LatLng(40.774926, -73.979718),
-new google.maps.LatLng(40.774893, -73.979878),
-new google.maps.LatLng(40.774840, -73.980027),
-new google.maps.LatLng(40.774768, -73.980163),
-new google.maps.LatLng(40.774680, -73.980280),
-new google.maps.LatLng(40.774577, -73.980375),
-new google.maps.LatLng(40.774464, -73.980445),
-new google.maps.LatLng(40.774343, -73.980487),
-new google.maps.LatLng(40.774218, -73.980502),
-new google.maps.LatLng(40.774093, -73.980487),
-new google.maps.LatLng(40.773972, -73.980445),
-new google.maps.LatLng(40.773859, -73.980375),
-new google.maps.LatLng(40.773756, -73.980280),
-new google.maps.LatLng(40.773668, -73.980163),
-new google.maps.LatLng(40.773596, -73.980027),
-new google.maps.LatLng(40.773543, -73.979878),
-new google.maps.LatLng(40.773510, -73.979718),
-new google.maps.LatLng(40.773499, -73.979553),
-new google.maps.LatLng(40.773510, -73.979388),
-new google.maps.LatLng(40.773543, -73.979228),
-new google.maps.LatLng(40.773596, -73.979079),
-new google.maps.LatLng(40.773668, -73.978943),
-new google.maps.LatLng(40.773756, -73.978826),
-new google.maps.LatLng(40.773859, -73.978731),
-new google.maps.LatLng(40.773972, -73.978661),
-new google.maps.LatLng(40.774093, -73.978619),
-new google.maps.LatLng(40.774218, -73.978604),
-new google.maps.LatLng(40.774343, -73.978619),
-new google.maps.LatLng(40.774464, -73.978661),
-new google.maps.LatLng(40.774577, -73.978731),
-new google.maps.LatLng(40.774680, -73.978826),
-new google.maps.LatLng(40.774768, -73.978943),
-new google.maps.LatLng(40.774840, -73.979079),
-new google.maps.LatLng(40.774893, -73.979228),
-new google.maps.LatLng(40.774926, -73.979388),
-];
-
-var polygon = new google.maps.Polygon({
-clickable: false,
-geodesic: true,
-fillColor: "#FFDA33",
-fillOpacity: 1.000000,
-paths: coords,
-strokeColor: "#FFDA33",
-strokeOpacity: 1.000000,
-strokeWeight: 1
-});
-
-polygon.setMap(map);
- */
-var myLatLng = {lat: 40.774926, lng: -73.979388};
+var myLatLng = {lat: 40.774218, lng: -73.979553};
 var pinImage = new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|FFDA33");
 var marker = new google.maps.Marker({
-    position: myLatLng,
-    map: map,
-    title: 'Mobile2: 85.12 dB',
-    icon: pinImage
+	position: myLatLng,
+	map: map,
+title: "mobile2: 85.12",
+icon: pinImage
 });
 marker.setMap(map);
 
+var legend = document.createElement("div");
+legend.id = "legend";
+var content = [];
+content.push("<h3>Legend</h3>");
+content.push('<p><div class="color c1"></div>0 dB</p>');
+content.push('<p><div class="color c2"></div>10 dB</p>');
+content.push('<p><div class="color c3"></div>20 dB</p>');
+content.push('<p><div class="color c4"></div>30 dB</p>');
+content.push('<p><div class="color c5"></div>40 dB</p>');
+content.push('<p><div class="color c6"></div>50 dB</p>');
+content.push('<p><div class="color c7"></div>60 dB</p>');
+content.push('<p><div class="color c8"></div>70 dB</p>');
+content.push('<p><div class="color c9"></div>80 dB</p>');
+content.push('<p><div class="color c10"></div>90 dB</p>');
+content.push('<p><div class="color c11"></div>100 dB</p>');
+content.push('<p><div class="color c12"></div>110 dB</p>');
+content.push('<p><div class="color c13"></div>120 dB</p>');
+legend.innerHTML = content.join('');
+legend.index = 1;
+map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(legend);
 	}
 </script>
 </head>
