@@ -90,6 +90,7 @@ class MobilePhone implements Runnable {
      */
     public void sendMessage(String message) {
         write(message);
+        System.out.println("Sent open message to client");
     }
 
     /**
@@ -133,11 +134,15 @@ class MobilePhone implements Runnable {
 
         try {
             message = in.readLine();
+
         } catch (IOException e) {
             return "ERROR READING IN";
         }
-
+//        if (message==null || message.length()==0){
+//            return message;
+//        }
         message = message.trim();
+        System.out.printf("Read message %s",message);
         return message;
     }
 

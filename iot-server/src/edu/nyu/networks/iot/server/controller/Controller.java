@@ -91,7 +91,7 @@ public class Controller {
 
 
     public static void startSensing(String imei, List<String> sensors) {
-
+        System.out.printf("Start sening to client %s",imei);
         if (clientList.get(imei).isSensing) {
             return;
         }
@@ -179,26 +179,27 @@ public class Controller {
                     syncDataInterval += 1;
 
                     if (clientList.size() == 0) {
+                        System.out.println("No client states in the map!");
                         continue;
                     }
                     for (String imei : clientList.keySet()) {
                         for (int i = 0; i < MAXPOLL; i++) {
                             JsonObject message = clientList.get(imei).readMessage();
-//                            if (message != null) {
-//                                System.out.println(message.toString());
-////                              if (message.get("type").toString()==DATA){
-////                              TODO fit data handling part here @wenliang
-////                              continue;
-////                              }
-//                                //clientList.get(imei).batteryLevel=Long.parseLong(message.get("battery-level").toString());
-//                            } else {
-//                                break;
-//                            }
-                            if (message == null) { break; }
-                            if (clientList.get(imei).lastPingTimeStamp > LiveInterval) {
-                                stopSensing(imei, new ArrayList<>());
-                                continue;
+                            if (message != null) {
+                                System.out.println(message.toString());
+//                              if (message.get("type").toString()==DATA){
+//                              TODO fit data handling part here @wenliang
+//                              continue;
+//                              }
+                                //clientList.get(imei).batteryLevel=Long.parseLong(message.get("battery-level").toString());
+                            } else {
+                                break;
                             }
+                            //if (message == null) { break; }
+//                            if (clientList.get(imei).lastPingTimeStamp > LiveInterval) {
+//                                stopSensing(imei, new ArrayList<>());
+//                                continue;
+//                            }
 //                            if (Integer.parseInt(message.get("battery_level").toString()) < BatteryLevel) {
 //                                stopSensing(imei,new ArrayList<>());
 //                                continue;

@@ -1,4 +1,4 @@
-package com.example.zalbhathena.socketstest;
+package edu.nyu.networks.iot.client.controller;
 import java.net.Socket;
 import java.net.ServerSocket;
 import java.net.InetAddress;

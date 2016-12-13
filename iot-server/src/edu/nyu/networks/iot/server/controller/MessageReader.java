@@ -56,7 +56,7 @@ public class MessageReader {
     }
 
     static Boolean isData(JsonObject messageObject) {
-        if (messageObject.get("isData").getAsString() == "True") {
+        if (messageObject.get("is_Data").getAsString() == "True") {
             return true;
         }
         return false;
