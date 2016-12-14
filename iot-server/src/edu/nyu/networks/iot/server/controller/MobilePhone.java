@@ -38,6 +38,8 @@ class MobilePhone implements Runnable {
     volatile float speed;
     volatile float noise;
     volatile float pm;
+    volatile int sendFrequency;
+    volatile boolean isSendingData;
     volatile long lastStartTimeStamp;
     volatile long lastPingTimeStamp;
     volatile long batteryLevel;
