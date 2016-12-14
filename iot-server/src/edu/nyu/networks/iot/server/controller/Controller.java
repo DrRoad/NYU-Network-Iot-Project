@@ -85,7 +85,7 @@ public class Controller {
             try {
                 tmp = new Database();
             } catch (Exception e) {
-                System.out.println("Ex when making DB");
+                e.printStackTrace();
             }
             db = tmp;
     }
@@ -132,15 +132,25 @@ public class Controller {
     public static void sendToDB(String imei, Value v) {
         long ts = System.currentTimeMillis();
         try {
-            //System.out.println("Add one records!");
+            System.out.println("Add one records!");
             db.update(imei, ts, v);
         } catch (Exception e) {
-
+            e.printStackTrace();
         }
     }
 
     public static void main(String[] args) {
         //System.out.println(Integer.getInteger("1234/r/n"));
+        Controller.initializeDB();
+        QueryData qd = null;
+        try {
+            qd = new QueryData();
+        } catch (Exception e) {
+            System.out.println(e.getLocalizedMessage());
+            System.out.println("err");
+        }
+        Thread query = new Thread(qd);
+        query.start();
 
         Driver server = new Driver(9002, clientList);
         Thread serverThread = new Thread(server);
@@ -151,17 +161,6 @@ public class Controller {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-
-        Controller.initializeDB();
-        QueryData qd = null;
-        try {
-            qd = new QueryData();
-        } catch (Exception e) {
-        	System.out.println(e.getLocalizedMessage());
-        	System.out.println("err");
-        }
-        Thread query = new Thread(qd);
-        query.start();
 
 
         //TODO Suggest Breaking out into a new class, or not having as a separate thread
