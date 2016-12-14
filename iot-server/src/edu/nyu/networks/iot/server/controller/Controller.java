@@ -18,9 +18,6 @@ class Location {
     Double x;
     Double y;
 
-    public Location() {
-    }
-
     public Location(Double x, Double y) {
         this.x = x;
         this.y = y;
@@ -38,7 +35,7 @@ class Value {
 }
 
 class QueryData implements Runnable {
-    private String command = "/Users/admin/Documents/Study/software/Programming/Course/Network/Course/Foundations/Project/NYU-Network-Iot-Project/iot-server/python/query.py";
+    private String command = "iotQueryPlotter.py";
 
     public QueryData() throws Exception {
         Thread.sleep(10000);
@@ -77,7 +74,6 @@ public class Controller {
     private final static String SENDCOMP = "SENDCOMP";
 
     private static Map<String, MobilePhone> clientList = Collections.synchronizedMap(new HashMap<String, MobilePhone>());
-    //private static Map<String, Stack<Value>> data = Collections.synchronizedMap(new HashMap<String, Stack<Value>>());
     private static Database db;
 
     public static void initializeDB() {
@@ -122,13 +118,6 @@ public class Controller {
         clientList.get(imei).sendMessage(m.build());
     }
 
-//    public static void addData(String imei, Value v) {
-//        if (!clientList.containsKey(imei)) {
-//            return;
-//        }
-//        data.get(imei).push(v);
-//    }
-
     public static void sendToDB(String imei, Value v) {
         long ts = System.currentTimeMillis();
         try {
@@ -141,7 +130,11 @@ public class Controller {
 
     public static void main(String[] args) {
         //System.out.println(Integer.getInteger("1234/r/n"));
+
+        // initialize database -> connection and statement, if empty db or table, create
         Controller.initializeDB();
+
+        // start query code, refresh every 10s, using single thread
         QueryData qd = null;
         try {
             qd = new QueryData();
@@ -152,6 +145,7 @@ public class Controller {
         Thread query = new Thread(qd);
         query.start();
 
+        // create driver
         Driver server = new Driver(9002, clientList);
         Thread serverThread = new Thread(server);
         serverThread.start();
@@ -163,6 +157,7 @@ public class Controller {
         }
 
 
+        // start communication
         //TODO Suggest Breaking out into a new class, or not having as a separate thread
         Thread tick = new Thread(new Runnable() {
 
@@ -202,7 +197,6 @@ public class Controller {
 //                                stopSensing(imei,new ArrayList<>());
 //                                continue;
 //                            }
-                            //System.out.println("HELLO IM OVER HERE");
                             clientList.get(imei).lastPingTimeStamp = System.currentTimeMillis();
                             startSensing(imei, new ArrayList<String>());
                             if (syncDataInterval==3){
