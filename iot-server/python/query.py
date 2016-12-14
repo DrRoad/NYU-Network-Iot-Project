@@ -92,7 +92,7 @@ def writeMap(center_lon, center_lat, zoom, filename, coords):
     f.close()
 
 ms = int(round(time.time() * 1000))
-ms = 124459
+#ms = 124459
 
 colors = {120: 'FF3933', 110: 'FF6E33', 100: 'FF8333', 90: 'FFAC33', 80: 'FFDA33',
            70: 'FFFC33', 60: 'C7FF33', 50: '71FF33', 40: '33FFA5', 30: '33FFF0',

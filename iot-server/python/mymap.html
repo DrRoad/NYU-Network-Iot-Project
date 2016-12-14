@@ -75,33 +75,13 @@
 </style><script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true_or_false"></script>
 <script type="text/javascript">
 	function initialize() {
-		var centerlatlng = new google.maps.LatLng(40.763914, -73.979510);
+		var centerlatlng = new google.maps.LatLng(45.000000, 0.000000);
 		var myOptions = {
 			zoom: 14,
 			center: centerlatlng,
 			mapTypeId: google.maps.MapTypeId.ROADMAP
 		};
 		var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
-
-var myLatLng = {lat: 40.753610, lng: -73.979467};
-var pinImage = new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|C7FF33");
-var marker = new google.maps.Marker({
-	position: myLatLng,
-	map: map,
-title: "mobile1: 60.12",
-icon: pinImage
-});
-marker.setMap(map);
-
-var myLatLng = {lat: 40.774218, lng: -73.979553};
-var pinImage = new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|FFDA33");
-var marker = new google.maps.Marker({
-	position: myLatLng,
-	map: map,
-title: "mobile2: 85.12",
-icon: pinImage
-});
-marker.setMap(map);
 
 var legend = document.createElement("div");
 legend.id = "legend";

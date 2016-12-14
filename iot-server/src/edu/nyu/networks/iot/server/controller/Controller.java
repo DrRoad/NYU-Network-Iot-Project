@@ -38,7 +38,7 @@ class Value {
 }
 
 class QueryData implements Runnable {
-    private String command = "python /Users/admin/Documents/Study/software/Programming/Course/Network/Course/Foundations/Project/NYU-Network-Iot-Project/iot-server/python/query.py";
+    private String command = "/Users/admin/Documents/Study/software/Programming/Course/Network/Course/Foundations/Project/NYU-Network-Iot-Project/iot-server/python/query.py";
 
     public QueryData() throws Exception {
         Thread.sleep(10000);
@@ -54,7 +54,7 @@ class QueryData implements Runnable {
             }
 
             try {
-                Thread.sleep(5);
+                Thread.sleep(10000);
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -79,16 +79,16 @@ public class Controller {
     private static Map<String, MobilePhone> clientList = Collections.synchronizedMap(new HashMap<String, MobilePhone>());
     //private static Map<String, Stack<Value>> data = Collections.synchronizedMap(new HashMap<String, Stack<Value>>());
     private static Database db;
-    static {
-        Database tmp = null;
-        try {
-            tmp = new Database();
-        } catch (Exception e) {
-        	System.out.println("Ex when making DB");
-        }
-        db = tmp;
-    }
 
+    public static void initializeDB() {
+            Database tmp = null;
+            try {
+                tmp = new Database();
+            } catch (Exception e) {
+                System.out.println("Ex when making DB");
+            }
+            db = tmp;
+    }
 
     public static void startSensing(String imei, List<String> sensors) {
 
@@ -132,7 +132,7 @@ public class Controller {
     public static void sendToDB(String imei, Value v) {
         long ts = System.currentTimeMillis();
         try {
-            System.out.println("Add one records!");
+            //System.out.println("Add one records!");
             db.update(imei, ts, v);
         } catch (Exception e) {
 
@@ -152,6 +152,7 @@ public class Controller {
             e.printStackTrace();
         }
 
+        Controller.initializeDB();
         QueryData qd = null;
         try {
             qd = new QueryData();
