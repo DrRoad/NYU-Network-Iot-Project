@@ -155,5 +155,5 @@ for i in range(13):
     if len(lats[i]) > 0:
         coords += map(lambda tp: (tp[0], tp[1], tp[2] + ": %.2f" % tp[3], colors[i*10]), zip(lats[i], lons[i], ids[i], noises[i]) )
 
-writeMap(center_x, center_y, zoom, '/Users/admin/Documents/Study/software/Programming/Course/Network/Course/Foundations/Project/NYU-Network-Iot-Project/iot-server/python/mymap.html', coords)
+writeMap(center_x, center_y, zoom, '~/mymap.html', coords)
 

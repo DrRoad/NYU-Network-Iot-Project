@@ -35,7 +35,7 @@ class Value {
 }
 
 class QueryData implements Runnable {
-    private String command = "iotQueryPlotter.py";
+    private String command = "~/iotQueryPlotter.py";
 
     public QueryData() throws Exception {
         Thread.sleep(10000);

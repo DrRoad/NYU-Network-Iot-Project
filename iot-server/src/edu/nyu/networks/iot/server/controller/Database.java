@@ -19,8 +19,8 @@ public class Database {
         Class.forName("com.mysql.jdbc.Driver");
 
         // direct to an existing db
-        String url = "jdbc:mysql://localhost:3306/challenge";
-        conn = DriverManager.getConnection(url, "root", "123456");
+        String url = "jdbc:mysql://localhost:3306/mysql";
+        conn = DriverManager.getConnection(url, "root", "1234");
         conn.setAutoCommit(false);
         stat = conn.createStatement();
 
@@ -31,7 +31,7 @@ public class Database {
         stat.close();
         conn.close();
         url = "jdbc:mysql://localhost:3306/IoT";
-        conn = DriverManager.getConnection(url, "root", "123456");
+        conn = DriverManager.getConnection(url, "root", "1234");
         stat = conn.createStatement();
 
         // create a new table
