@@ -36,7 +36,9 @@ public class Database {
 
         // create a new table
         // imei number, unix ts, latitude, longitude, noise value
-        stat.executeUpdate("CREATE TABLE IF NOT EXISTS noise(imei VARCHAR (80), time BigInt, lat DOUBLE, lon DOUBLE, noise DOUBLE )");
+        stat.executeUpdate("DROP TABLE IF EXISTS noise");
+        stat.executeUpdate("CREATE TABLE noise(imei VARCHAR (80), time BigInt, lat DOUBLE, lon DOUBLE, noise DOUBLE )");
+//        stat.executeUpdate("CREATE TABLE IF NOT EXISTS noise(imei VARCHAR (80), time BigInt, lat DOUBLE, lon DOUBLE, noise DOUBLE )");
     }
 
     public void update(String imei, long ts, Value v) throws Exception {

@@ -35,7 +35,7 @@ class Value {
 }
 
 class QueryData implements Runnable {
-    private String command = "~/iotQueryPlotter.py";
+    private String command = "python /home/ubuntu/iotQueryPlotter.py";
 
     public QueryData() throws Exception {
         Thread.sleep(10000);
@@ -62,13 +62,12 @@ class QueryData implements Runnable {
 public class Controller {
     private final static long PingInterval = 10000;
     private final static long LiveInterval = 180000;
-    private final static long MaxRecordInterval = 10000;
     private final static long LOWBATTERY = 20;
 
     private final static int MAXPOLL = 3;
-    private final static String START = "START";
-    private final static String STOP = "STOP";
-    private final static String SEND = "SEND";
+    private final static String START = "start";
+    private final static String STOP = "stop";
+    private final static String SEND = "send";
 
     private static Map<String, MobilePhone> clientList = Collections.synchronizedMap(new HashMap<String, MobilePhone>());
     private static Database db;
