@@ -35,7 +35,7 @@ class Value {
 }
 
 class QueryData implements Runnable {
-    private String command = "python /home/ubuntu/iotQueryPlotter.py";
+    private String command = "sudo python /home/ubuntu/iotQueryPlotter.py";
 
     public QueryData() throws Exception {
         Thread.sleep(10000);
@@ -65,9 +65,9 @@ public class Controller {
     private final static long LOWBATTERY = 20;
 
     private final static int MAXPOLL = 3;
-    private final static String START = "start";
-    private final static String STOP = "stop";
-    private final static String SEND = "send";
+    private final static String START = "START";
+    private final static String STOP = "STOP";
+    private final static String SEND = "SEND";
 
     private static Map<String, MobilePhone> clientList = Collections.synchronizedMap(new HashMap<String, MobilePhone>());
     private static Database db;
@@ -86,10 +86,9 @@ public class Controller {
         if (clientList.get(imei).isSensing) {
             return;
         }
-        System.out.println("Starting");
         MessageBuilder m = new MessageBuilder(START);
-        //Sense for 5 seconds
-        m.withPeriod(5000L);
+        //Sense for 10 seconds
+        m.withPeriod(10000L);
         clientList.get(imei).isSensing = true;
         clientList.get(imei).lastStartTimeStamp = System.currentTimeMillis();
         clientList.get(imei).sendMessage(m.build());
@@ -100,7 +99,7 @@ public class Controller {
             return;
         }
 
-        MessageBuilder m = new MessageBuilder("stop");
+        MessageBuilder m = new MessageBuilder(STOP);
         clientList.get(imei).isSensing = false;
         clientList.get(imei).sendMessage(m.build());
     }
@@ -167,6 +166,7 @@ public class Controller {
             public void run() {
                 boolean isStopped = false;
                 while (!isStopped) {
+
                     //If nothing in the map
                     if (clientList.size() == 0) {
                         System.out.println("Nothing");
@@ -209,14 +209,17 @@ public class Controller {
 //                                send(imei,20000, false);
 //                            }
                         }
-                        if (!dead){
+                        if ((clientList.get(entry.getKey()).tickRound-6)%12==0){
+                            stopSensing(entry.getKey(),new ArrayList<>());
+                        }
+                        if (clientList.get(entry.getKey()).tickRound%12==0&&!dead){
                             startSensing(entry.getKey(), new ArrayList<String>());
                         }
+                        clientList.get(entry.getKey()).tickRound++;
 //                        if (System.currentTimeMillis() - clientList.get(entry.getKey()).lastPingTimeStamp > LiveInterval) {
 //                            stopSensing(entry.getKey(), new ArrayList<>());
 //                            //send(imei,0, false);
 //                        }
-
                     }
 
                     try {

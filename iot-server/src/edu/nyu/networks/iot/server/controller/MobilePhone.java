@@ -43,6 +43,7 @@ class MobilePhone implements Runnable {
     volatile long lastStartTimeStamp;
     volatile long lastPingTimeStamp;
     volatile long batteryLevel;
+    volatile int tickRound;
 
     MobilePhone(Socket clientSocket) {
         this.clientSocket = clientSocket;
