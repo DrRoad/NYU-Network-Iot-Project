@@ -23,4 +23,7 @@ You can contact the authors by email at [wz927@nyu.edu](mailto:info@wz927.nyu.ed
 5. The result will be shown on google map and save as html file.
 5. You can also setup an Apache web server if you want to check the results in real time.
 
+### Results
+![Bilby Stampede](images/mapplot.png)
+
 ### License
