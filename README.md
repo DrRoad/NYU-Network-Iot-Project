@@ -18,6 +18,7 @@ You can contact the authors by email at [wz927@nyu.edu](mailto:info@wz927.nyu.ed
 ### Usage
 1. Package server folder as a jar (you can use IntelliJ)
 2. Install the app in mobile folder into your android phone
+      -> See README File in the Mobile Folder for further instructions / advice
 3. Upload jar file onto AWS cloud, and run it. (make sure you have MySQL database on AWS and in java source code, make sure all passwords are right)
 4. Open Aircasting app on you phone, the app will pin server immediately, and whenever server receieves the pin, it will send command to mobile to starting collecting data.
 5. The result will be shown on google map and save as html file.
