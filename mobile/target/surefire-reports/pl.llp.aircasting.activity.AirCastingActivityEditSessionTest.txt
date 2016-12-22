@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: pl.llp.aircasting.activity.AirCastingActivityEditSessionTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.119 sec - in pl.llp.aircasting.activity.AirCastingActivityEditSessionTest

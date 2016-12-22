@@ -1,0 +1,1819 @@
+com.google.common.base.AbstractIterator$State: com.google.common.base.AbstractIterator$State[] values()
+com.google.common.base.AbstractIterator$State: com.google.common.base.AbstractIterator$State valueOf(java.lang.String)
+com.google.common.base.CaseFormat: com.google.common.base.CaseFormat[] values()
+com.google.common.base.CaseFormat: com.google.common.base.CaseFormat valueOf(java.lang.String)
+com.google.common.base.Functions$IdentityFunction: com.google.common.base.Functions$IdentityFunction[] values()
+com.google.common.base.Functions$IdentityFunction: com.google.common.base.Functions$IdentityFunction valueOf(java.lang.String)
+com.google.common.base.Functions$ToStringFunction: com.google.common.base.Functions$ToStringFunction[] values()
+com.google.common.base.Functions$ToStringFunction: com.google.common.base.Functions$ToStringFunction valueOf(java.lang.String)
+com.google.common.base.Predicates$ObjectPredicate: com.google.common.base.Predicates$ObjectPredicate[] values()
+com.google.common.base.Predicates$ObjectPredicate: com.google.common.base.Predicates$ObjectPredicate valueOf(java.lang.String)
+com.google.common.base.Suppliers$SupplierFunction: com.google.common.base.Suppliers$SupplierFunction[] values()
+com.google.common.base.Suppliers$SupplierFunction: com.google.common.base.Suppliers$SupplierFunction valueOf(java.lang.String)
+com.google.common.cache.CacheBuilder$NullListener: com.google.common.cache.CacheBuilder$NullListener[] values()
+com.google.common.cache.CacheBuilder$NullListener: com.google.common.cache.CacheBuilder$NullListener valueOf(java.lang.String)
+com.google.common.cache.CacheBuilder$OneWeigher: com.google.common.cache.CacheBuilder$OneWeigher[] values()
+com.google.common.cache.CacheBuilder$OneWeigher: com.google.common.cache.CacheBuilder$OneWeigher valueOf(java.lang.String)
+com.google.common.cache.LocalCache$EntryFactory: com.google.common.cache.LocalCache$EntryFactory[] values()
+com.google.common.cache.LocalCache$EntryFactory: com.google.common.cache.LocalCache$EntryFactory valueOf(java.lang.String)
+com.google.common.cache.LocalCache$NullEntry: com.google.common.cache.LocalCache$NullEntry[] values()
+com.google.common.cache.LocalCache$NullEntry: com.google.common.cache.LocalCache$NullEntry valueOf(java.lang.String)
+com.google.common.cache.LocalCache$Strength: com.google.common.cache.LocalCache$Strength[] values()
+com.google.common.cache.LocalCache$Strength: com.google.common.cache.LocalCache$Strength valueOf(java.lang.String)
+com.google.common.cache.RemovalCause: com.google.common.cache.RemovalCause[] values()
+com.google.common.cache.RemovalCause: com.google.common.cache.RemovalCause valueOf(java.lang.String)
+com.google.common.collect.AbstractIterator$State: com.google.common.collect.AbstractIterator$State[] values()
+com.google.common.collect.AbstractIterator$State: com.google.common.collect.AbstractIterator$State valueOf(java.lang.String)
+com.google.common.collect.BoundType: com.google.common.collect.BoundType[] values()
+com.google.common.collect.BoundType: com.google.common.collect.BoundType valueOf(java.lang.String)
+com.google.common.collect.Constraints$NotNullConstraint: com.google.common.collect.Constraints$NotNullConstraint[] values()
+com.google.common.collect.Constraints$NotNullConstraint: com.google.common.collect.Constraints$NotNullConstraint valueOf(java.lang.String)
+com.google.common.collect.GenericMapMaker$NullListener: com.google.common.collect.GenericMapMaker$NullListener[] values()
+com.google.common.collect.GenericMapMaker$NullListener: com.google.common.collect.GenericMapMaker$NullListener valueOf(java.lang.String)
+com.google.common.collect.Interners$WeakInterner$Dummy: com.google.common.collect.Interners$WeakInterner$Dummy[] values()
+com.google.common.collect.Interners$WeakInterner$Dummy: com.google.common.collect.Interners$WeakInterner$Dummy valueOf(java.lang.String)
+com.google.common.collect.MapConstraints$NotNullMapConstraint: com.google.common.collect.MapConstraints$NotNullMapConstraint[] values()
+com.google.common.collect.MapConstraints$NotNullMapConstraint: com.google.common.collect.MapConstraints$NotNullMapConstraint valueOf(java.lang.String)
+com.google.common.collect.MapMaker$RemovalCause: com.google.common.collect.MapMaker$RemovalCause[] values()
+com.google.common.collect.MapMaker$RemovalCause: com.google.common.collect.MapMaker$RemovalCause valueOf(java.lang.String)
+com.google.common.collect.MapMakerInternalMap$EntryFactory: com.google.common.collect.MapMakerInternalMap$EntryFactory[] values()
+com.google.common.collect.MapMakerInternalMap$EntryFactory: com.google.common.collect.MapMakerInternalMap$EntryFactory valueOf(java.lang.String)
+com.google.common.collect.MapMakerInternalMap$NullEntry: com.google.common.collect.MapMakerInternalMap$NullEntry[] values()
+com.google.common.collect.MapMakerInternalMap$NullEntry: com.google.common.collect.MapMakerInternalMap$NullEntry valueOf(java.lang.String)
+com.google.common.collect.MapMakerInternalMap$Strength: com.google.common.collect.MapMakerInternalMap$Strength[] values()
+com.google.common.collect.MapMakerInternalMap$Strength: com.google.common.collect.MapMakerInternalMap$Strength valueOf(java.lang.String)
+com.google.common.collect.Maps$EntryFunction: com.google.common.collect.Maps$EntryFunction[] values()
+com.google.common.collect.Maps$EntryFunction: com.google.common.collect.Maps$EntryFunction valueOf(java.lang.String)
+com.google.common.collect.SortedLists$KeyAbsentBehavior: com.google.common.collect.SortedLists$KeyAbsentBehavior[] values()
+com.google.common.collect.SortedLists$KeyAbsentBehavior: com.google.common.collect.SortedLists$KeyAbsentBehavior valueOf(java.lang.String)
+com.google.common.collect.SortedLists$KeyPresentBehavior: com.google.common.collect.SortedLists$KeyPresentBehavior[] values()
+com.google.common.collect.SortedLists$KeyPresentBehavior: com.google.common.collect.SortedLists$KeyPresentBehavior valueOf(java.lang.String)
+com.google.common.collect.TreeMultiset$Aggregate: com.google.common.collect.TreeMultiset$Aggregate[] values()
+com.google.common.collect.TreeMultiset$Aggregate: com.google.common.collect.TreeMultiset$Aggregate valueOf(java.lang.String)
+com.google.common.hash.BloomFilterStrategies: com.google.common.hash.BloomFilterStrategies[] values()
+com.google.common.hash.BloomFilterStrategies: com.google.common.hash.BloomFilterStrategies valueOf(java.lang.String)
+com.google.common.hash.Funnels$ByteArrayFunnel: com.google.common.hash.Funnels$ByteArrayFunnel[] values()
+com.google.common.hash.Funnels$ByteArrayFunnel: com.google.common.hash.Funnels$ByteArrayFunnel valueOf(java.lang.String)
+com.google.common.hash.Funnels$IntegerFunnel: com.google.common.hash.Funnels$IntegerFunnel[] values()
+com.google.common.hash.Funnels$IntegerFunnel: com.google.common.hash.Funnels$IntegerFunnel valueOf(java.lang.String)
+com.google.common.hash.Funnels$LongFunnel: com.google.common.hash.Funnels$LongFunnel[] values()
+com.google.common.hash.Funnels$LongFunnel: com.google.common.hash.Funnels$LongFunnel valueOf(java.lang.String)
+com.google.common.hash.Funnels$StringFunnel: com.google.common.hash.Funnels$StringFunnel[] values()
+com.google.common.hash.Funnels$StringFunnel: com.google.common.hash.Funnels$StringFunnel valueOf(java.lang.String)
+com.google.common.hash.Hashing$ChecksumType: com.google.common.hash.Hashing$ChecksumType[] values()
+com.google.common.hash.Hashing$ChecksumType: com.google.common.hash.Hashing$ChecksumType valueOf(java.lang.String)
+com.google.common.io.FileWriteMode: com.google.common.io.FileWriteMode[] values()
+com.google.common.io.FileWriteMode: com.google.common.io.FileWriteMode valueOf(java.lang.String)
+com.google.common.primitives.Booleans$LexicographicalComparator: com.google.common.primitives.Booleans$LexicographicalComparator[] values()
+com.google.common.primitives.Booleans$LexicographicalComparator: com.google.common.primitives.Booleans$LexicographicalComparator valueOf(java.lang.String)
+com.google.common.primitives.Chars$LexicographicalComparator: com.google.common.primitives.Chars$LexicographicalComparator[] values()
+com.google.common.primitives.Chars$LexicographicalComparator: com.google.common.primitives.Chars$LexicographicalComparator valueOf(java.lang.String)
+com.google.common.primitives.Doubles$LexicographicalComparator: com.google.common.primitives.Doubles$LexicographicalComparator[] values()
+com.google.common.primitives.Doubles$LexicographicalComparator: com.google.common.primitives.Doubles$LexicographicalComparator valueOf(java.lang.String)
+com.google.common.primitives.Floats$LexicographicalComparator: com.google.common.primitives.Floats$LexicographicalComparator[] values()
+com.google.common.primitives.Floats$LexicographicalComparator: com.google.common.primitives.Floats$LexicographicalComparator valueOf(java.lang.String)
+com.google.common.primitives.Ints$LexicographicalComparator: com.google.common.primitives.Ints$LexicographicalComparator[] values()
+com.google.common.primitives.Ints$LexicographicalComparator: com.google.common.primitives.Ints$LexicographicalComparator valueOf(java.lang.String)
+com.google.common.primitives.Longs$LexicographicalComparator: com.google.common.primitives.Longs$LexicographicalComparator[] values()
+com.google.common.primitives.Longs$LexicographicalComparator: com.google.common.primitives.Longs$LexicographicalComparator valueOf(java.lang.String)
+com.google.common.primitives.Shorts$LexicographicalComparator: com.google.common.primitives.Shorts$LexicographicalComparator[] values()
+com.google.common.primitives.Shorts$LexicographicalComparator: com.google.common.primitives.Shorts$LexicographicalComparator valueOf(java.lang.String)
+com.google.common.primitives.SignedBytes$LexicographicalComparator: com.google.common.primitives.SignedBytes$LexicographicalComparator[] values()
+com.google.common.primitives.SignedBytes$LexicographicalComparator: com.google.common.primitives.SignedBytes$LexicographicalComparator valueOf(java.lang.String)
+com.google.common.primitives.UnsignedBytes$LexicographicalComparatorHolder$PureJavaComparator: com.google.common.primitives.UnsignedBytes$LexicographicalComparatorHolder$PureJavaComparator[] values()
+com.google.common.primitives.UnsignedBytes$LexicographicalComparatorHolder$PureJavaComparator: com.google.common.primitives.UnsignedBytes$LexicographicalComparatorHolder$PureJavaComparator valueOf(java.lang.String)
+com.google.common.primitives.UnsignedBytes$LexicographicalComparatorHolder$UnsafeComparator: com.google.common.primitives.UnsignedBytes$LexicographicalComparatorHolder$UnsafeComparator[] values()
+com.google.common.primitives.UnsignedBytes$LexicographicalComparatorHolder$UnsafeComparator: com.google.common.primitives.UnsignedBytes$LexicographicalComparatorHolder$UnsafeComparator valueOf(java.lang.String)
+com.google.common.primitives.UnsignedInts$LexicographicalComparator: com.google.common.primitives.UnsignedInts$LexicographicalComparator[] values()
+com.google.common.primitives.UnsignedInts$LexicographicalComparator: com.google.common.primitives.UnsignedInts$LexicographicalComparator valueOf(java.lang.String)
+com.google.common.primitives.UnsignedLongs$LexicographicalComparator: com.google.common.primitives.UnsignedLongs$LexicographicalComparator[] values()
+com.google.common.primitives.UnsignedLongs$LexicographicalComparator: com.google.common.primitives.UnsignedLongs$LexicographicalComparator valueOf(java.lang.String)
+com.google.common.reflect.TypeToken$TypeFilter: com.google.common.reflect.TypeToken$TypeFilter[] values()
+com.google.common.reflect.TypeToken$TypeFilter: com.google.common.reflect.TypeToken$TypeFilter valueOf(java.lang.String)
+com.google.common.reflect.Types$ClassOwnership: com.google.common.reflect.Types$ClassOwnership[] values()
+com.google.common.reflect.Types$ClassOwnership: com.google.common.reflect.Types$ClassOwnership valueOf(java.lang.String)
+com.google.common.reflect.Types$JavaVersion: com.google.common.reflect.Types$JavaVersion[] values()
+com.google.common.reflect.Types$JavaVersion: com.google.common.reflect.Types$JavaVersion valueOf(java.lang.String)
+com.google.common.util.concurrent.CycleDetectingLockFactory$Policies: com.google.common.util.concurrent.CycleDetectingLockFactory$Policies[] values()
+com.google.common.util.concurrent.CycleDetectingLockFactory$Policies: com.google.common.util.concurrent.CycleDetectingLockFactory$Policies valueOf(java.lang.String)
+com.google.common.util.concurrent.Service$State: com.google.common.util.concurrent.Service$State[] values()
+com.google.common.util.concurrent.Service$State: com.google.common.util.concurrent.Service$State valueOf(java.lang.String)
+com.google.gson.FieldNamingPolicy: com.google.gson.FieldNamingPolicy[] values()
+com.google.gson.FieldNamingPolicy: com.google.gson.FieldNamingPolicy valueOf(java.lang.String)
+com.google.gson.LongSerializationPolicy: com.google.gson.LongSerializationPolicy[] values()
+com.google.gson.LongSerializationPolicy: com.google.gson.LongSerializationPolicy valueOf(java.lang.String)
+com.google.gson.reflect.TypeToken: TypeToken()
+com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken[] values()
+com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken valueOf(java.lang.String)
+com.google.inject.AbstractModule: AbstractModule()
+com.google.inject.Binder
+com.google.inject.Key$NullAnnotationStrategy: com.google.inject.Key$NullAnnotationStrategy[] values()
+com.google.inject.Key$NullAnnotationStrategy: com.google.inject.Key$NullAnnotationStrategy valueOf(java.lang.String)
+com.google.inject.Stage: com.google.inject.Stage[] values()
+com.google.inject.Stage: com.google.inject.Stage valueOf(java.lang.String)
+com.google.inject.internal.AbstractIterator$State: com.google.inject.internal.AbstractIterator$State[] values()
+com.google.inject.internal.AbstractIterator$State: com.google.inject.internal.AbstractIterator$State valueOf(java.lang.String)
+com.google.inject.internal.BytecodeGen$Visibility: com.google.inject.internal.BytecodeGen$Visibility[] values()
+com.google.inject.internal.BytecodeGen$Visibility: com.google.inject.internal.BytecodeGen$Visibility valueOf(java.lang.String)
+com.google.inject.internal.MapMaker$Strength: com.google.inject.internal.MapMaker$Strength[] values()
+com.google.inject.internal.MapMaker$Strength: com.google.inject.internal.MapMaker$Strength valueOf(java.lang.String)
+ioio.lib.android.bluetooth.BluetoothIOIOConnection
+ioio.lib.android.bluetooth.BluetoothIOIOConnection: java.lang.String TAG
+ioio.lib.android.bluetooth.BluetoothIOIOConnection: android.bluetooth.BluetoothSocket socket_
+ioio.lib.android.bluetooth.BluetoothIOIOConnection: boolean disconnect_
+ioio.lib.android.bluetooth.BluetoothIOIOConnection: android.bluetooth.BluetoothDevice device_
+ioio.lib.android.bluetooth.BluetoothIOIOConnection: java.lang.String name_
+ioio.lib.android.bluetooth.BluetoothIOIOConnection: java.lang.String address_
+ioio.lib.android.bluetooth.BluetoothIOIOConnection: BluetoothIOIOConnection(android.bluetooth.BluetoothDevice)
+ioio.lib.android.bluetooth.BluetoothIOIOConnection: void waitForConnect()
+ioio.lib.android.bluetooth.BluetoothIOIOConnection: android.bluetooth.BluetoothSocket createSocket(android.bluetooth.BluetoothDevice)
+ioio.lib.android.bluetooth.BluetoothIOIOConnection: void disconnect()
+ioio.lib.android.bluetooth.BluetoothIOIOConnection: java.io.InputStream getInputStream()
+ioio.lib.android.bluetooth.BluetoothIOIOConnection: java.io.OutputStream getOutputStream()
+ioio.lib.android.bluetooth.BluetoothIOIOConnectionBootstrap
+ioio.lib.android.bluetooth.BluetoothIOIOConnectionBootstrap: java.lang.String TAG
+ioio.lib.android.bluetooth.BluetoothIOIOConnectionBootstrap: android.bluetooth.BluetoothAdapter adapter_
+ioio.lib.android.bluetooth.BluetoothIOIOConnectionBootstrap: BluetoothIOIOConnectionBootstrap()
+ioio.lib.android.bluetooth.BluetoothIOIOConnectionBootstrap: void getFactories(java.util.Collection)
+ioio.lib.android.bluetooth.BluetoothIOIOConnectionBootstrap$1: android.bluetooth.BluetoothDevice val$device
+ioio.lib.android.bluetooth.BluetoothIOIOConnectionBootstrap$1: ioio.lib.android.bluetooth.BluetoothIOIOConnectionBootstrap this$0
+ioio.lib.android.bluetooth.BluetoothIOIOConnectionBootstrap$1: BluetoothIOIOConnectionBootstrap$1(ioio.lib.android.bluetooth.BluetoothIOIOConnectionBootstrap,android.bluetooth.BluetoothDevice)
+ioio.lib.android.bluetooth.BluetoothIOIOConnectionBootstrap$1: java.lang.String getType()
+ioio.lib.android.bluetooth.BluetoothIOIOConnectionBootstrap$1: java.lang.Object getExtra()
+ioio.lib.android.bluetooth.BluetoothIOIOConnectionBootstrap$1: ioio.lib.api.IOIOConnection createConnection()
+ioio.lib.api.AnalogInput
+ioio.lib.api.AnalogInput: float getVoltage()
+ioio.lib.api.AnalogInput: float getReference()
+ioio.lib.api.AnalogInput: float read()
+ioio.lib.api.AnalogInput: void setBuffer(int)
+ioio.lib.api.AnalogInput: int getOverflowCount()
+ioio.lib.api.AnalogInput: int available()
+ioio.lib.api.AnalogInput: float readBuffered()
+ioio.lib.api.AnalogInput: float getVoltageBuffered()
+ioio.lib.api.AnalogInput: float getSampleRate()
+ioio.lib.api.Closeable
+ioio.lib.api.Closeable: void close()
+ioio.lib.api.DigitalInput
+ioio.lib.api.DigitalInput: boolean read()
+ioio.lib.api.DigitalInput: void waitForValue(boolean)
+ioio.lib.api.DigitalInput$Spec
+ioio.lib.api.DigitalInput$Spec: int pin
+ioio.lib.api.DigitalInput$Spec: ioio.lib.api.DigitalInput$Spec$Mode mode
+ioio.lib.api.DigitalInput$Spec: DigitalInput$Spec(int,ioio.lib.api.DigitalInput$Spec$Mode)
+ioio.lib.api.DigitalInput$Spec: DigitalInput$Spec(int)
+ioio.lib.api.DigitalInput$Spec$Mode
+ioio.lib.api.DigitalInput$Spec$Mode: ioio.lib.api.DigitalInput$Spec$Mode FLOATING
+ioio.lib.api.DigitalInput$Spec$Mode: ioio.lib.api.DigitalInput$Spec$Mode PULL_UP
+ioio.lib.api.DigitalInput$Spec$Mode: ioio.lib.api.DigitalInput$Spec$Mode PULL_DOWN
+ioio.lib.api.DigitalInput$Spec$Mode: ioio.lib.api.DigitalInput$Spec$Mode[] $VALUES
+ioio.lib.api.DigitalInput$Spec$Mode: ioio.lib.api.DigitalInput$Spec$Mode[] values()
+ioio.lib.api.DigitalInput$Spec$Mode: ioio.lib.api.DigitalInput$Spec$Mode valueOf(java.lang.String)
+ioio.lib.api.DigitalInput$Spec$Mode: DigitalInput$Spec$Mode(java.lang.String,int)
+ioio.lib.api.DigitalInput$Spec$Mode: void <clinit>()
+ioio.lib.api.DigitalOutput
+ioio.lib.api.DigitalOutput: void write(boolean)
+ioio.lib.api.DigitalOutput$Spec
+ioio.lib.api.DigitalOutput$Spec: int pin
+ioio.lib.api.DigitalOutput$Spec: ioio.lib.api.DigitalOutput$Spec$Mode mode
+ioio.lib.api.DigitalOutput$Spec: DigitalOutput$Spec(int,ioio.lib.api.DigitalOutput$Spec$Mode)
+ioio.lib.api.DigitalOutput$Spec: DigitalOutput$Spec(int)
+ioio.lib.api.DigitalOutput$Spec$Mode
+ioio.lib.api.DigitalOutput$Spec$Mode: ioio.lib.api.DigitalOutput$Spec$Mode NORMAL
+ioio.lib.api.DigitalOutput$Spec$Mode: ioio.lib.api.DigitalOutput$Spec$Mode OPEN_DRAIN
+ioio.lib.api.DigitalOutput$Spec$Mode: ioio.lib.api.DigitalOutput$Spec$Mode[] $VALUES
+ioio.lib.api.DigitalOutput$Spec$Mode: ioio.lib.api.DigitalOutput$Spec$Mode[] values()
+ioio.lib.api.DigitalOutput$Spec$Mode: ioio.lib.api.DigitalOutput$Spec$Mode valueOf(java.lang.String)
+ioio.lib.api.DigitalOutput$Spec$Mode: DigitalOutput$Spec$Mode(java.lang.String,int)
+ioio.lib.api.DigitalOutput$Spec$Mode: void <clinit>()
+ioio.lib.api.IOIO
+ioio.lib.api.IOIO: int INVALID_PIN
+ioio.lib.api.IOIO: int LED_PIN
+ioio.lib.api.IOIO: void waitForConnect()
+ioio.lib.api.IOIO: void disconnect()
+ioio.lib.api.IOIO: void waitForDisconnect()
+ioio.lib.api.IOIO: ioio.lib.api.IOIO$State getState()
+ioio.lib.api.IOIO: void softReset()
+ioio.lib.api.IOIO: void hardReset()
+ioio.lib.api.IOIO: java.lang.String getImplVersion(ioio.lib.api.IOIO$VersionType)
+ioio.lib.api.IOIO: ioio.lib.api.DigitalInput openDigitalInput(ioio.lib.api.DigitalInput$Spec)
+ioio.lib.api.IOIO: ioio.lib.api.DigitalInput openDigitalInput(int)
+ioio.lib.api.IOIO: ioio.lib.api.DigitalInput openDigitalInput(int,ioio.lib.api.DigitalInput$Spec$Mode)
+ioio.lib.api.IOIO: ioio.lib.api.DigitalOutput openDigitalOutput(ioio.lib.api.DigitalOutput$Spec,boolean)
+ioio.lib.api.IOIO: ioio.lib.api.DigitalOutput openDigitalOutput(int,ioio.lib.api.DigitalOutput$Spec$Mode,boolean)
+ioio.lib.api.IOIO: ioio.lib.api.DigitalOutput openDigitalOutput(int,boolean)
+ioio.lib.api.IOIO: ioio.lib.api.DigitalOutput openDigitalOutput(int)
+ioio.lib.api.IOIO: ioio.lib.api.AnalogInput openAnalogInput(int)
+ioio.lib.api.IOIO: ioio.lib.api.PwmOutput openPwmOutput(ioio.lib.api.DigitalOutput$Spec,int)
+ioio.lib.api.IOIO: ioio.lib.api.PwmOutput openPwmOutput(int,int)
+ioio.lib.api.IOIO: ioio.lib.api.PulseInput openPulseInput(ioio.lib.api.DigitalInput$Spec,ioio.lib.api.PulseInput$ClockRate,ioio.lib.api.PulseInput$PulseMode,boolean)
+ioio.lib.api.IOIO: ioio.lib.api.PulseInput openPulseInput(int,ioio.lib.api.PulseInput$PulseMode)
+ioio.lib.api.IOIO: ioio.lib.api.Uart openUart(ioio.lib.api.DigitalInput$Spec,ioio.lib.api.DigitalOutput$Spec,int,ioio.lib.api.Uart$Parity,ioio.lib.api.Uart$StopBits)
+ioio.lib.api.IOIO: ioio.lib.api.Uart openUart(int,int,int,ioio.lib.api.Uart$Parity,ioio.lib.api.Uart$StopBits)
+ioio.lib.api.IOIO: ioio.lib.api.SpiMaster openSpiMaster(ioio.lib.api.DigitalInput$Spec,ioio.lib.api.DigitalOutput$Spec,ioio.lib.api.DigitalOutput$Spec,ioio.lib.api.DigitalOutput$Spec[],ioio.lib.api.SpiMaster$Config)
+ioio.lib.api.IOIO: ioio.lib.api.SpiMaster openSpiMaster(int,int,int,int[],ioio.lib.api.SpiMaster$Rate)
+ioio.lib.api.IOIO: ioio.lib.api.SpiMaster openSpiMaster(int,int,int,int,ioio.lib.api.SpiMaster$Rate)
+ioio.lib.api.IOIO: ioio.lib.api.TwiMaster openTwiMaster(int,ioio.lib.api.TwiMaster$Rate,boolean)
+ioio.lib.api.IOIO: ioio.lib.api.IcspMaster openIcspMaster()
+ioio.lib.api.IOIO: void beginBatch()
+ioio.lib.api.IOIO: void endBatch()
+ioio.lib.api.IOIO$State
+ioio.lib.api.IOIO$State: ioio.lib.api.IOIO$State INIT
+ioio.lib.api.IOIO$State: ioio.lib.api.IOIO$State CONNECTED
+ioio.lib.api.IOIO$State: ioio.lib.api.IOIO$State INCOMPATIBLE
+ioio.lib.api.IOIO$State: ioio.lib.api.IOIO$State DEAD
+ioio.lib.api.IOIO$State: ioio.lib.api.IOIO$State[] $VALUES
+ioio.lib.api.IOIO$State: ioio.lib.api.IOIO$State[] values()
+ioio.lib.api.IOIO$State: ioio.lib.api.IOIO$State valueOf(java.lang.String)
+ioio.lib.api.IOIO$State: IOIO$State(java.lang.String,int)
+ioio.lib.api.IOIO$State: void <clinit>()
+ioio.lib.api.IOIO$VersionType
+ioio.lib.api.IOIO$VersionType: ioio.lib.api.IOIO$VersionType HARDWARE_VER
+ioio.lib.api.IOIO$VersionType: ioio.lib.api.IOIO$VersionType BOOTLOADER_VER
+ioio.lib.api.IOIO$VersionType: ioio.lib.api.IOIO$VersionType APP_FIRMWARE_VER
+ioio.lib.api.IOIO$VersionType: ioio.lib.api.IOIO$VersionType IOIOLIB_VER
+ioio.lib.api.IOIO$VersionType: ioio.lib.api.IOIO$VersionType[] $VALUES
+ioio.lib.api.IOIO$VersionType: ioio.lib.api.IOIO$VersionType[] values()
+ioio.lib.api.IOIO$VersionType: ioio.lib.api.IOIO$VersionType valueOf(java.lang.String)
+ioio.lib.api.IOIO$VersionType: IOIO$VersionType(java.lang.String,int)
+ioio.lib.api.IOIO$VersionType: void <clinit>()
+ioio.lib.api.IOIOConnection
+ioio.lib.api.IOIOConnection: void waitForConnect()
+ioio.lib.api.IOIOConnection: void disconnect()
+ioio.lib.api.IOIOConnection: java.io.InputStream getInputStream()
+ioio.lib.api.IOIOConnection: java.io.OutputStream getOutputStream()
+ioio.lib.api.IOIOFactory
+ioio.lib.api.IOIOFactory: java.lang.String TAG
+ioio.lib.api.IOIOFactory: IOIOFactory()
+ioio.lib.api.IOIOFactory: ioio.lib.api.IOIO create()
+ioio.lib.api.IOIOFactory: ioio.lib.api.IOIO create(ioio.lib.api.IOIOConnection)
+ioio.lib.api.IcspMaster
+ioio.lib.api.IcspMaster: void enterProgramming()
+ioio.lib.api.IcspMaster: void exitProgramming()
+ioio.lib.api.IcspMaster: void executeInstruction(int)
+ioio.lib.api.IcspMaster: void readVisi()
+ioio.lib.api.IcspMaster: int waitVisiResult()
+ioio.lib.api.PulseInput
+ioio.lib.api.PulseInput: float getDuration()
+ioio.lib.api.PulseInput: float waitPulseGetDuration()
+ioio.lib.api.PulseInput: float getFrequency()
+ioio.lib.api.PulseInput$ClockRate
+ioio.lib.api.PulseInput$ClockRate: ioio.lib.api.PulseInput$ClockRate RATE_16MHz
+ioio.lib.api.PulseInput$ClockRate: ioio.lib.api.PulseInput$ClockRate RATE_2MHz
+ioio.lib.api.PulseInput$ClockRate: ioio.lib.api.PulseInput$ClockRate RATE_250KHz
+ioio.lib.api.PulseInput$ClockRate: ioio.lib.api.PulseInput$ClockRate RATE_62KHz
+ioio.lib.api.PulseInput$ClockRate: int hertz
+ioio.lib.api.PulseInput$ClockRate: ioio.lib.api.PulseInput$ClockRate[] $VALUES
+ioio.lib.api.PulseInput$ClockRate: ioio.lib.api.PulseInput$ClockRate[] values()
+ioio.lib.api.PulseInput$ClockRate: ioio.lib.api.PulseInput$ClockRate valueOf(java.lang.String)
+ioio.lib.api.PulseInput$ClockRate: PulseInput$ClockRate(java.lang.String,int,int)
+ioio.lib.api.PulseInput$ClockRate: void <clinit>()
+ioio.lib.api.PulseInput$PulseMode
+ioio.lib.api.PulseInput$PulseMode: ioio.lib.api.PulseInput$PulseMode POSITIVE
+ioio.lib.api.PulseInput$PulseMode: ioio.lib.api.PulseInput$PulseMode NEGATIVE
+ioio.lib.api.PulseInput$PulseMode: ioio.lib.api.PulseInput$PulseMode FREQ
+ioio.lib.api.PulseInput$PulseMode: ioio.lib.api.PulseInput$PulseMode FREQ_SCALE_4
+ioio.lib.api.PulseInput$PulseMode: ioio.lib.api.PulseInput$PulseMode FREQ_SCALE_16
+ioio.lib.api.PulseInput$PulseMode: int scaling
+ioio.lib.api.PulseInput$PulseMode: ioio.lib.api.PulseInput$PulseMode[] $VALUES
+ioio.lib.api.PulseInput$PulseMode: ioio.lib.api.PulseInput$PulseMode[] values()
+ioio.lib.api.PulseInput$PulseMode: ioio.lib.api.PulseInput$PulseMode valueOf(java.lang.String)
+ioio.lib.api.PulseInput$PulseMode: PulseInput$PulseMode(java.lang.String,int,int)
+ioio.lib.api.PulseInput$PulseMode: void <clinit>()
+ioio.lib.api.PwmOutput
+ioio.lib.api.PwmOutput: void setDutyCycle(float)
+ioio.lib.api.PwmOutput: void setPulseWidth(int)
+ioio.lib.api.PwmOutput: void setPulseWidth(float)
+ioio.lib.api.SpiMaster
+ioio.lib.api.SpiMaster: void writeRead(int,byte[],int,int,byte[],int)
+ioio.lib.api.SpiMaster: void writeRead(byte[],int,int,byte[],int)
+ioio.lib.api.SpiMaster: ioio.lib.api.SpiMaster$Result writeReadAsync(int,byte[],int,int,byte[],int)
+ioio.lib.api.SpiMaster$Config
+ioio.lib.api.SpiMaster$Config: ioio.lib.api.SpiMaster$Rate rate
+ioio.lib.api.SpiMaster$Config: boolean invertClk
+ioio.lib.api.SpiMaster$Config: boolean sampleOnTrailing
+ioio.lib.api.SpiMaster$Config: SpiMaster$Config(ioio.lib.api.SpiMaster$Rate,boolean,boolean)
+ioio.lib.api.SpiMaster$Config: SpiMaster$Config(ioio.lib.api.SpiMaster$Rate)
+ioio.lib.api.SpiMaster$Rate
+ioio.lib.api.SpiMaster$Rate: ioio.lib.api.SpiMaster$Rate RATE_31K
+ioio.lib.api.SpiMaster$Rate: ioio.lib.api.SpiMaster$Rate RATE_35K
+ioio.lib.api.SpiMaster$Rate: ioio.lib.api.SpiMaster$Rate RATE_41K
+ioio.lib.api.SpiMaster$Rate: ioio.lib.api.SpiMaster$Rate RATE_50K
+ioio.lib.api.SpiMaster$Rate: ioio.lib.api.SpiMaster$Rate RATE_62K
+ioio.lib.api.SpiMaster$Rate: ioio.lib.api.SpiMaster$Rate RATE_83K
+ioio.lib.api.SpiMaster$Rate: ioio.lib.api.SpiMaster$Rate RATE_125K
+ioio.lib.api.SpiMaster$Rate: ioio.lib.api.SpiMaster$Rate RATE_142K
+ioio.lib.api.SpiMaster$Rate: ioio.lib.api.SpiMaster$Rate RATE_166K
+ioio.lib.api.SpiMaster$Rate: ioio.lib.api.SpiMaster$Rate RATE_200K
+ioio.lib.api.SpiMaster$Rate: ioio.lib.api.SpiMaster$Rate RATE_250K
+ioio.lib.api.SpiMaster$Rate: ioio.lib.api.SpiMaster$Rate RATE_333K
+ioio.lib.api.SpiMaster$Rate: ioio.lib.api.SpiMaster$Rate RATE_500K
+ioio.lib.api.SpiMaster$Rate: ioio.lib.api.SpiMaster$Rate RATE_571K
+ioio.lib.api.SpiMaster$Rate: ioio.lib.api.SpiMaster$Rate RATE_666K
+ioio.lib.api.SpiMaster$Rate: ioio.lib.api.SpiMaster$Rate RATE_800K
+ioio.lib.api.SpiMaster$Rate: ioio.lib.api.SpiMaster$Rate RATE_1M
+ioio.lib.api.SpiMaster$Rate: ioio.lib.api.SpiMaster$Rate RATE_1_3M
+ioio.lib.api.SpiMaster$Rate: ioio.lib.api.SpiMaster$Rate RATE_2M
+ioio.lib.api.SpiMaster$Rate: ioio.lib.api.SpiMaster$Rate RATE_2_2M
+ioio.lib.api.SpiMaster$Rate: ioio.lib.api.SpiMaster$Rate RATE_2_6M
+ioio.lib.api.SpiMaster$Rate: ioio.lib.api.SpiMaster$Rate RATE_3_2M
+ioio.lib.api.SpiMaster$Rate: ioio.lib.api.SpiMaster$Rate RATE_4M
+ioio.lib.api.SpiMaster$Rate: ioio.lib.api.SpiMaster$Rate RATE_5_3M
+ioio.lib.api.SpiMaster$Rate: ioio.lib.api.SpiMaster$Rate RATE_8M
+ioio.lib.api.SpiMaster$Rate: ioio.lib.api.SpiMaster$Rate[] $VALUES
+ioio.lib.api.SpiMaster$Rate: ioio.lib.api.SpiMaster$Rate[] values()
+ioio.lib.api.SpiMaster$Rate: ioio.lib.api.SpiMaster$Rate valueOf(java.lang.String)
+ioio.lib.api.SpiMaster$Rate: SpiMaster$Rate(java.lang.String,int)
+ioio.lib.api.SpiMaster$Rate: void <clinit>()
+ioio.lib.api.SpiMaster$Result
+ioio.lib.api.SpiMaster$Result: void waitReady()
+ioio.lib.api.TwiMaster
+ioio.lib.api.TwiMaster: boolean writeRead(int,boolean,byte[],int,byte[],int)
+ioio.lib.api.TwiMaster: ioio.lib.api.TwiMaster$Result writeReadAsync(int,boolean,byte[],int,byte[],int)
+ioio.lib.api.TwiMaster$Rate
+ioio.lib.api.TwiMaster$Rate: ioio.lib.api.TwiMaster$Rate RATE_100KHz
+ioio.lib.api.TwiMaster$Rate: ioio.lib.api.TwiMaster$Rate RATE_400KHz
+ioio.lib.api.TwiMaster$Rate: ioio.lib.api.TwiMaster$Rate RATE_1MHz
+ioio.lib.api.TwiMaster$Rate: ioio.lib.api.TwiMaster$Rate[] $VALUES
+ioio.lib.api.TwiMaster$Rate: ioio.lib.api.TwiMaster$Rate[] values()
+ioio.lib.api.TwiMaster$Rate: ioio.lib.api.TwiMaster$Rate valueOf(java.lang.String)
+ioio.lib.api.TwiMaster$Rate: TwiMaster$Rate(java.lang.String,int)
+ioio.lib.api.TwiMaster$Rate: void <clinit>()
+ioio.lib.api.TwiMaster$Result
+ioio.lib.api.TwiMaster$Result: boolean waitReady()
+ioio.lib.api.Uart
+ioio.lib.api.Uart: java.io.InputStream getInputStream()
+ioio.lib.api.Uart: java.io.OutputStream getOutputStream()
+ioio.lib.api.Uart$Parity
+ioio.lib.api.Uart$Parity: ioio.lib.api.Uart$Parity NONE
+ioio.lib.api.Uart$Parity: ioio.lib.api.Uart$Parity EVEN
+ioio.lib.api.Uart$Parity: ioio.lib.api.Uart$Parity ODD
+ioio.lib.api.Uart$Parity: ioio.lib.api.Uart$Parity[] $VALUES
+ioio.lib.api.Uart$Parity: ioio.lib.api.Uart$Parity[] values()
+ioio.lib.api.Uart$Parity: ioio.lib.api.Uart$Parity valueOf(java.lang.String)
+ioio.lib.api.Uart$Parity: Uart$Parity(java.lang.String,int)
+ioio.lib.api.Uart$Parity: void <clinit>()
+ioio.lib.api.Uart$StopBits
+ioio.lib.api.Uart$StopBits: ioio.lib.api.Uart$StopBits ONE
+ioio.lib.api.Uart$StopBits: ioio.lib.api.Uart$StopBits TWO
+ioio.lib.api.Uart$StopBits: ioio.lib.api.Uart$StopBits[] $VALUES
+ioio.lib.api.Uart$StopBits: ioio.lib.api.Uart$StopBits[] values()
+ioio.lib.api.Uart$StopBits: ioio.lib.api.Uart$StopBits valueOf(java.lang.String)
+ioio.lib.api.Uart$StopBits: Uart$StopBits(java.lang.String,int)
+ioio.lib.api.Uart$StopBits: void <clinit>()
+ioio.lib.api.exception.ConnectionLostException
+ioio.lib.api.exception.ConnectionLostException: long serialVersionUID
+ioio.lib.api.exception.ConnectionLostException: ConnectionLostException(java.lang.Exception)
+ioio.lib.api.exception.ConnectionLostException: ConnectionLostException()
+ioio.lib.api.exception.IncompatibilityException
+ioio.lib.api.exception.IncompatibilityException: long serialVersionUID
+ioio.lib.api.exception.IncompatibilityException: IncompatibilityException(java.lang.String)
+ioio.lib.api.exception.OutOfResourceException
+ioio.lib.api.exception.OutOfResourceException: long serialVersionUID
+ioio.lib.api.exception.OutOfResourceException: OutOfResourceException(java.lang.String)
+ioio.lib.impl.AbstractPin: int pinNum_
+ioio.lib.impl.AbstractPin: AbstractPin(ioio.lib.impl.IOIOImpl,int)
+ioio.lib.impl.AbstractPin: void close()
+ioio.lib.impl.AbstractResource: ioio.lib.impl.AbstractResource$State state_
+ioio.lib.impl.AbstractResource: ioio.lib.impl.IOIOImpl ioio_
+ioio.lib.impl.AbstractResource: AbstractResource(ioio.lib.impl.IOIOImpl)
+ioio.lib.impl.AbstractResource: void disconnected()
+ioio.lib.impl.AbstractResource: void close()
+ioio.lib.impl.AbstractResource: void checkState()
+ioio.lib.impl.AbstractResource$State: ioio.lib.impl.AbstractResource$State OPEN
+ioio.lib.impl.AbstractResource$State: ioio.lib.impl.AbstractResource$State CLOSED
+ioio.lib.impl.AbstractResource$State: ioio.lib.impl.AbstractResource$State DISCONNECTED
+ioio.lib.impl.AbstractResource$State: ioio.lib.impl.AbstractResource$State[] $VALUES
+ioio.lib.impl.AbstractResource$State: ioio.lib.impl.AbstractResource$State[] values()
+ioio.lib.impl.AbstractResource$State: ioio.lib.impl.AbstractResource$State valueOf(java.lang.String)
+ioio.lib.impl.AbstractResource$State: AbstractResource$State(java.lang.String,int)
+ioio.lib.impl.AbstractResource$State: void <clinit>()
+ioio.lib.impl.AnalogInputImpl: int value_
+ioio.lib.impl.AnalogInputImpl: boolean valid_
+ioio.lib.impl.AnalogInputImpl: short[] buffer_
+ioio.lib.impl.AnalogInputImpl: int bufferSize_
+ioio.lib.impl.AnalogInputImpl: int bufferCapacity_
+ioio.lib.impl.AnalogInputImpl: int bufferReadCursor_
+ioio.lib.impl.AnalogInputImpl: int bufferWriteCursor_
+ioio.lib.impl.AnalogInputImpl: int bufferOverflowCount_
+ioio.lib.impl.AnalogInputImpl: boolean $assertionsDisabled
+ioio.lib.impl.AnalogInputImpl: AnalogInputImpl(ioio.lib.impl.IOIOImpl,int)
+ioio.lib.impl.AnalogInputImpl: float getVoltage()
+ioio.lib.impl.AnalogInputImpl: float getReference()
+ioio.lib.impl.AnalogInputImpl: void setValue(int)
+ioio.lib.impl.AnalogInputImpl: float read()
+ioio.lib.impl.AnalogInputImpl: void disconnected()
+ioio.lib.impl.AnalogInputImpl: void close()
+ioio.lib.impl.AnalogInputImpl: void setBuffer(int)
+ioio.lib.impl.AnalogInputImpl: float readBuffered()
+ioio.lib.impl.AnalogInputImpl: float getVoltageBuffered()
+ioio.lib.impl.AnalogInputImpl: void bufferPush(short)
+ioio.lib.impl.AnalogInputImpl: short bufferPull()
+ioio.lib.impl.AnalogInputImpl: int getOverflowCount()
+ioio.lib.impl.AnalogInputImpl: float getSampleRate()
+ioio.lib.impl.AnalogInputImpl: int available()
+ioio.lib.impl.AnalogInputImpl: void <clinit>()
+ioio.lib.impl.Constants: int NUM_PINS
+ioio.lib.impl.Constants: int NUM_ANALOG_PINS
+ioio.lib.impl.Constants: int NUM_PWM_MODULES
+ioio.lib.impl.Constants: int NUM_UART_MODULES
+ioio.lib.impl.Constants: int NUM_SPI_MODULES
+ioio.lib.impl.Constants: int NUM_TWI_MODULES
+ioio.lib.impl.Constants: int[] INCAP_MODULES_DOUBLE
+ioio.lib.impl.Constants: int[] INCAP_MODULES_SINGLE
+ioio.lib.impl.Constants: int BUFFER_SIZE
+ioio.lib.impl.Constants: int PACKET_BUFFER_SIZE
+ioio.lib.impl.Constants: int[][] TWI_PINS
+ioio.lib.impl.Constants: int[] ICSP_PINS
+ioio.lib.impl.Constants: Constants()
+ioio.lib.impl.Constants: void <clinit>()
+ioio.lib.impl.DigitalInputImpl: boolean value_
+ioio.lib.impl.DigitalInputImpl: boolean valid_
+ioio.lib.impl.DigitalInputImpl: boolean $assertionsDisabled
+ioio.lib.impl.DigitalInputImpl: DigitalInputImpl(ioio.lib.impl.IOIOImpl,int)
+ioio.lib.impl.DigitalInputImpl: void setValue(int)
+ioio.lib.impl.DigitalInputImpl: void waitForValue(boolean)
+ioio.lib.impl.DigitalInputImpl: void close()
+ioio.lib.impl.DigitalInputImpl: boolean read()
+ioio.lib.impl.DigitalInputImpl: void disconnected()
+ioio.lib.impl.DigitalInputImpl: void <clinit>()
+ioio.lib.impl.DigitalOutputImpl: boolean value_
+ioio.lib.impl.DigitalOutputImpl: DigitalOutputImpl(ioio.lib.impl.IOIOImpl,int,boolean)
+ioio.lib.impl.DigitalOutputImpl: void write(boolean)
+ioio.lib.impl.FlowControlledOutputStream: ioio.lib.impl.FlowControlledOutputStream$Sender sender_
+ioio.lib.impl.FlowControlledOutputStream: java.util.concurrent.BlockingQueue queue_
+ioio.lib.impl.FlowControlledOutputStream: ioio.lib.impl.FlowControlledOutputStream$FlushThread thread_
+ioio.lib.impl.FlowControlledOutputStream: int maxPacket_
+ioio.lib.impl.FlowControlledOutputStream: byte[] packet_
+ioio.lib.impl.FlowControlledOutputStream: int readyToSend_
+ioio.lib.impl.FlowControlledOutputStream: boolean closed_
+ioio.lib.impl.FlowControlledOutputStream: FlowControlledOutputStream(ioio.lib.impl.FlowControlledOutputStream$Sender,int)
+ioio.lib.impl.FlowControlledOutputStream: void flush()
+ioio.lib.impl.FlowControlledOutputStream: void write(int)
+ioio.lib.impl.FlowControlledOutputStream: void readyToSend(int)
+ioio.lib.impl.FlowControlledOutputStream: void close()
+ioio.lib.impl.FlowControlledOutputStream: int access$000(ioio.lib.impl.FlowControlledOutputStream)
+ioio.lib.impl.FlowControlledOutputStream: java.util.concurrent.BlockingQueue access$100(ioio.lib.impl.FlowControlledOutputStream)
+ioio.lib.impl.FlowControlledOutputStream: int access$200(ioio.lib.impl.FlowControlledOutputStream)
+ioio.lib.impl.FlowControlledOutputStream: byte[] access$300(ioio.lib.impl.FlowControlledOutputStream)
+ioio.lib.impl.FlowControlledOutputStream: int access$002(ioio.lib.impl.FlowControlledOutputStream,int)
+ioio.lib.impl.FlowControlledOutputStream: ioio.lib.impl.FlowControlledOutputStream$Sender access$400(ioio.lib.impl.FlowControlledOutputStream)
+ioio.lib.impl.FlowControlledOutputStream$FlushThread: ioio.lib.impl.FlowControlledOutputStream this$0
+ioio.lib.impl.FlowControlledOutputStream$FlushThread: FlowControlledOutputStream$FlushThread(ioio.lib.impl.FlowControlledOutputStream)
+ioio.lib.impl.FlowControlledOutputStream$FlushThread: void run()
+ioio.lib.impl.FlowControlledOutputStream$Sender: void send(byte[],int)
+ioio.lib.impl.FlowControlledPacketSender: ioio.lib.impl.FlowControlledPacketSender$Sender sender_
+ioio.lib.impl.FlowControlledPacketSender: java.util.concurrent.BlockingQueue queue_
+ioio.lib.impl.FlowControlledPacketSender: ioio.lib.impl.FlowControlledPacketSender$FlushThread thread_
+ioio.lib.impl.FlowControlledPacketSender: int readyToSend_
+ioio.lib.impl.FlowControlledPacketSender: boolean closed_
+ioio.lib.impl.FlowControlledPacketSender: FlowControlledPacketSender(ioio.lib.impl.FlowControlledPacketSender$Sender)
+ioio.lib.impl.FlowControlledPacketSender: void flush()
+ioio.lib.impl.FlowControlledPacketSender: void write(ioio.lib.impl.FlowControlledPacketSender$Packet)
+ioio.lib.impl.FlowControlledPacketSender: void readyToSend(int)
+ioio.lib.impl.FlowControlledPacketSender: void close()
+ioio.lib.impl.FlowControlledPacketSender: void kill()
+ioio.lib.impl.FlowControlledPacketSender: java.util.concurrent.BlockingQueue access$000(ioio.lib.impl.FlowControlledPacketSender)
+ioio.lib.impl.FlowControlledPacketSender: int access$100(ioio.lib.impl.FlowControlledPacketSender)
+ioio.lib.impl.FlowControlledPacketSender: int access$102(ioio.lib.impl.FlowControlledPacketSender,int)
+ioio.lib.impl.FlowControlledPacketSender: ioio.lib.impl.FlowControlledPacketSender$Sender access$200(ioio.lib.impl.FlowControlledPacketSender)
+ioio.lib.impl.FlowControlledPacketSender$FlushThread: ioio.lib.impl.FlowControlledPacketSender this$0
+ioio.lib.impl.FlowControlledPacketSender$FlushThread: FlowControlledPacketSender$FlushThread(ioio.lib.impl.FlowControlledPacketSender)
+ioio.lib.impl.FlowControlledPacketSender$FlushThread: void run()
+ioio.lib.impl.FlowControlledPacketSender$Packet: int getSize()
+ioio.lib.impl.FlowControlledPacketSender$Sender: void send(ioio.lib.impl.FlowControlledPacketSender$Packet)
+ioio.lib.impl.IOIOImpl
+ioio.lib.impl.IOIOImpl: java.lang.String TAG
+ioio.lib.impl.IOIOImpl: boolean disconnect_
+ioio.lib.impl.IOIOImpl: byte[] REQUIRED_INTERFACE_ID
+ioio.lib.impl.IOIOImpl: ioio.lib.api.IOIOConnection connection_
+ioio.lib.impl.IOIOImpl: ioio.lib.impl.IncomingState incomingState_
+ioio.lib.impl.IOIOImpl: boolean[] openPins_
+ioio.lib.impl.IOIOImpl: boolean[] openTwi_
+ioio.lib.impl.IOIOImpl: boolean openIcsp_
+ioio.lib.impl.IOIOImpl: ioio.lib.impl.ModuleAllocator pwmAllocator_
+ioio.lib.impl.IOIOImpl: ioio.lib.impl.ModuleAllocator uartAllocator_
+ioio.lib.impl.IOIOImpl: ioio.lib.impl.ModuleAllocator spiAllocator_
+ioio.lib.impl.IOIOImpl: ioio.lib.impl.ModuleAllocator incapAllocatorDouble_
+ioio.lib.impl.IOIOImpl: ioio.lib.impl.ModuleAllocator incapAllocatorSingle_
+ioio.lib.impl.IOIOImpl: ioio.lib.impl.IOIOProtocol protocol_
+ioio.lib.impl.IOIOImpl: ioio.lib.api.IOIO$State state_
+ioio.lib.impl.IOIOImpl: IOIOImpl(ioio.lib.api.IOIOConnection)
+ioio.lib.impl.IOIOImpl: void waitForConnect()
+ioio.lib.impl.IOIOImpl: void disconnect()
+ioio.lib.impl.IOIOImpl: void disconnected()
+ioio.lib.impl.IOIOImpl: void waitForDisconnect()
+ioio.lib.impl.IOIOImpl: ioio.lib.api.IOIO$State getState()
+ioio.lib.impl.IOIOImpl: void checkInterfaceVersion()
+ioio.lib.impl.IOIOImpl: void removeDisconnectListener(ioio.lib.impl.IncomingState$DisconnectListener)
+ioio.lib.impl.IOIOImpl: void addDisconnectListener(ioio.lib.impl.IncomingState$DisconnectListener)
+ioio.lib.impl.IOIOImpl: void closePin(int)
+ioio.lib.impl.IOIOImpl: void closePwm(int)
+ioio.lib.impl.IOIOImpl: void closeUart(int)
+ioio.lib.impl.IOIOImpl: void closeTwi(int)
+ioio.lib.impl.IOIOImpl: void closeIcsp()
+ioio.lib.impl.IOIOImpl: void closeSpi(int)
+ioio.lib.impl.IOIOImpl: void closeIncap(int,boolean)
+ioio.lib.impl.IOIOImpl: void softReset()
+ioio.lib.impl.IOIOImpl: void hardReset()
+ioio.lib.impl.IOIOImpl: java.lang.String getImplVersion(ioio.lib.api.IOIO$VersionType)
+ioio.lib.impl.IOIOImpl: ioio.lib.api.DigitalInput openDigitalInput(int)
+ioio.lib.impl.IOIOImpl: ioio.lib.api.DigitalInput openDigitalInput(int,ioio.lib.api.DigitalInput$Spec$Mode)
+ioio.lib.impl.IOIOImpl: ioio.lib.api.DigitalInput openDigitalInput(ioio.lib.api.DigitalInput$Spec)
+ioio.lib.impl.IOIOImpl: ioio.lib.api.DigitalOutput openDigitalOutput(int,ioio.lib.api.DigitalOutput$Spec$Mode,boolean)
+ioio.lib.impl.IOIOImpl: ioio.lib.api.DigitalOutput openDigitalOutput(ioio.lib.api.DigitalOutput$Spec,boolean)
+ioio.lib.impl.IOIOImpl: ioio.lib.api.DigitalOutput openDigitalOutput(int,boolean)
+ioio.lib.impl.IOIOImpl: ioio.lib.api.DigitalOutput openDigitalOutput(int)
+ioio.lib.impl.IOIOImpl: ioio.lib.api.AnalogInput openAnalogInput(int)
+ioio.lib.impl.IOIOImpl: ioio.lib.api.PwmOutput openPwmOutput(int,int)
+ioio.lib.impl.IOIOImpl: ioio.lib.api.PwmOutput openPwmOutput(ioio.lib.api.DigitalOutput$Spec,int)
+ioio.lib.impl.IOIOImpl: ioio.lib.api.Uart openUart(int,int,int,ioio.lib.api.Uart$Parity,ioio.lib.api.Uart$StopBits)
+ioio.lib.impl.IOIOImpl: ioio.lib.api.Uart openUart(ioio.lib.api.DigitalInput$Spec,ioio.lib.api.DigitalOutput$Spec,int,ioio.lib.api.Uart$Parity,ioio.lib.api.Uart$StopBits)
+ioio.lib.impl.IOIOImpl: ioio.lib.api.TwiMaster openTwiMaster(int,ioio.lib.api.TwiMaster$Rate,boolean)
+ioio.lib.impl.IOIOImpl: ioio.lib.api.IcspMaster openIcspMaster()
+ioio.lib.impl.IOIOImpl: ioio.lib.api.SpiMaster openSpiMaster(int,int,int,int,ioio.lib.api.SpiMaster$Rate)
+ioio.lib.impl.IOIOImpl: ioio.lib.api.SpiMaster openSpiMaster(int,int,int,int[],ioio.lib.api.SpiMaster$Rate)
+ioio.lib.impl.IOIOImpl: ioio.lib.api.SpiMaster openSpiMaster(ioio.lib.api.DigitalInput$Spec,ioio.lib.api.DigitalOutput$Spec,ioio.lib.api.DigitalOutput$Spec,ioio.lib.api.DigitalOutput$Spec[],ioio.lib.api.SpiMaster$Config)
+ioio.lib.impl.IOIOImpl: ioio.lib.api.PulseInput openPulseInput(ioio.lib.api.DigitalInput$Spec,ioio.lib.api.PulseInput$ClockRate,ioio.lib.api.PulseInput$PulseMode,boolean)
+ioio.lib.impl.IOIOImpl: ioio.lib.api.PulseInput openPulseInput(int,ioio.lib.api.PulseInput$PulseMode)
+ioio.lib.impl.IOIOImpl: void checkPinFree(int)
+ioio.lib.impl.IOIOImpl: void checkTwiFree(int)
+ioio.lib.impl.IOIOImpl: void checkIcspFree()
+ioio.lib.impl.IOIOImpl: void checkState()
+ioio.lib.impl.IOIOImpl: void beginBatch()
+ioio.lib.impl.IOIOImpl: void endBatch()
+ioio.lib.impl.IOIOImpl: void <clinit>()
+ioio.lib.impl.IOIOImpl$1: int[] $SwitchMap$ioio$lib$api$IOIO$VersionType
+ioio.lib.impl.IOIOImpl$1: void <clinit>()
+ioio.lib.impl.IOIOProtocol: int HARD_RESET
+ioio.lib.impl.IOIOProtocol: int ESTABLISH_CONNECTION
+ioio.lib.impl.IOIOProtocol: int SOFT_RESET
+ioio.lib.impl.IOIOProtocol: int CHECK_INTERFACE
+ioio.lib.impl.IOIOProtocol: int CHECK_INTERFACE_RESPONSE
+ioio.lib.impl.IOIOProtocol: int SET_PIN_DIGITAL_OUT
+ioio.lib.impl.IOIOProtocol: int SET_DIGITAL_OUT_LEVEL
+ioio.lib.impl.IOIOProtocol: int REPORT_DIGITAL_IN_STATUS
+ioio.lib.impl.IOIOProtocol: int SET_PIN_DIGITAL_IN
+ioio.lib.impl.IOIOProtocol: int REPORT_PERIODIC_DIGITAL_IN_STATUS
+ioio.lib.impl.IOIOProtocol: int SET_CHANGE_NOTIFY
+ioio.lib.impl.IOIOProtocol: int REGISTER_PERIODIC_DIGITAL_SAMPLING
+ioio.lib.impl.IOIOProtocol: int SET_PIN_PWM
+ioio.lib.impl.IOIOProtocol: int SET_PWM_DUTY_CYCLE
+ioio.lib.impl.IOIOProtocol: int SET_PWM_PERIOD
+ioio.lib.impl.IOIOProtocol: int SET_PIN_ANALOG_IN
+ioio.lib.impl.IOIOProtocol: int REPORT_ANALOG_IN_STATUS
+ioio.lib.impl.IOIOProtocol: int SET_ANALOG_IN_SAMPLING
+ioio.lib.impl.IOIOProtocol: int REPORT_ANALOG_IN_FORMAT
+ioio.lib.impl.IOIOProtocol: int UART_CONFIG
+ioio.lib.impl.IOIOProtocol: int UART_STATUS
+ioio.lib.impl.IOIOProtocol: int UART_DATA
+ioio.lib.impl.IOIOProtocol: int SET_PIN_UART
+ioio.lib.impl.IOIOProtocol: int UART_REPORT_TX_STATUS
+ioio.lib.impl.IOIOProtocol: int SPI_CONFIGURE_MASTER
+ioio.lib.impl.IOIOProtocol: int SPI_STATUS
+ioio.lib.impl.IOIOProtocol: int SPI_MASTER_REQUEST
+ioio.lib.impl.IOIOProtocol: int SPI_DATA
+ioio.lib.impl.IOIOProtocol: int SET_PIN_SPI
+ioio.lib.impl.IOIOProtocol: int SPI_REPORT_TX_STATUS
+ioio.lib.impl.IOIOProtocol: int I2C_CONFIGURE_MASTER
+ioio.lib.impl.IOIOProtocol: int I2C_STATUS
+ioio.lib.impl.IOIOProtocol: int I2C_WRITE_READ
+ioio.lib.impl.IOIOProtocol: int I2C_RESULT
+ioio.lib.impl.IOIOProtocol: int I2C_REPORT_TX_STATUS
+ioio.lib.impl.IOIOProtocol: int ICSP_SIX
+ioio.lib.impl.IOIOProtocol: int ICSP_REPORT_RX_STATUS
+ioio.lib.impl.IOIOProtocol: int ICSP_REGOUT
+ioio.lib.impl.IOIOProtocol: int ICSP_RESULT
+ioio.lib.impl.IOIOProtocol: int ICSP_PROG_ENTER
+ioio.lib.impl.IOIOProtocol: int ICSP_PROG_EXIT
+ioio.lib.impl.IOIOProtocol: int ICSP_CONFIG
+ioio.lib.impl.IOIOProtocol: int INCAP_CONFIGURE
+ioio.lib.impl.IOIOProtocol: int INCAP_STATUS
+ioio.lib.impl.IOIOProtocol: int SET_PIN_INCAP
+ioio.lib.impl.IOIOProtocol: int INCAP_REPORT
+ioio.lib.impl.IOIOProtocol: int SOFT_CLOSE
+ioio.lib.impl.IOIOProtocol: int[] SCALE_DIV
+ioio.lib.impl.IOIOProtocol: java.lang.String TAG
+ioio.lib.impl.IOIOProtocol: byte[] outbuf_
+ioio.lib.impl.IOIOProtocol: int pos_
+ioio.lib.impl.IOIOProtocol: int batchCounter_
+ioio.lib.impl.IOIOProtocol: java.io.InputStream in_
+ioio.lib.impl.IOIOProtocol: java.io.OutputStream out_
+ioio.lib.impl.IOIOProtocol: ioio.lib.impl.IOIOProtocol$IncomingHandler handler_
+ioio.lib.impl.IOIOProtocol: ioio.lib.impl.IOIOProtocol$IncomingThread thread_
+ioio.lib.impl.IOIOProtocol: boolean $assertionsDisabled
+ioio.lib.impl.IOIOProtocol: void writeByte(int)
+ioio.lib.impl.IOIOProtocol: void beginBatch()
+ioio.lib.impl.IOIOProtocol: void endBatch()
+ioio.lib.impl.IOIOProtocol: void flush()
+ioio.lib.impl.IOIOProtocol: void writeTwoBytes(int)
+ioio.lib.impl.IOIOProtocol: void writeThreeBytes(int)
+ioio.lib.impl.IOIOProtocol: void hardReset()
+ioio.lib.impl.IOIOProtocol: void softReset()
+ioio.lib.impl.IOIOProtocol: void softClose()
+ioio.lib.impl.IOIOProtocol: void checkInterface(byte[])
+ioio.lib.impl.IOIOProtocol: void setDigitalOutLevel(int,boolean)
+ioio.lib.impl.IOIOProtocol: void setPinPwm(int,int,boolean)
+ioio.lib.impl.IOIOProtocol: void setPwmDutyCycle(int,int,int)
+ioio.lib.impl.IOIOProtocol: void setPwmPeriod(int,int,ioio.lib.impl.IOIOProtocol$PwmScale)
+ioio.lib.impl.IOIOProtocol: void setPinIncap(int,int,boolean)
+ioio.lib.impl.IOIOProtocol: void incapClose(int)
+ioio.lib.impl.IOIOProtocol: void incapConfigure(int,boolean,int,int)
+ioio.lib.impl.IOIOProtocol: void i2cWriteRead(int,boolean,int,int,int,byte[])
+ioio.lib.impl.IOIOProtocol: void setPinDigitalOut(int,boolean,ioio.lib.api.DigitalOutput$Spec$Mode)
+ioio.lib.impl.IOIOProtocol: void setPinDigitalIn(int,ioio.lib.api.DigitalInput$Spec$Mode)
+ioio.lib.impl.IOIOProtocol: void setChangeNotify(int,boolean)
+ioio.lib.impl.IOIOProtocol: void registerPeriodicDigitalSampling(int,int)
+ioio.lib.impl.IOIOProtocol: void setPinAnalogIn(int)
+ioio.lib.impl.IOIOProtocol: void setAnalogInSampling(int,boolean)
+ioio.lib.impl.IOIOProtocol: void uartData(int,int,byte[])
+ioio.lib.impl.IOIOProtocol: void uartConfigure(int,int,boolean,ioio.lib.api.Uart$StopBits,ioio.lib.api.Uart$Parity)
+ioio.lib.impl.IOIOProtocol: void uartClose(int)
+ioio.lib.impl.IOIOProtocol: void setPinUart(int,int,boolean,boolean)
+ioio.lib.impl.IOIOProtocol: void spiConfigureMaster(int,ioio.lib.api.SpiMaster$Config)
+ioio.lib.impl.IOIOProtocol: void spiClose(int)
+ioio.lib.impl.IOIOProtocol: void setPinSpi(int,int,boolean,int)
+ioio.lib.impl.IOIOProtocol: void spiMasterRequest(int,int,byte[],int,int,int)
+ioio.lib.impl.IOIOProtocol: void i2cConfigureMaster(int,ioio.lib.api.TwiMaster$Rate,boolean)
+ioio.lib.impl.IOIOProtocol: void i2cClose(int)
+ioio.lib.impl.IOIOProtocol: void icspOpen()
+ioio.lib.impl.IOIOProtocol: void icspClose()
+ioio.lib.impl.IOIOProtocol: void icspEnter()
+ioio.lib.impl.IOIOProtocol: void icspExit()
+ioio.lib.impl.IOIOProtocol: void icspSix(int)
+ioio.lib.impl.IOIOProtocol: void icspRegout()
+ioio.lib.impl.IOIOProtocol: IOIOProtocol(java.io.InputStream,java.io.OutputStream,ioio.lib.impl.IOIOProtocol$IncomingHandler)
+ioio.lib.impl.IOIOProtocol: java.io.InputStream access$100(ioio.lib.impl.IOIOProtocol)
+ioio.lib.impl.IOIOProtocol: ioio.lib.impl.IOIOProtocol$IncomingHandler access$200(ioio.lib.impl.IOIOProtocol)
+ioio.lib.impl.IOIOProtocol: void <clinit>()
+ioio.lib.impl.IOIOProtocol$IncomingHandler
+ioio.lib.impl.IOIOProtocol$IncomingHandler: void handleEstablishConnection(byte[],byte[],byte[])
+ioio.lib.impl.IOIOProtocol$IncomingHandler: void handleConnectionLost()
+ioio.lib.impl.IOIOProtocol$IncomingHandler: void handleSoftReset()
+ioio.lib.impl.IOIOProtocol$IncomingHandler: void handleCheckInterfaceResponse(boolean)
+ioio.lib.impl.IOIOProtocol$IncomingHandler: void handleSetChangeNotify(int,boolean)
+ioio.lib.impl.IOIOProtocol$IncomingHandler: void handleReportDigitalInStatus(int,boolean)
+ioio.lib.impl.IOIOProtocol$IncomingHandler: void handleRegisterPeriodicDigitalSampling(int,int)
+ioio.lib.impl.IOIOProtocol$IncomingHandler: void handleReportPeriodicDigitalInStatus(int,boolean[])
+ioio.lib.impl.IOIOProtocol$IncomingHandler: void handleAnalogPinStatus(int,boolean)
+ioio.lib.impl.IOIOProtocol$IncomingHandler: void handleReportAnalogInStatus(int[],int[])
+ioio.lib.impl.IOIOProtocol$IncomingHandler: void handleUartOpen(int)
+ioio.lib.impl.IOIOProtocol$IncomingHandler: void handleUartClose(int)
+ioio.lib.impl.IOIOProtocol$IncomingHandler: void handleUartData(int,int,byte[])
+ioio.lib.impl.IOIOProtocol$IncomingHandler: void handleUartReportTxStatus(int,int)
+ioio.lib.impl.IOIOProtocol$IncomingHandler: void handleSpiOpen(int)
+ioio.lib.impl.IOIOProtocol$IncomingHandler: void handleSpiClose(int)
+ioio.lib.impl.IOIOProtocol$IncomingHandler: void handleSpiData(int,int,byte[],int)
+ioio.lib.impl.IOIOProtocol$IncomingHandler: void handleSpiReportTxStatus(int,int)
+ioio.lib.impl.IOIOProtocol$IncomingHandler: void handleI2cOpen(int)
+ioio.lib.impl.IOIOProtocol$IncomingHandler: void handleI2cClose(int)
+ioio.lib.impl.IOIOProtocol$IncomingHandler: void handleI2cResult(int,int,byte[])
+ioio.lib.impl.IOIOProtocol$IncomingHandler: void handleI2cReportTxStatus(int,int)
+ioio.lib.impl.IOIOProtocol$IncomingHandler: void handleIcspOpen()
+ioio.lib.impl.IOIOProtocol$IncomingHandler: void handleIcspClose()
+ioio.lib.impl.IOIOProtocol$IncomingHandler: void handleIcspReportRxStatus(int)
+ioio.lib.impl.IOIOProtocol$IncomingHandler: void handleIcspResult(int,byte[])
+ioio.lib.impl.IOIOProtocol$IncomingHandler: void handleIncapReport(int,int,byte[])
+ioio.lib.impl.IOIOProtocol$IncomingHandler: void handleIncapClose(int)
+ioio.lib.impl.IOIOProtocol$IncomingHandler: void handleIncapOpen(int)
+ioio.lib.impl.IOIOProtocol$IncomingThread: int readOffset_
+ioio.lib.impl.IOIOProtocol$IncomingThread: int validBytes_
+ioio.lib.impl.IOIOProtocol$IncomingThread: byte[] inbuf_
+ioio.lib.impl.IOIOProtocol$IncomingThread: int[] analogFramePins_
+ioio.lib.impl.IOIOProtocol$IncomingThread: java.util.Set removedPins_
+ioio.lib.impl.IOIOProtocol$IncomingThread: java.util.Set addedPins_
+ioio.lib.impl.IOIOProtocol$IncomingThread: ioio.lib.impl.IOIOProtocol this$0
+ioio.lib.impl.IOIOProtocol$IncomingThread: IOIOProtocol$IncomingThread(ioio.lib.impl.IOIOProtocol)
+ioio.lib.impl.IOIOProtocol$IncomingThread: void findDelta(int[])
+ioio.lib.impl.IOIOProtocol$IncomingThread: void fillBuf()
+ioio.lib.impl.IOIOProtocol$IncomingThread: int readByte()
+ioio.lib.impl.IOIOProtocol$IncomingThread: void readBytes(int,byte[])
+ioio.lib.impl.IOIOProtocol$IncomingThread: void run()
+ioio.lib.impl.IOIOProtocol$PwmScale: ioio.lib.impl.IOIOProtocol$PwmScale SCALE_1X
+ioio.lib.impl.IOIOProtocol$PwmScale: ioio.lib.impl.IOIOProtocol$PwmScale SCALE_8X
+ioio.lib.impl.IOIOProtocol$PwmScale: ioio.lib.impl.IOIOProtocol$PwmScale SCALE_64X
+ioio.lib.impl.IOIOProtocol$PwmScale: ioio.lib.impl.IOIOProtocol$PwmScale SCALE_256X
+ioio.lib.impl.IOIOProtocol$PwmScale: int scale
+ioio.lib.impl.IOIOProtocol$PwmScale: int encoding
+ioio.lib.impl.IOIOProtocol$PwmScale: ioio.lib.impl.IOIOProtocol$PwmScale[] $VALUES
+ioio.lib.impl.IOIOProtocol$PwmScale: ioio.lib.impl.IOIOProtocol$PwmScale[] values()
+ioio.lib.impl.IOIOProtocol$PwmScale: ioio.lib.impl.IOIOProtocol$PwmScale valueOf(java.lang.String)
+ioio.lib.impl.IOIOProtocol$PwmScale: IOIOProtocol$PwmScale(java.lang.String,int,int,int)
+ioio.lib.impl.IOIOProtocol$PwmScale: int access$000(ioio.lib.impl.IOIOProtocol$PwmScale)
+ioio.lib.impl.IOIOProtocol$PwmScale: void <clinit>()
+ioio.lib.impl.IcspMasterImpl: java.util.Queue resultQueue_
+ioio.lib.impl.IcspMasterImpl: int rxRemaining_
+ioio.lib.impl.IcspMasterImpl: boolean $assertionsDisabled
+ioio.lib.impl.IcspMasterImpl: IcspMasterImpl(ioio.lib.impl.IOIOImpl)
+ioio.lib.impl.IcspMasterImpl: void dataReceived(byte[],int)
+ioio.lib.impl.IcspMasterImpl: void reportAdditionalBuffer(int)
+ioio.lib.impl.IcspMasterImpl: void enterProgramming()
+ioio.lib.impl.IcspMasterImpl: void exitProgramming()
+ioio.lib.impl.IcspMasterImpl: void executeInstruction(int)
+ioio.lib.impl.IcspMasterImpl: void readVisi()
+ioio.lib.impl.IcspMasterImpl: void close()
+ioio.lib.impl.IcspMasterImpl: void disconnected()
+ioio.lib.impl.IcspMasterImpl: int byteToInt(byte)
+ioio.lib.impl.IcspMasterImpl: int waitVisiResult()
+ioio.lib.impl.IcspMasterImpl: void <clinit>()
+ioio.lib.impl.IncapImpl: int MAX_QUEUE_LEN
+ioio.lib.impl.IncapImpl: ioio.lib.api.PulseInput$PulseMode mode_
+ioio.lib.impl.IncapImpl: int incapNum_
+ioio.lib.impl.IncapImpl: long lastDuration_
+ioio.lib.impl.IncapImpl: float timeBase_
+ioio.lib.impl.IncapImpl: boolean doublePrecision_
+ioio.lib.impl.IncapImpl: boolean valid_
+ioio.lib.impl.IncapImpl: java.util.Queue pulseQueue_
+ioio.lib.impl.IncapImpl: IncapImpl(ioio.lib.impl.IOIOImpl,ioio.lib.api.PulseInput$PulseMode,int,int,int,int,boolean)
+ioio.lib.impl.IncapImpl: float getFrequency()
+ioio.lib.impl.IncapImpl: float getDuration()
+ioio.lib.impl.IncapImpl: float waitPulseGetDuration()
+ioio.lib.impl.IncapImpl: void dataReceived(byte[],int)
+ioio.lib.impl.IncapImpl: long ByteArrayToLong(byte[],int)
+ioio.lib.impl.IncapImpl: void reportAdditionalBuffer(int)
+ioio.lib.impl.IncapImpl: void close()
+ioio.lib.impl.IncapImpl: void disconnected()
+ioio.lib.impl.IncomingState: ioio.lib.impl.IncomingState$InputPinState[] intputPinStates_
+ioio.lib.impl.IncomingState: ioio.lib.impl.IncomingState$DataModuleState[] uartStates_
+ioio.lib.impl.IncomingState: ioio.lib.impl.IncomingState$DataModuleState[] twiStates_
+ioio.lib.impl.IncomingState: ioio.lib.impl.IncomingState$DataModuleState[] spiStates_
+ioio.lib.impl.IncomingState: ioio.lib.impl.IncomingState$DataModuleState[] incapStates_
+ioio.lib.impl.IncomingState: ioio.lib.impl.IncomingState$DataModuleState icspState_
+ioio.lib.impl.IncomingState: java.util.Set disconnectListeners_
+ioio.lib.impl.IncomingState: ioio.lib.impl.IncomingState$ConnectionState connection_
+ioio.lib.impl.IncomingState: java.lang.String hardwareId_
+ioio.lib.impl.IncomingState: java.lang.String bootloaderId_
+ioio.lib.impl.IncomingState: java.lang.String firmwareId_
+ioio.lib.impl.IncomingState: boolean $assertionsDisabled
+ioio.lib.impl.IncomingState: IncomingState()
+ioio.lib.impl.IncomingState: void waitConnectionEstablished()
+ioio.lib.impl.IncomingState: boolean waitForInterfaceSupport()
+ioio.lib.impl.IncomingState: void waitDisconnect()
+ioio.lib.impl.IncomingState: void addInputPinListener(int,ioio.lib.impl.IncomingState$InputPinListener)
+ioio.lib.impl.IncomingState: void addUartListener(int,ioio.lib.impl.IncomingState$DataModuleListener)
+ioio.lib.impl.IncomingState: void addTwiListener(int,ioio.lib.impl.IncomingState$DataModuleListener)
+ioio.lib.impl.IncomingState: void addIncapListener(int,ioio.lib.impl.IncomingState$DataModuleListener)
+ioio.lib.impl.IncomingState: void addIcspListener(ioio.lib.impl.IncomingState$DataModuleListener)
+ioio.lib.impl.IncomingState: void addSpiListener(int,ioio.lib.impl.IncomingState$DataModuleListener)
+ioio.lib.impl.IncomingState: void addDisconnectListener(ioio.lib.impl.IncomingState$DisconnectListener)
+ioio.lib.impl.IncomingState: void removeDisconnectListener(ioio.lib.impl.IncomingState$DisconnectListener)
+ioio.lib.impl.IncomingState: void handleConnectionLost()
+ioio.lib.impl.IncomingState: void handleSoftReset()
+ioio.lib.impl.IncomingState: void handleCheckInterfaceResponse(boolean)
+ioio.lib.impl.IncomingState: void handleSetChangeNotify(int,boolean)
+ioio.lib.impl.IncomingState: void handleRegisterPeriodicDigitalSampling(int,int)
+ioio.lib.impl.IncomingState: void handleAnalogPinStatus(int,boolean)
+ioio.lib.impl.IncomingState: void handleUartData(int,int,byte[])
+ioio.lib.impl.IncomingState: void handleUartOpen(int)
+ioio.lib.impl.IncomingState: void handleUartClose(int)
+ioio.lib.impl.IncomingState: void handleSpiOpen(int)
+ioio.lib.impl.IncomingState: void handleSpiClose(int)
+ioio.lib.impl.IncomingState: void handleI2cOpen(int)
+ioio.lib.impl.IncomingState: void handleI2cClose(int)
+ioio.lib.impl.IncomingState: void handleIcspOpen()
+ioio.lib.impl.IncomingState: void handleIcspClose()
+ioio.lib.impl.IncomingState: void handleEstablishConnection(byte[],byte[],byte[])
+ioio.lib.impl.IncomingState: void handleUartReportTxStatus(int,int)
+ioio.lib.impl.IncomingState: void handleI2cReportTxStatus(int,int)
+ioio.lib.impl.IncomingState: void handleSpiData(int,int,byte[],int)
+ioio.lib.impl.IncomingState: void handleIcspReportRxStatus(int)
+ioio.lib.impl.IncomingState: void handleReportDigitalInStatus(int,boolean)
+ioio.lib.impl.IncomingState: void handleReportPeriodicDigitalInStatus(int,boolean[])
+ioio.lib.impl.IncomingState: void handleReportAnalogInStatus(int[],int[])
+ioio.lib.impl.IncomingState: void handleSpiReportTxStatus(int,int)
+ioio.lib.impl.IncomingState: void handleI2cResult(int,int,byte[])
+ioio.lib.impl.IncomingState: void handleIncapReport(int,int,byte[])
+ioio.lib.impl.IncomingState: void handleIncapClose(int)
+ioio.lib.impl.IncomingState: void handleIncapOpen(int)
+ioio.lib.impl.IncomingState: void handleIcspResult(int,byte[])
+ioio.lib.impl.IncomingState: void checkNotDisconnected()
+ioio.lib.impl.IncomingState: void <clinit>()
+ioio.lib.impl.IncomingState$ConnectionState: ioio.lib.impl.IncomingState$ConnectionState INIT
+ioio.lib.impl.IncomingState$ConnectionState: ioio.lib.impl.IncomingState$ConnectionState ESTABLISHED
+ioio.lib.impl.IncomingState$ConnectionState: ioio.lib.impl.IncomingState$ConnectionState CONNECTED
+ioio.lib.impl.IncomingState$ConnectionState: ioio.lib.impl.IncomingState$ConnectionState DISCONNECTED
+ioio.lib.impl.IncomingState$ConnectionState: ioio.lib.impl.IncomingState$ConnectionState UNSUPPORTED_IID
+ioio.lib.impl.IncomingState$ConnectionState: ioio.lib.impl.IncomingState$ConnectionState[] $VALUES
+ioio.lib.impl.IncomingState$ConnectionState: ioio.lib.impl.IncomingState$ConnectionState[] values()
+ioio.lib.impl.IncomingState$ConnectionState: ioio.lib.impl.IncomingState$ConnectionState valueOf(java.lang.String)
+ioio.lib.impl.IncomingState$ConnectionState: IncomingState$ConnectionState(java.lang.String,int)
+ioio.lib.impl.IncomingState$ConnectionState: void <clinit>()
+ioio.lib.impl.IncomingState$DataModuleListener: void dataReceived(byte[],int)
+ioio.lib.impl.IncomingState$DataModuleListener: void reportAdditionalBuffer(int)
+ioio.lib.impl.IncomingState$DataModuleState: java.util.Queue listeners_
+ioio.lib.impl.IncomingState$DataModuleState: boolean currentOpen_
+ioio.lib.impl.IncomingState$DataModuleState: boolean $assertionsDisabled
+ioio.lib.impl.IncomingState$DataModuleState: ioio.lib.impl.IncomingState this$0
+ioio.lib.impl.IncomingState$DataModuleState: IncomingState$DataModuleState(ioio.lib.impl.IncomingState)
+ioio.lib.impl.IncomingState$DataModuleState: void pushListener(ioio.lib.impl.IncomingState$DataModuleListener)
+ioio.lib.impl.IncomingState$DataModuleState: void closeCurrentListener()
+ioio.lib.impl.IncomingState$DataModuleState: void openNextListener()
+ioio.lib.impl.IncomingState$DataModuleState: void dataReceived(byte[],int)
+ioio.lib.impl.IncomingState$DataModuleState: void reportAdditionalBuffer(int)
+ioio.lib.impl.IncomingState$DataModuleState: void <clinit>()
+ioio.lib.impl.IncomingState$DisconnectListener: void disconnected()
+ioio.lib.impl.IncomingState$InputPinListener: void setValue(int)
+ioio.lib.impl.IncomingState$InputPinState: java.util.Queue listeners_
+ioio.lib.impl.IncomingState$InputPinState: boolean currentOpen_
+ioio.lib.impl.IncomingState$InputPinState: boolean $assertionsDisabled
+ioio.lib.impl.IncomingState$InputPinState: ioio.lib.impl.IncomingState this$0
+ioio.lib.impl.IncomingState$InputPinState: IncomingState$InputPinState(ioio.lib.impl.IncomingState)
+ioio.lib.impl.IncomingState$InputPinState: void pushListener(ioio.lib.impl.IncomingState$InputPinListener)
+ioio.lib.impl.IncomingState$InputPinState: void closeCurrentListener()
+ioio.lib.impl.IncomingState$InputPinState: void openNextListener()
+ioio.lib.impl.IncomingState$InputPinState: void setValue(int)
+ioio.lib.impl.IncomingState$InputPinState: void <clinit>()
+ioio.lib.impl.ModuleAllocator: java.util.Set availableModuleIds_
+ioio.lib.impl.ModuleAllocator: java.util.Set allocatedModuleIds_
+ioio.lib.impl.ModuleAllocator: java.lang.String name_
+ioio.lib.impl.ModuleAllocator: ModuleAllocator(java.util.Collection,java.lang.String)
+ioio.lib.impl.ModuleAllocator: ModuleAllocator(int[],java.lang.String)
+ioio.lib.impl.ModuleAllocator: ModuleAllocator(int,java.lang.String)
+ioio.lib.impl.ModuleAllocator: java.util.Collection getList(int)
+ioio.lib.impl.ModuleAllocator: java.util.Collection getList(int[])
+ioio.lib.impl.ModuleAllocator: java.lang.Integer allocateModule()
+ioio.lib.impl.ModuleAllocator: void releaseModule(int)
+ioio.lib.impl.PinFunctionMap: boolean[] PERIPHERAL_OUT
+ioio.lib.impl.PinFunctionMap: boolean[] PERIPHERAL_IN
+ioio.lib.impl.PinFunctionMap: PinFunctionMap()
+ioio.lib.impl.PinFunctionMap: void checkSupportsAnalogInput(int)
+ioio.lib.impl.PinFunctionMap: void checkSupportsPeripheralInput(int)
+ioio.lib.impl.PinFunctionMap: void checkSupportsPeripheralOutput(int)
+ioio.lib.impl.PinFunctionMap: void checkValidPin(int)
+ioio.lib.impl.PinFunctionMap: void <clinit>()
+ioio.lib.impl.PwmImpl: int pwmNum_
+ioio.lib.impl.PwmImpl: int pinNum_
+ioio.lib.impl.PwmImpl: float baseUs_
+ioio.lib.impl.PwmImpl: int period_
+ioio.lib.impl.PwmImpl: boolean $assertionsDisabled
+ioio.lib.impl.PwmImpl: PwmImpl(ioio.lib.impl.IOIOImpl,int,int,int,float)
+ioio.lib.impl.PwmImpl: void close()
+ioio.lib.impl.PwmImpl: void setDutyCycle(float)
+ioio.lib.impl.PwmImpl: void setPulseWidth(int)
+ioio.lib.impl.PwmImpl: void setPulseWidth(float)
+ioio.lib.impl.PwmImpl: void setPulseWidthInClocks(float)
+ioio.lib.impl.PwmImpl: void <clinit>()
+ioio.lib.impl.QueueInputStream: java.util.Queue queue_
+ioio.lib.impl.QueueInputStream: ioio.lib.impl.QueueInputStream$State state_
+ioio.lib.impl.QueueInputStream: QueueInputStream()
+ioio.lib.impl.QueueInputStream: int read()
+ioio.lib.impl.QueueInputStream: int read(byte[],int,int)
+ioio.lib.impl.QueueInputStream: void write(byte[],int)
+ioio.lib.impl.QueueInputStream: int available()
+ioio.lib.impl.QueueInputStream: void close()
+ioio.lib.impl.QueueInputStream: void kill()
+ioio.lib.impl.QueueInputStream$State: ioio.lib.impl.QueueInputStream$State OPEN
+ioio.lib.impl.QueueInputStream$State: ioio.lib.impl.QueueInputStream$State CLOSED
+ioio.lib.impl.QueueInputStream$State: ioio.lib.impl.QueueInputStream$State KILLED
+ioio.lib.impl.QueueInputStream$State: ioio.lib.impl.QueueInputStream$State[] $VALUES
+ioio.lib.impl.QueueInputStream$State: ioio.lib.impl.QueueInputStream$State[] values()
+ioio.lib.impl.QueueInputStream$State: ioio.lib.impl.QueueInputStream$State valueOf(java.lang.String)
+ioio.lib.impl.QueueInputStream$State: QueueInputStream$State(java.lang.String,int)
+ioio.lib.impl.QueueInputStream$State: void <clinit>()
+ioio.lib.impl.SpiMasterImpl: java.util.Queue pendingRequests_
+ioio.lib.impl.SpiMasterImpl: ioio.lib.impl.FlowControlledPacketSender outgoing_
+ioio.lib.impl.SpiMasterImpl: int spiNum_
+ioio.lib.impl.SpiMasterImpl: java.util.Map ssPinToIndex_
+ioio.lib.impl.SpiMasterImpl: int[] indexToSsPin_
+ioio.lib.impl.SpiMasterImpl: int mosiPinNum_
+ioio.lib.impl.SpiMasterImpl: int misoPinNum_
+ioio.lib.impl.SpiMasterImpl: int clkPinNum_
+ioio.lib.impl.SpiMasterImpl: SpiMasterImpl(ioio.lib.impl.IOIOImpl,int,int,int,int,int[])
+ioio.lib.impl.SpiMasterImpl: void disconnected()
+ioio.lib.impl.SpiMasterImpl: void writeRead(int,byte[],int,int,byte[],int)
+ioio.lib.impl.SpiMasterImpl: ioio.lib.impl.SpiMasterImpl$SpiResult writeReadAsync(int,byte[],int,int,byte[],int)
+ioio.lib.impl.SpiMasterImpl: void writeRead(byte[],int,int,byte[],int)
+ioio.lib.impl.SpiMasterImpl: void dataReceived(byte[],int)
+ioio.lib.impl.SpiMasterImpl: void reportAdditionalBuffer(int)
+ioio.lib.impl.SpiMasterImpl: void close()
+ioio.lib.impl.SpiMasterImpl: void send(ioio.lib.impl.FlowControlledPacketSender$Packet)
+ioio.lib.impl.SpiMasterImpl: ioio.lib.api.SpiMaster$Result writeReadAsync(int,byte[],int,int,byte[],int)
+ioio.lib.impl.SpiMasterImpl$OutgoingPacket: int writeSize_
+ioio.lib.impl.SpiMasterImpl$OutgoingPacket: byte[] writeData_
+ioio.lib.impl.SpiMasterImpl$OutgoingPacket: int ssPin_
+ioio.lib.impl.SpiMasterImpl$OutgoingPacket: int readSize_
+ioio.lib.impl.SpiMasterImpl$OutgoingPacket: int totalSize_
+ioio.lib.impl.SpiMasterImpl$OutgoingPacket: ioio.lib.impl.SpiMasterImpl this$0
+ioio.lib.impl.SpiMasterImpl$OutgoingPacket: SpiMasterImpl$OutgoingPacket(ioio.lib.impl.SpiMasterImpl)
+ioio.lib.impl.SpiMasterImpl$OutgoingPacket: int getSize()
+ioio.lib.impl.SpiMasterImpl$SpiResult
+ioio.lib.impl.SpiMasterImpl$SpiResult: boolean ready_
+ioio.lib.impl.SpiMasterImpl$SpiResult: byte[] data_
+ioio.lib.impl.SpiMasterImpl$SpiResult: ioio.lib.impl.SpiMasterImpl this$0
+ioio.lib.impl.SpiMasterImpl$SpiResult: SpiMasterImpl$SpiResult(ioio.lib.impl.SpiMasterImpl,byte[])
+ioio.lib.impl.SpiMasterImpl$SpiResult: void waitReady()
+ioio.lib.impl.TwiMasterImpl: java.util.Queue pendingRequests_
+ioio.lib.impl.TwiMasterImpl: ioio.lib.impl.FlowControlledPacketSender outgoing_
+ioio.lib.impl.TwiMasterImpl: int twiNum_
+ioio.lib.impl.TwiMasterImpl: TwiMasterImpl(ioio.lib.impl.IOIOImpl,int)
+ioio.lib.impl.TwiMasterImpl: void disconnected()
+ioio.lib.impl.TwiMasterImpl: boolean writeRead(int,boolean,byte[],int,byte[],int)
+ioio.lib.impl.TwiMasterImpl: ioio.lib.api.TwiMaster$Result writeReadAsync(int,boolean,byte[],int,byte[],int)
+ioio.lib.impl.TwiMasterImpl: void dataReceived(byte[],int)
+ioio.lib.impl.TwiMasterImpl: void reportAdditionalBuffer(int)
+ioio.lib.impl.TwiMasterImpl: void close()
+ioio.lib.impl.TwiMasterImpl: void send(ioio.lib.impl.FlowControlledPacketSender$Packet)
+ioio.lib.impl.TwiMasterImpl$OutgoingPacket: int writeSize_
+ioio.lib.impl.TwiMasterImpl$OutgoingPacket: byte[] writeData_
+ioio.lib.impl.TwiMasterImpl$OutgoingPacket: boolean tenBitAddr_
+ioio.lib.impl.TwiMasterImpl$OutgoingPacket: int addr_
+ioio.lib.impl.TwiMasterImpl$OutgoingPacket: int readSize_
+ioio.lib.impl.TwiMasterImpl$OutgoingPacket: ioio.lib.impl.TwiMasterImpl this$0
+ioio.lib.impl.TwiMasterImpl$OutgoingPacket: TwiMasterImpl$OutgoingPacket(ioio.lib.impl.TwiMasterImpl)
+ioio.lib.impl.TwiMasterImpl$OutgoingPacket: int getSize()
+ioio.lib.impl.TwiMasterImpl$TwiResult: boolean ready_
+ioio.lib.impl.TwiMasterImpl$TwiResult: boolean success_
+ioio.lib.impl.TwiMasterImpl$TwiResult: byte[] data_
+ioio.lib.impl.TwiMasterImpl$TwiResult: ioio.lib.impl.TwiMasterImpl this$0
+ioio.lib.impl.TwiMasterImpl$TwiResult: TwiMasterImpl$TwiResult(ioio.lib.impl.TwiMasterImpl,byte[])
+ioio.lib.impl.TwiMasterImpl$TwiResult: boolean waitReady()
+ioio.lib.impl.UartImpl: int MAX_PACKET
+ioio.lib.impl.UartImpl: int uartNum_
+ioio.lib.impl.UartImpl: int rxPinNum_
+ioio.lib.impl.UartImpl: int txPinNum_
+ioio.lib.impl.UartImpl: ioio.lib.impl.FlowControlledOutputStream outgoing_
+ioio.lib.impl.UartImpl: ioio.lib.impl.QueueInputStream incoming_
+ioio.lib.impl.UartImpl: UartImpl(ioio.lib.impl.IOIOImpl,int,int,int)
+ioio.lib.impl.UartImpl: void dataReceived(byte[],int)
+ioio.lib.impl.UartImpl: void send(byte[],int)
+ioio.lib.impl.UartImpl: void close()
+ioio.lib.impl.UartImpl: void disconnected()
+ioio.lib.impl.UartImpl: java.io.InputStream getInputStream()
+ioio.lib.impl.UartImpl: java.io.OutputStream getOutputStream()
+ioio.lib.impl.UartImpl: void reportAdditionalBuffer(int)
+ioio.lib.spi.IOIOConnectionBootstrap
+ioio.lib.spi.IOIOConnectionBootstrap: void getFactories(java.util.Collection)
+ioio.lib.spi.IOIOConnectionFactory
+ioio.lib.spi.IOIOConnectionFactory: java.lang.String getType()
+ioio.lib.spi.IOIOConnectionFactory: java.lang.Object getExtra()
+ioio.lib.spi.IOIOConnectionFactory: ioio.lib.api.IOIOConnection createConnection()
+ioio.lib.spi.NoRuntimeSupportException
+ioio.lib.spi.NoRuntimeSupportException: long serialVersionUID
+ioio.lib.spi.NoRuntimeSupportException: NoRuntimeSupportException(java.lang.String)
+ioio.lib.util.BaseIOIOLooper
+ioio.lib.util.BaseIOIOLooper: ioio.lib.api.IOIO ioio_
+ioio.lib.util.BaseIOIOLooper: BaseIOIOLooper()
+ioio.lib.util.BaseIOIOLooper: void setup(ioio.lib.api.IOIO)
+ioio.lib.util.BaseIOIOLooper: void setup()
+ioio.lib.util.BaseIOIOLooper: void loop()
+ioio.lib.util.BaseIOIOLooper: void disconnected()
+ioio.lib.util.BaseIOIOLooper: void incompatible()
+ioio.lib.util.IOIOApplicationHelper
+ioio.lib.util.IOIOApplicationHelper: java.lang.String TAG
+ioio.lib.util.IOIOApplicationHelper: ioio.lib.util.IOIOLooperProvider looperProvider_
+ioio.lib.util.IOIOApplicationHelper: java.util.Collection threads_
+ioio.lib.util.IOIOApplicationHelper: java.util.Collection bootstraps_
+ioio.lib.util.IOIOApplicationHelper: IOIOApplicationHelper(ioio.lib.util.IOIOLooperProvider)
+ioio.lib.util.IOIOApplicationHelper: void abortAllThreads()
+ioio.lib.util.IOIOApplicationHelper: void joinAllThreads()
+ioio.lib.util.IOIOApplicationHelper: void createAllThreads()
+ioio.lib.util.IOIOApplicationHelper: void startAllThreads()
+ioio.lib.util.IOIOApplicationHelper: void start()
+ioio.lib.util.IOIOApplicationHelper: void stop()
+ioio.lib.util.IOIOApplicationHelper$IOIOThread: ioio.lib.api.IOIO ioio_
+ioio.lib.util.IOIOApplicationHelper$IOIOThread: boolean abort_
+ioio.lib.util.IOIOApplicationHelper$IOIOThread: boolean connected_
+ioio.lib.util.IOIOApplicationHelper$IOIOThread: ioio.lib.util.IOIOLooper looper_
+ioio.lib.util.IOIOApplicationHelper$IOIOThread: ioio.lib.spi.IOIOConnectionFactory connectionFactory_
+ioio.lib.util.IOIOApplicationHelper$IOIOThread: IOIOApplicationHelper$IOIOThread(ioio.lib.util.IOIOLooper,ioio.lib.spi.IOIOConnectionFactory)
+ioio.lib.util.IOIOApplicationHelper$IOIOThread: void run()
+ioio.lib.util.IOIOApplicationHelper$IOIOThread: void abort()
+ioio.lib.util.IOIOConnectionRegistry
+ioio.lib.util.IOIOConnectionRegistry: java.lang.String TAG
+ioio.lib.util.IOIOConnectionRegistry: java.util.Collection bootstraps_
+ioio.lib.util.IOIOConnectionRegistry: IOIOConnectionRegistry()
+ioio.lib.util.IOIOConnectionRegistry: java.util.Collection getConnectionFactories()
+ioio.lib.util.IOIOConnectionRegistry: java.util.Collection getBootstraps()
+ioio.lib.util.IOIOConnectionRegistry: void addBootstraps(java.lang.String[])
+ioio.lib.util.IOIOConnectionRegistry: void addBootstrap(java.lang.String)
+ioio.lib.util.IOIOConnectionRegistry: void <clinit>()
+ioio.lib.util.IOIOLooper
+ioio.lib.util.IOIOLooper: void setup(ioio.lib.api.IOIO)
+ioio.lib.util.IOIOLooper: void loop()
+ioio.lib.util.IOIOLooper: void disconnected()
+ioio.lib.util.IOIOLooper: void incompatible()
+ioio.lib.util.IOIOLooperProvider
+ioio.lib.util.IOIOLooperProvider: ioio.lib.util.IOIOLooper createIOIOLooper(java.lang.String,java.lang.Object)
+ioio.lib.util.android.ContextWrapperDependent
+ioio.lib.util.android.ContextWrapperDependent: void onCreate(android.content.ContextWrapper)
+ioio.lib.util.android.ContextWrapperDependent: void onDestroy()
+ioio.lib.util.android.ContextWrapperDependent: void open()
+ioio.lib.util.android.ContextWrapperDependent: void reopen()
+ioio.lib.util.android.ContextWrapperDependent: void close()
+ioio.lib.util.android.IOIOAndroidApplicationHelper
+ioio.lib.util.android.IOIOAndroidApplicationHelper: android.content.ContextWrapper contextWrapper_
+ioio.lib.util.android.IOIOAndroidApplicationHelper: IOIOAndroidApplicationHelper(android.content.ContextWrapper,ioio.lib.util.IOIOLooperProvider)
+ioio.lib.util.android.IOIOAndroidApplicationHelper: void create()
+ioio.lib.util.android.IOIOAndroidApplicationHelper: void destroy()
+ioio.lib.util.android.IOIOAndroidApplicationHelper: void start()
+ioio.lib.util.android.IOIOAndroidApplicationHelper: void stop()
+ioio.lib.util.android.IOIOAndroidApplicationHelper: void restart()
+ioio.lib.util.android.IOIOAndroidApplicationHelper: void <clinit>()
+org.acra.CrashReportDialog
+org.acra.ReportField: org.acra.ReportField[] values()
+org.acra.ReportField: org.acra.ReportField valueOf(java.lang.String)
+org.acra.ReportingInteractionMode: org.acra.ReportingInteractionMode[] values()
+org.acra.ReportingInteractionMode: org.acra.ReportingInteractionMode valueOf(java.lang.String)
+org.apache.commons.codec.language.bm.NameType: org.apache.commons.codec.language.bm.NameType[] values()
+org.apache.commons.codec.language.bm.NameType: org.apache.commons.codec.language.bm.NameType valueOf(java.lang.String)
+org.apache.commons.codec.language.bm.RuleType: org.apache.commons.codec.language.bm.RuleType[] values()
+org.apache.commons.codec.language.bm.RuleType: org.apache.commons.codec.language.bm.RuleType valueOf(java.lang.String)
+org.apache.commons.io.IOCase: org.apache.commons.io.IOCase[] values()
+org.apache.commons.io.IOCase: org.apache.commons.io.IOCase valueOf(java.lang.String)
+org.apache.http.auth.AuthProtocolState: org.apache.http.auth.AuthProtocolState[] values()
+org.apache.http.auth.AuthProtocolState: org.apache.http.auth.AuthProtocolState valueOf(java.lang.String)
+org.apache.http.auth.ChallengeState: org.apache.http.auth.ChallengeState[] values()
+org.apache.http.auth.ChallengeState: org.apache.http.auth.ChallengeState valueOf(java.lang.String)
+org.apache.http.client.cache.CacheResponseStatus: org.apache.http.client.cache.CacheResponseStatus[] values()
+org.apache.http.client.cache.CacheResponseStatus: org.apache.http.client.cache.CacheResponseStatus valueOf(java.lang.String)
+org.apache.http.conn.routing.RouteInfo$LayerType: org.apache.http.conn.routing.RouteInfo$LayerType[] values()
+org.apache.http.conn.routing.RouteInfo$LayerType: org.apache.http.conn.routing.RouteInfo$LayerType valueOf(java.lang.String)
+org.apache.http.conn.routing.RouteInfo$TunnelType: org.apache.http.conn.routing.RouteInfo$TunnelType[] values()
+org.apache.http.conn.routing.RouteInfo$TunnelType: org.apache.http.conn.routing.RouteInfo$TunnelType valueOf(java.lang.String)
+org.apache.http.entity.mime.HttpMultipartMode: org.apache.http.entity.mime.HttpMultipartMode[] values()
+org.apache.http.entity.mime.HttpMultipartMode: org.apache.http.entity.mime.HttpMultipartMode valueOf(java.lang.String)
+org.apache.http.impl.auth.GGSSchemeBase$State: org.apache.http.impl.auth.GGSSchemeBase$State[] values()
+org.apache.http.impl.auth.GGSSchemeBase$State: org.apache.http.impl.auth.GGSSchemeBase$State valueOf(java.lang.String)
+org.apache.http.impl.auth.NTLMScheme$State: org.apache.http.impl.auth.NTLMScheme$State[] values()
+org.apache.http.impl.auth.NTLMScheme$State: org.apache.http.impl.auth.NTLMScheme$State valueOf(java.lang.String)
+org.apache.http.impl.client.cache.RequestProtocolError: org.apache.http.impl.client.cache.RequestProtocolError[] values()
+org.apache.http.impl.client.cache.RequestProtocolError: org.apache.http.impl.client.cache.RequestProtocolError valueOf(java.lang.String)
+pl.llp.aircasting.BuildConfig: BuildConfig()
+pl.llp.aircasting.IOTExtension.BatteryReader: void onEvent(pl.llp.aircasting.IOTExtension.IOTToggleAirCastingEvent)
+pl.llp.aircasting.IOTExtension.ClientController: void onEvent(pl.llp.aircasting.IOTExtension.SendDataToServerEvent)
+pl.llp.aircasting.IOTExtension.ExtendedSensorService
+pl.llp.aircasting.IOTExtension.ExtendedSensorService: com.google.common.eventbus.EventBus eventBus
+pl.llp.aircasting.IOTExtension.ExtendedSensorService: pl.llp.aircasting.storage.repository.SessionRepository sessionRepository
+pl.llp.aircasting.IOTExtension.ExtendedSensorService: pl.llp.aircasting.model.SessionManager sessionManager
+pl.llp.aircasting.IOTExtension.ExtendedSensorService: pl.llp.aircasting.api.SyncDriver syncDriver
+pl.llp.aircasting.IOTExtension.ExtendedSensorService: pl.llp.aircasting.IOTExtension.SendDataToServerManager dataToServerManager
+pl.llp.aircasting.IOTExtension.ExtendedSensorService: pl.llp.aircasting.model.SensorManager sensorManager
+pl.llp.aircasting.IOTExtension.ExtendedSensorService: ExtendedSensorService()
+pl.llp.aircasting.IOTExtension.ExtendedSensorService: void onEvent(pl.llp.aircasting.IOTExtension.UserStopSensingEvent)
+pl.llp.aircasting.IOTExtension.ExtendedSensorService: void onEvent(pl.llp.aircasting.IOTExtension.IOTServerCommandEvent)
+pl.llp.aircasting.IOTExtension.IOTSensor: IOTSensor()
+pl.llp.aircasting.IOTExtension.IOTToggleAirCastingEvent: IOTToggleAirCastingEvent()
+pl.llp.aircasting.IOTExtension.KeepAliveData: pl.llp.aircasting.model.SensorManager sensorManager
+pl.llp.aircasting.IOTExtension.KeepAliveData: java.lang.String IMEI
+pl.llp.aircasting.IOTExtension.KeepAliveData: int batteryLife
+pl.llp.aircasting.IOTExtension.KeepAliveData: boolean keepAliveStatus
+pl.llp.aircasting.IOTExtension.KeepAliveData: double lon
+pl.llp.aircasting.IOTExtension.KeepAliveData: double lat
+pl.llp.aircasting.IOTExtension.KeepAliveData: java.lang.String ip
+pl.llp.aircasting.IOTExtension.KeepAliveData: double noise
+pl.llp.aircasting.IOTExtension.KeepAliveData: boolean isData
+pl.llp.aircasting.IOTExtension.KeepAliveData: java.util.List sensors
+pl.llp.aircasting.IOTExtension.KeepAliveData: KeepAliveData()
+pl.llp.aircasting.IOTExtension.KeepAliveService
+pl.llp.aircasting.IOTExtension.KeepAliveService: com.google.gson.Gson gson
+pl.llp.aircasting.IOTExtension.KeepAliveService: pl.llp.aircasting.IOTExtension.ServerConnectionManager connManager
+pl.llp.aircasting.IOTExtension.KeepAliveService: pl.llp.aircasting.helper.LocationHelper locationHelper
+pl.llp.aircasting.IOTExtension.KeepAliveService: android.content.Context context
+pl.llp.aircasting.IOTExtension.KeepAliveService: pl.llp.aircasting.helper.SettingsHelper helper
+pl.llp.aircasting.IOTExtension.KeepAliveService: com.google.common.eventbus.EventBus eventBus
+pl.llp.aircasting.IOTExtension.KeepAliveService: pl.llp.aircasting.model.SensorManager sensorManager
+pl.llp.aircasting.IOTExtension.KeepAliveService: KeepAliveService()
+pl.llp.aircasting.IOTExtension.KeepAliveService: void onEvent(pl.llp.aircasting.model.events.SensorEvent)
+pl.llp.aircasting.IOTExtension.SendDataToServerManager: pl.llp.aircasting.IOTExtension.ServerConnectionManager connectionManager
+pl.llp.aircasting.IOTExtension.SendDataToServerManager: pl.llp.aircasting.storage.repository.SessionRepository sessionRepository
+pl.llp.aircasting.IOTExtension.SendDataToServerManager: com.google.gson.Gson gson
+pl.llp.aircasting.IOTExtension.SendDataToServerManager: pl.llp.aircasting.helper.GZIPHelper gziphelper
+pl.llp.aircasting.IOTExtension.SendDataToServerManager: SendDataToServerManager()
+pl.llp.aircasting.IOTExtension.ServerConnectionManager: pl.llp.aircasting.helper.SettingsHelper helper
+pl.llp.aircasting.IOTExtension.ServerConnectionManager: com.google.common.eventbus.EventBus eventBus
+pl.llp.aircasting.IOTExtension.ServerConnectionManager: ServerConnectionManager()
+pl.llp.aircasting.IOTExtension.UserStopSensingEvent: UserStopSensingEvent()
+pl.llp.aircasting.Intents: Intents()
+pl.llp.aircasting.MarkerColor: pl.llp.aircasting.MarkerColor[] values()
+pl.llp.aircasting.MarkerColor: pl.llp.aircasting.MarkerColor valueOf(java.lang.String)
+pl.llp.aircasting.MarkerSize: pl.llp.aircasting.MarkerSize[] values()
+pl.llp.aircasting.MarkerSize: pl.llp.aircasting.MarkerSize valueOf(java.lang.String)
+pl.llp.aircasting.R: R()
+pl.llp.aircasting.R$anim: R$anim()
+pl.llp.aircasting.R$attr: R$attr()
+pl.llp.aircasting.R$color: R$color()
+pl.llp.aircasting.R$dimen: R$dimen()
+pl.llp.aircasting.R$drawable: R$drawable()
+pl.llp.aircasting.R$id: R$id()
+pl.llp.aircasting.R$layout: R$layout()
+pl.llp.aircasting.R$menu: R$menu()
+pl.llp.aircasting.R$string: R$string()
+pl.llp.aircasting.R$style: R$style()
+pl.llp.aircasting.R$styleable: R$styleable()
+pl.llp.aircasting.R$xml: R$xml()
+pl.llp.aircasting.activity.AboutActivity
+pl.llp.aircasting.activity.AboutActivity: pl.llp.aircasting.activity.menu.MainMenu mainMenu
+pl.llp.aircasting.activity.AboutActivity: android.view.LayoutInflater layoutInflater
+pl.llp.aircasting.activity.AboutActivity: pl.llp.aircasting.receiver.SyncBroadcastReceiver syncBroadcastReceiver
+pl.llp.aircasting.activity.AboutActivity: AboutActivity()
+pl.llp.aircasting.activity.AirCastingActivity
+pl.llp.aircasting.activity.AirCastingActivity: pl.llp.aircasting.helper.SelectSensorHelper selectSensorHelper
+pl.llp.aircasting.activity.AirCastingActivity: pl.llp.aircasting.helper.ResourceHelper resourceHelper
+pl.llp.aircasting.activity.AirCastingActivity: pl.llp.aircasting.model.SensorManager sensorManager
+pl.llp.aircasting.activity.AirCastingActivity: pl.llp.aircasting.helper.TopBarHelper topBarHelper
+pl.llp.aircasting.activity.AirCastingActivity: pl.llp.aircasting.helper.PhotoHelper photoHelper
+pl.llp.aircasting.activity.AirCastingActivity: pl.llp.aircasting.helper.GaugeHelper gaugeHelper
+pl.llp.aircasting.activity.AirCastingActivity: AirCastingActivity()
+pl.llp.aircasting.activity.AirCastingActivity: void onEvent(pl.llp.aircasting.model.events.MeasurementEvent)
+pl.llp.aircasting.activity.AirCastingActivity: void onEvent(pl.llp.aircasting.activity.events.SessionChangeEvent)
+pl.llp.aircasting.activity.AirCastingActivity: void onEvent(pl.llp.aircasting.model.events.SensorEvent)
+pl.llp.aircasting.activity.AirCastingActivity: void onEvent(pl.llp.aircasting.event.sensor.ThresholdSetEvent)
+pl.llp.aircasting.activity.AirCastingActivity: void onEvent(pl.llp.aircasting.event.sensor.AudioReaderErrorEvent)
+pl.llp.aircasting.activity.AirCastingActivity: void onEvent(pl.llp.aircasting.event.ui.StreamUpdateEvent)
+pl.llp.aircasting.activity.AirCastingActivity: void onClick(android.view.View)
+pl.llp.aircasting.activity.AirCastingMapActivity
+pl.llp.aircasting.activity.AirCastingMapActivity: pl.llp.aircasting.view.overlay.HeatMapOverlay heatMapOverlay
+pl.llp.aircasting.activity.AirCastingMapActivity: pl.llp.aircasting.api.AveragesDriver averagesDriver
+pl.llp.aircasting.activity.AirCastingMapActivity: android.net.ConnectivityManager connectivityManager
+pl.llp.aircasting.activity.AirCastingMapActivity: pl.llp.aircasting.view.overlay.NoteOverlay noteOverlay
+pl.llp.aircasting.activity.AirCastingMapActivity: pl.llp.aircasting.view.overlay.LocationOverlay locationOverlay
+pl.llp.aircasting.activity.AirCastingMapActivity: pl.llp.aircasting.view.overlay.TraceOverlay traceOverlay
+pl.llp.aircasting.activity.AirCastingMapActivity: pl.llp.aircasting.view.presenter.MeasurementPresenter measurementPresenter
+pl.llp.aircasting.activity.AirCastingMapActivity: pl.llp.aircasting.view.overlay.RouteOverlay routeOverlay
+pl.llp.aircasting.activity.AirCastingMapActivity: AirCastingMapActivity()
+pl.llp.aircasting.activity.AirCastingMapActivity: void onClick(android.view.View)
+pl.llp.aircasting.activity.AirCastingMapActivity: void onEvent(pl.llp.aircasting.event.ui.StreamUpdateEvent)
+pl.llp.aircasting.activity.AirCastingMapActivity: void onEvent(pl.llp.aircasting.activity.events.SessionChangeEvent)
+pl.llp.aircasting.activity.AirCastingMapActivity: void onEvent(pl.llp.aircasting.event.session.NoteCreatedEvent)
+pl.llp.aircasting.activity.AirCastingMapActivity: void onEvent(pl.llp.aircasting.event.ui.DoubleTapEvent)
+pl.llp.aircasting.activity.AirCastingMapActivity: void onEvent(android.view.MotionEvent)
+pl.llp.aircasting.activity.AirCastingMapActivity: void onEvent(pl.llp.aircasting.event.sensor.LocationEvent)
+pl.llp.aircasting.activity.ApplicationState: ApplicationState()
+pl.llp.aircasting.activity.ApplicationState$RecordingState: ApplicationState$RecordingState()
+pl.llp.aircasting.activity.ApplicationState$RecordingState$CurrentSessionState: pl.llp.aircasting.activity.ApplicationState$RecordingState$CurrentSessionState[] values()
+pl.llp.aircasting.activity.ApplicationState$RecordingState$CurrentSessionState: pl.llp.aircasting.activity.ApplicationState$RecordingState$CurrentSessionState valueOf(java.lang.String)
+pl.llp.aircasting.activity.ApplicationState$SensorState: ApplicationState$SensorState()
+pl.llp.aircasting.activity.ApplicationState$SensorState$States: pl.llp.aircasting.activity.ApplicationState$SensorState$States[] values()
+pl.llp.aircasting.activity.ApplicationState$SensorState$States: pl.llp.aircasting.activity.ApplicationState$SensorState$States valueOf(java.lang.String)
+pl.llp.aircasting.activity.ButtonsActivity
+pl.llp.aircasting.activity.ButtonsActivity: android.content.Context context
+pl.llp.aircasting.activity.ButtonsActivity: com.google.common.eventbus.EventBus eventBus
+pl.llp.aircasting.activity.ButtonsActivity: android.location.LocationManager locationManager
+pl.llp.aircasting.activity.ButtonsActivity: pl.llp.aircasting.model.SessionManager sessionManager
+pl.llp.aircasting.activity.ButtonsActivity: android.view.LayoutInflater layoutInflater
+pl.llp.aircasting.activity.ButtonsActivity: pl.llp.aircasting.helper.LocationHelper locationHelper
+pl.llp.aircasting.activity.ButtonsActivity: pl.llp.aircasting.helper.SettingsHelper settingsHelper
+pl.llp.aircasting.activity.ButtonsActivity: pl.llp.aircasting.activity.menu.MainMenu mainMenu
+pl.llp.aircasting.activity.ButtonsActivity: pl.llp.aircasting.IOTExtension.ExtendedSensorService ess
+pl.llp.aircasting.activity.ButtonsActivity: pl.llp.aircasting.receiver.SyncBroadcastReceiver syncBroadcastReceiver
+pl.llp.aircasting.activity.ButtonsActivity: pl.llp.aircasting.storage.UnfinishedSessionChecker checker
+pl.llp.aircasting.activity.ButtonsActivity: pl.llp.aircasting.activity.ApplicationState state
+pl.llp.aircasting.activity.ButtonsActivity: ButtonsActivity()
+pl.llp.aircasting.activity.ButtonsActivity: void onClick(android.view.View)
+pl.llp.aircasting.activity.ButtonsActivity: void onEvent(pl.llp.aircasting.event.ui.TapEvent)
+pl.llp.aircasting.activity.ButtonsActivity: void onEvent(pl.llp.aircasting.IOTExtension.IOTToggleAirCastingEvent)
+pl.llp.aircasting.activity.ContributeActivity
+pl.llp.aircasting.activity.ContributeActivity: pl.llp.aircasting.model.SessionManager sessionManager
+pl.llp.aircasting.activity.ContributeActivity: android.content.Context context
+pl.llp.aircasting.activity.ContributeActivity: pl.llp.aircasting.helper.SettingsHelper settingsHelper
+pl.llp.aircasting.activity.ContributeActivity: ContributeActivity()
+pl.llp.aircasting.activity.DialogActivity
+pl.llp.aircasting.activity.DialogActivity: DialogActivity()
+pl.llp.aircasting.activity.EditSessionActivity
+pl.llp.aircasting.activity.EditSessionActivity: EditSessionActivity()
+pl.llp.aircasting.activity.EditSessionActivity: void onClick(android.view.View)
+pl.llp.aircasting.activity.GraphActivity
+pl.llp.aircasting.activity.GraphActivity: pl.llp.aircasting.view.presenter.MeasurementPresenter measurementPresenter
+pl.llp.aircasting.activity.GraphActivity: pl.llp.aircasting.sensor.ThresholdsHolder thresholdsHolder
+pl.llp.aircasting.activity.GraphActivity: GraphActivity()
+pl.llp.aircasting.activity.GraphActivity: void onClick(android.view.View)
+pl.llp.aircasting.activity.GraphActivity: void onEvent(pl.llp.aircasting.event.ui.StreamUpdateEvent)
+pl.llp.aircasting.activity.GraphActivity: void onEvent(pl.llp.aircasting.event.ui.TapEvent)
+pl.llp.aircasting.activity.GraphActivity: void onEvent(pl.llp.aircasting.event.ui.DoubleTapEvent)
+pl.llp.aircasting.activity.GraphActivity: void onEvent(pl.llp.aircasting.event.ui.ScrollEvent)
+pl.llp.aircasting.activity.MakeANoteActivity
+pl.llp.aircasting.activity.MakeANoteActivity: pl.llp.aircasting.model.SessionManager sessionManager
+pl.llp.aircasting.activity.MakeANoteActivity: pl.llp.aircasting.helper.LocationHelper locationHelper
+pl.llp.aircasting.activity.MakeANoteActivity: pl.llp.aircasting.helper.PhotoHelper photoHelper
+pl.llp.aircasting.activity.MakeANoteActivity: android.app.Application context
+pl.llp.aircasting.activity.MakeANoteActivity: pl.llp.aircasting.helper.CalibrationHelper calibrationHelper
+pl.llp.aircasting.activity.MakeANoteActivity: MakeANoteActivity()
+pl.llp.aircasting.activity.MakeANoteActivity: void onClick(android.view.View)
+pl.llp.aircasting.activity.OpenSessionActivity
+pl.llp.aircasting.activity.OpenSessionActivity: OpenSessionActivity()
+pl.llp.aircasting.activity.OpenSessionActivity: void onClick(android.view.View)
+pl.llp.aircasting.activity.ProfileActivity
+pl.llp.aircasting.activity.ProfileActivity: android.app.Application context
+pl.llp.aircasting.activity.ProfileActivity: ProfileActivity()
+pl.llp.aircasting.activity.ProfileActivity: void onClick(android.view.View)
+pl.llp.aircasting.activity.ResetPasswordActivity
+pl.llp.aircasting.activity.ResetPasswordActivity: pl.llp.aircasting.api.UsersDriver userDriver
+pl.llp.aircasting.activity.ResetPasswordActivity: android.app.Application context
+pl.llp.aircasting.activity.ResetPasswordActivity: ResetPasswordActivity()
+pl.llp.aircasting.activity.ResetPasswordActivity: void onClick(android.view.View)
+pl.llp.aircasting.activity.RoboActivityWithProgress
+pl.llp.aircasting.activity.RoboActivityWithProgress: RoboActivityWithProgress()
+pl.llp.aircasting.activity.RoboListActivityWithProgress
+pl.llp.aircasting.activity.RoboListActivityWithProgress: RoboListActivityWithProgress()
+pl.llp.aircasting.activity.RoboMapActivityWithProgress
+pl.llp.aircasting.activity.RoboMapActivityWithProgress: RoboMapActivityWithProgress()
+pl.llp.aircasting.activity.SaveOrDiscardRestoredSessionActivity
+pl.llp.aircasting.activity.SaveOrDiscardRestoredSessionActivity: pl.llp.aircasting.model.SessionManager sessionManager
+pl.llp.aircasting.activity.SaveOrDiscardRestoredSessionActivity: pl.llp.aircasting.helper.SettingsHelper settingsHelper
+pl.llp.aircasting.activity.SaveOrDiscardRestoredSessionActivity: pl.llp.aircasting.helper.MetadataHelper metadataHelper
+pl.llp.aircasting.activity.SaveOrDiscardRestoredSessionActivity: pl.llp.aircasting.activity.ApplicationState state
+pl.llp.aircasting.activity.SaveOrDiscardRestoredSessionActivity: SaveOrDiscardRestoredSessionActivity()
+pl.llp.aircasting.activity.SaveOrDiscardRestoredSessionActivity: void onClick(android.view.View)
+pl.llp.aircasting.activity.SaveSessionActivity
+pl.llp.aircasting.activity.SaveSessionActivity: pl.llp.aircasting.model.SessionManager sessionManager
+pl.llp.aircasting.activity.SaveSessionActivity: pl.llp.aircasting.helper.SettingsHelper settingsHelper
+pl.llp.aircasting.activity.SaveSessionActivity: pl.llp.aircasting.helper.MetadataHelper metadataHelper
+pl.llp.aircasting.activity.SaveSessionActivity: pl.llp.aircasting.activity.ApplicationState state
+pl.llp.aircasting.activity.SaveSessionActivity: SaveSessionActivity()
+pl.llp.aircasting.activity.SaveSessionActivity: void onClick(android.view.View)
+pl.llp.aircasting.activity.SavingState: SavingState()
+pl.llp.aircasting.activity.SessionsActivity
+pl.llp.aircasting.activity.SessionsActivity: pl.llp.aircasting.activity.adapter.SessionAdapterFactory sessionAdapterFactory
+pl.llp.aircasting.activity.SessionsActivity: pl.llp.aircasting.helper.SelectSensorHelper selectSensorHelper
+pl.llp.aircasting.activity.SessionsActivity: pl.llp.aircasting.storage.repository.SessionRepository sessionRepository
+pl.llp.aircasting.activity.SessionsActivity: pl.llp.aircasting.storage.repository.SensorRepository sensorRepository
+pl.llp.aircasting.activity.SessionsActivity: pl.llp.aircasting.model.SessionManager sessionManager
+pl.llp.aircasting.activity.SessionsActivity: pl.llp.aircasting.helper.SettingsHelper settingsHelper
+pl.llp.aircasting.activity.SessionsActivity: pl.llp.aircasting.model.SensorManager sensorManager
+pl.llp.aircasting.activity.SessionsActivity: pl.llp.aircasting.helper.TopBarHelper topBarHelper
+pl.llp.aircasting.activity.SessionsActivity: android.app.Application context
+pl.llp.aircasting.activity.SessionsActivity: pl.llp.aircasting.util.SyncState syncState
+pl.llp.aircasting.activity.SessionsActivity: com.google.common.eventbus.EventBus eventBus
+pl.llp.aircasting.activity.SessionsActivity: pl.llp.aircasting.activity.menu.MainMenu mainMenu
+pl.llp.aircasting.activity.SessionsActivity: pl.llp.aircasting.storage.db.UncalibratedMeasurementCalibrator calibrator
+pl.llp.aircasting.activity.SessionsActivity: pl.llp.aircasting.receiver.SyncBroadcastReceiver syncBroadcastReceiver
+pl.llp.aircasting.activity.SessionsActivity: SessionsActivity()
+pl.llp.aircasting.activity.SessionsActivity: void onEvent(pl.llp.aircasting.event.SyncStateChangedEvent)
+pl.llp.aircasting.activity.SettingsActivity
+pl.llp.aircasting.activity.SettingsActivity: android.app.Application context
+pl.llp.aircasting.activity.SettingsActivity: android.content.SharedPreferences sharedPreferences
+pl.llp.aircasting.activity.SettingsActivity: pl.llp.aircasting.helper.SettingsHelper settingsHelper
+pl.llp.aircasting.activity.SettingsActivity: pl.llp.aircasting.model.SensorManager sensorManager
+pl.llp.aircasting.activity.SettingsActivity: pl.llp.aircasting.activity.menu.MainMenu mainMenu
+pl.llp.aircasting.activity.SettingsActivity: pl.llp.aircasting.activity.ApplicationState state
+pl.llp.aircasting.activity.SettingsActivity: SettingsActivity()
+pl.llp.aircasting.activity.ShareSessionActivity
+pl.llp.aircasting.activity.ShareSessionActivity: pl.llp.aircasting.helper.ShareHelper shareHelper
+pl.llp.aircasting.activity.ShareSessionActivity: pl.llp.aircasting.model.SessionManager sessionManager
+pl.llp.aircasting.activity.ShareSessionActivity: pl.llp.aircasting.helper.CSVHelper csvHelper
+pl.llp.aircasting.activity.ShareSessionActivity: pl.llp.aircasting.storage.repository.SessionRepository sessionRepository
+pl.llp.aircasting.activity.ShareSessionActivity: pl.llp.aircasting.helper.SettingsHelper settingsHelper
+pl.llp.aircasting.activity.ShareSessionActivity: android.app.Application context
+pl.llp.aircasting.activity.ShareSessionActivity: ShareSessionActivity()
+pl.llp.aircasting.activity.ShareSessionActivity: void onClick(android.view.View)
+pl.llp.aircasting.activity.SignInActivity
+pl.llp.aircasting.activity.SignInActivity: pl.llp.aircasting.api.UsersDriver userDriver
+pl.llp.aircasting.activity.SignInActivity: pl.llp.aircasting.helper.SettingsHelper settingsHelper
+pl.llp.aircasting.activity.SignInActivity: android.app.Application context
+pl.llp.aircasting.activity.SignInActivity: SignInActivity()
+pl.llp.aircasting.activity.SignInActivity: void onClick(android.view.View)
+pl.llp.aircasting.activity.SignOutActivity
+pl.llp.aircasting.activity.SignOutActivity: pl.llp.aircasting.helper.SettingsHelper settingsHelper
+pl.llp.aircasting.activity.SignOutActivity: pl.llp.aircasting.storage.repository.SessionRepository sessionRepository
+pl.llp.aircasting.activity.SignOutActivity: SignOutActivity()
+pl.llp.aircasting.activity.SignOutActivity: void onClick(android.view.View)
+pl.llp.aircasting.activity.SignUpActivity
+pl.llp.aircasting.activity.SignUpActivity: pl.llp.aircasting.api.UsersDriver userDriver
+pl.llp.aircasting.activity.SignUpActivity: pl.llp.aircasting.helper.SettingsHelper settingsHelper
+pl.llp.aircasting.activity.SignUpActivity: android.app.Application context
+pl.llp.aircasting.activity.SignUpActivity: SignUpActivity()
+pl.llp.aircasting.activity.SignUpActivity: void onClick(android.view.View)
+pl.llp.aircasting.activity.SplashActivity
+pl.llp.aircasting.activity.SplashActivity: SplashActivity()
+pl.llp.aircasting.activity.StreamsActivity
+pl.llp.aircasting.activity.StreamsActivity: android.content.Context context
+pl.llp.aircasting.activity.StreamsActivity: pl.llp.aircasting.activity.adapter.StreamAdapterFactory adapterFactory
+pl.llp.aircasting.activity.StreamsActivity: pl.llp.aircasting.model.SensorManager sensorManager
+pl.llp.aircasting.activity.StreamsActivity: pl.llp.aircasting.model.SessionManager sessionManager
+pl.llp.aircasting.activity.StreamsActivity: StreamsActivity()
+pl.llp.aircasting.activity.StreamsActivity: void onClick(android.view.View)
+pl.llp.aircasting.activity.StreamsActivity: void onEvent(android.view.MotionEvent)
+pl.llp.aircasting.activity.StreamsActivity: void onEvent(pl.llp.aircasting.event.ui.LongClickEvent)
+pl.llp.aircasting.activity.StreamsActivity: void onEvent(pl.llp.aircasting.event.ui.DoubleTapEvent)
+pl.llp.aircasting.activity.StreamsActivity: void onEvent(pl.llp.aircasting.event.ui.TapEvent)
+pl.llp.aircasting.activity.ThresholdsActivity
+pl.llp.aircasting.activity.ThresholdsActivity: pl.llp.aircasting.helper.SettingsHelper settingsHelper
+pl.llp.aircasting.activity.ThresholdsActivity: android.app.Application context
+pl.llp.aircasting.activity.ThresholdsActivity: com.google.common.eventbus.EventBus eventBus
+pl.llp.aircasting.activity.ThresholdsActivity: ThresholdsActivity()
+pl.llp.aircasting.activity.ThresholdsActivity: void onClick(android.view.View)
+pl.llp.aircasting.activity.adapter.SessionAdapterFactory: pl.llp.aircasting.helper.ResourceHelper resourceHelper
+pl.llp.aircasting.activity.adapter.SessionAdapterFactory: SessionAdapterFactory()
+pl.llp.aircasting.activity.adapter.StreamAdapter: void onEvent(pl.llp.aircasting.model.events.SensorEvent)
+pl.llp.aircasting.activity.adapter.StreamAdapterFactory: com.google.common.eventbus.EventBus eventBus
+pl.llp.aircasting.activity.adapter.StreamAdapterFactory: pl.llp.aircasting.helper.StreamViewHelper streamViewHelper
+pl.llp.aircasting.activity.adapter.StreamAdapterFactory: pl.llp.aircasting.model.SessionManager sessionManager
+pl.llp.aircasting.activity.adapter.StreamAdapterFactory: pl.llp.aircasting.model.SensorManager sensorManager
+pl.llp.aircasting.activity.adapter.StreamAdapterFactory: StreamAdapterFactory()
+pl.llp.aircasting.activity.extsens.ExternalSensorActivity
+pl.llp.aircasting.activity.extsens.ExternalSensorActivity: android.content.Context context
+pl.llp.aircasting.activity.extsens.ExternalSensorActivity: pl.llp.aircasting.activity.extsens.SensorAdapterFactory adapterFactory
+pl.llp.aircasting.activity.extsens.ExternalSensorActivity: pl.llp.aircasting.helper.SettingsHelper settingsHelper
+pl.llp.aircasting.activity.extsens.ExternalSensorActivity: pl.llp.aircasting.sensor.external.ExternalSensors externalSensors
+pl.llp.aircasting.activity.extsens.ExternalSensorActivity: com.google.common.eventbus.EventBus eventBus
+pl.llp.aircasting.activity.extsens.ExternalSensorActivity: ExternalSensorActivity()
+pl.llp.aircasting.activity.extsens.ExternalSensorActivity: void onEvent(pl.llp.aircasting.event.ConnectionUnsuccessfulEvent)
+pl.llp.aircasting.activity.extsens.IOIOInteractor: IOIOInteractor()
+pl.llp.aircasting.activity.extsens.SensorAdapterFactory: SensorAdapterFactory()
+pl.llp.aircasting.activity.menu.MainMenu: pl.llp.aircasting.model.SessionManager sessionManager
+pl.llp.aircasting.activity.menu.MainMenu: android.app.Application context
+pl.llp.aircasting.activity.menu.MainMenu: MainMenu()
+pl.llp.aircasting.activity.settings.BackendSettingsActivity
+pl.llp.aircasting.activity.settings.BackendSettingsActivity: pl.llp.aircasting.helper.SettingsHelper settingsHelper
+pl.llp.aircasting.activity.settings.BackendSettingsActivity: android.app.Application context
+pl.llp.aircasting.activity.settings.BackendSettingsActivity: BackendSettingsActivity()
+pl.llp.aircasting.activity.settings.BackendSettingsActivity: void onClick(android.view.View)
+pl.llp.aircasting.activity.settings.DisableMapSettingsActivity
+pl.llp.aircasting.activity.settings.DisableMapSettingsActivity: android.app.Application context
+pl.llp.aircasting.activity.settings.DisableMapSettingsActivity: pl.llp.aircasting.helper.SettingsHelper settings
+pl.llp.aircasting.activity.settings.DisableMapSettingsActivity: DisableMapSettingsActivity()
+pl.llp.aircasting.android.Logger: Logger()
+pl.llp.aircasting.api.AveragesDriver: AveragesDriver()
+pl.llp.aircasting.api.SessionDriver: pl.llp.aircasting.storage.repository.SessionRepository sessionRepository
+pl.llp.aircasting.api.SessionDriver: pl.llp.aircasting.helper.GZIPHelper gzipHelper
+pl.llp.aircasting.api.SessionDriver: pl.llp.aircasting.helper.PhotoHelper photoHelper
+pl.llp.aircasting.api.SessionDriver: pl.llp.aircasting.util.bitmap.BitmapTransformer bitmapTransformer
+pl.llp.aircasting.api.SessionDriver: SessionDriver()
+pl.llp.aircasting.api.SyncDriver: com.google.gson.Gson gson
+pl.llp.aircasting.api.SyncDriver: SyncDriver()
+pl.llp.aircasting.api.UsersDriver: UsersDriver()
+pl.llp.aircasting.api.data.CreateRegressionResponse: CreateRegressionResponse()
+pl.llp.aircasting.api.data.CreateSessionResponse: java.lang.String location
+pl.llp.aircasting.api.data.CreateSessionResponse: java.util.List notes
+pl.llp.aircasting.api.data.CreateSessionResponse: CreateSessionResponse()
+pl.llp.aircasting.api.data.CreateSessionResponse$Note: int number
+pl.llp.aircasting.api.data.CreateSessionResponse$Note: java.lang.String photoLocation
+pl.llp.aircasting.api.data.CreateSessionResponse$Note: CreateSessionResponse$Note()
+pl.llp.aircasting.api.data.DeleteRegressionResponse: DeleteRegressionResponse()
+pl.llp.aircasting.api.data.DeleteSessionResponse: java.lang.Boolean success
+pl.llp.aircasting.api.data.DeleteSessionResponse: java.lang.Boolean noSuchSession
+pl.llp.aircasting.api.data.DeleteSessionResponse: DeleteSessionResponse()
+pl.llp.aircasting.api.data.SyncResponse: java.util.UUID[] upload
+pl.llp.aircasting.api.data.SyncResponse: long[] download
+pl.llp.aircasting.api.data.SyncResponse: java.util.UUID[] deleted
+pl.llp.aircasting.api.data.SyncResponse: SyncResponse()
+pl.llp.aircasting.api.data.UserInfo: java.lang.String email
+pl.llp.aircasting.api.data.UserInfo: java.lang.String username
+pl.llp.aircasting.api.data.UserInfo: java.lang.String authentication_token
+pl.llp.aircasting.api.data.UserInfo: java.lang.String password
+pl.llp.aircasting.api.gson.LocalDateAdapter: LocalDateAdapter()
+pl.llp.aircasting.api.gson.MeasurementAdapter: MeasurementAdapter()
+pl.llp.aircasting.api.gson.NoteAdapter: NoteAdapter()
+pl.llp.aircasting.event.AirCastingEvent: AirCastingEvent()
+pl.llp.aircasting.event.SyncStateChangedEvent: SyncStateChangedEvent()
+pl.llp.aircasting.event.sensor.AudioReaderErrorEvent: AudioReaderErrorEvent()
+pl.llp.aircasting.event.sensor.LocationEvent: LocationEvent()
+pl.llp.aircasting.guice.AirCastingApplication
+pl.llp.aircasting.guice.AirCastingApplication: AirCastingApplication()
+pl.llp.aircasting.guice.AirCastingDBProvider: pl.llp.aircasting.guice.AirCastingApplication application
+pl.llp.aircasting.guice.AirCastingDBProvider: AirCastingDBProvider()
+pl.llp.aircasting.guice.AirCastingModule: AirCastingModule()
+pl.llp.aircasting.guice.BluetoothAdapterProvider: BluetoothAdapterProvider()
+pl.llp.aircasting.guice.GeocoderProvider: android.app.Application context
+pl.llp.aircasting.guice.GeocoderProvider: GeocoderProvider()
+pl.llp.aircasting.guice.GsonProvider: GsonProvider()
+pl.llp.aircasting.guice.NoteOverlayProvider: NoteOverlayProvider()
+pl.llp.aircasting.helper.CSVHelper: CSVHelper()
+pl.llp.aircasting.helper.CalibrationHelper: pl.llp.aircasting.helper.SettingsHelper settingsHelper
+pl.llp.aircasting.helper.CalibrationHelper: CalibrationHelper()
+pl.llp.aircasting.helper.FormatHelper: FormatHelper()
+pl.llp.aircasting.helper.GZIPHelper: com.google.gson.Gson gson
+pl.llp.aircasting.helper.GZIPHelper: GZIPHelper()
+pl.llp.aircasting.helper.GaugeHelper: pl.llp.aircasting.helper.ResourceHelper resourceHelper
+pl.llp.aircasting.helper.GaugeHelper: pl.llp.aircasting.helper.SettingsHelper settingsHelper
+pl.llp.aircasting.helper.GaugeHelper: pl.llp.aircasting.model.SessionManager sessionManager
+pl.llp.aircasting.helper.GaugeHelper: pl.llp.aircasting.model.SensorManager sensorManager
+pl.llp.aircasting.helper.GaugeHelper: com.google.common.eventbus.EventBus eventBus
+pl.llp.aircasting.helper.GaugeHelper: pl.llp.aircasting.helper.NowValueVisibilityManager nowManager
+pl.llp.aircasting.helper.GaugeHelper: GaugeHelper()
+pl.llp.aircasting.helper.LocationConversionHelper: LocationConversionHelper()
+pl.llp.aircasting.helper.LocationConversionHelper$1: LocationConversionHelper$1()
+pl.llp.aircasting.helper.LocationHelper: android.location.LocationManager locationManager
+pl.llp.aircasting.helper.LocationHelper: com.google.common.eventbus.EventBus eventBus
+pl.llp.aircasting.helper.LocationHelper: LocationHelper()
+pl.llp.aircasting.helper.MetadataHelper: MetadataHelper()
+pl.llp.aircasting.helper.NoOp: NoOp()
+pl.llp.aircasting.helper.NoOp$1: NoOp$1()
+pl.llp.aircasting.helper.NoOp$2: NoOp$2()
+pl.llp.aircasting.helper.NotificationHelper: android.app.NotificationManager notificationManager
+pl.llp.aircasting.helper.NotificationHelper: android.content.Context context
+pl.llp.aircasting.helper.NotificationHelper: NotificationHelper()
+pl.llp.aircasting.helper.NowValueVisibilityManager: pl.llp.aircasting.model.SessionManager sessionManager
+pl.llp.aircasting.helper.NowValueVisibilityManager: NowValueVisibilityManager()
+pl.llp.aircasting.helper.PhotoHelper: android.content.Context context
+pl.llp.aircasting.helper.PhotoHelper: PhotoHelper()
+pl.llp.aircasting.helper.PhotoHelper: void init()
+pl.llp.aircasting.helper.ResourceHelper: pl.llp.aircasting.sensor.ThresholdsHolder thresholds
+pl.llp.aircasting.helper.ResourceHelper: ResourceHelper()
+pl.llp.aircasting.helper.SelectSensorHelper: pl.llp.aircasting.model.SensorManager sensorManager
+pl.llp.aircasting.helper.SelectSensorHelper: com.google.common.eventbus.EventBus eventBus
+pl.llp.aircasting.helper.SelectSensorHelper: SelectSensorHelper()
+pl.llp.aircasting.helper.SettingsHelper: android.content.SharedPreferences preferences
+pl.llp.aircasting.helper.SettingsHelper: com.google.gson.Gson gson
+pl.llp.aircasting.helper.SettingsHelper: com.google.common.eventbus.EventBus eventBus
+pl.llp.aircasting.helper.SettingsHelper: SettingsHelper()
+pl.llp.aircasting.helper.SettingsHelper: void init()
+pl.llp.aircasting.helper.SettingsHelper: void onEvent(pl.llp.aircasting.event.sensor.ThresholdSetEvent)
+pl.llp.aircasting.helper.ShareHelper: ShareHelper()
+pl.llp.aircasting.helper.SoundHelper: pl.llp.aircasting.sensor.ThresholdsHolder thresholds
+pl.llp.aircasting.helper.SoundHelper: SoundHelper()
+pl.llp.aircasting.helper.StreamViewHelper: pl.llp.aircasting.model.SessionManager sessionManager
+pl.llp.aircasting.helper.StreamViewHelper: pl.llp.aircasting.model.SensorManager sensorManager
+pl.llp.aircasting.helper.StreamViewHelper: pl.llp.aircasting.helper.ResourceHelper resourceHelper
+pl.llp.aircasting.helper.StreamViewHelper: StreamViewHelper()
+pl.llp.aircasting.helper.TextViewHelper: TextViewHelper()
+pl.llp.aircasting.helper.TextViewHelper$URLSpanNoUnderline
+pl.llp.aircasting.helper.TopBarHelper: pl.llp.aircasting.helper.SettingsHelper settingsHelper
+pl.llp.aircasting.helper.TopBarHelper: TopBarHelper()
+pl.llp.aircasting.model.Measurement: double latitude
+pl.llp.aircasting.model.Measurement: double longitude
+pl.llp.aircasting.model.Measurement: double value
+pl.llp.aircasting.model.Measurement: java.lang.String value_string
+pl.llp.aircasting.model.Measurement: java.util.Date time
+pl.llp.aircasting.model.Measurement: double measuredValue
+pl.llp.aircasting.model.Measurement: int timeZoneOffsetMinutes
+pl.llp.aircasting.model.Measurement: Measurement()
+pl.llp.aircasting.model.MeasurementStream: java.util.List measurements
+pl.llp.aircasting.model.MeasurementStream: java.lang.String sensorName
+pl.llp.aircasting.model.MeasurementStream: java.lang.String packageName
+pl.llp.aircasting.model.MeasurementStream: java.lang.String measurementType
+pl.llp.aircasting.model.MeasurementStream: java.lang.String shortType
+pl.llp.aircasting.model.MeasurementStream: java.lang.String unit
+pl.llp.aircasting.model.MeasurementStream: java.lang.String symbol
+pl.llp.aircasting.model.MeasurementStream: java.lang.Double avg
+pl.llp.aircasting.model.MeasurementStream: int thresholdVeryHigh
+pl.llp.aircasting.model.MeasurementStream: int thresholdVeryLow
+pl.llp.aircasting.model.MeasurementStream: int thresholdLow
+pl.llp.aircasting.model.MeasurementStream: int thresholdMedium
+pl.llp.aircasting.model.MeasurementStream: int thresholdHigh
+pl.llp.aircasting.model.MeasurementStream: java.lang.Double minLatitude
+pl.llp.aircasting.model.MeasurementStream: java.lang.Double maxLatitude
+pl.llp.aircasting.model.MeasurementStream: java.lang.Double minLongitude
+pl.llp.aircasting.model.MeasurementStream: java.lang.Double maxLongitude
+pl.llp.aircasting.model.MeasurementStream: boolean markedForRemoval
+pl.llp.aircasting.model.MeasurementStream: MeasurementStream()
+pl.llp.aircasting.model.MeasurementStream$Visibility: pl.llp.aircasting.model.MeasurementStream$Visibility[] values()
+pl.llp.aircasting.model.MeasurementStream$Visibility: pl.llp.aircasting.model.MeasurementStream$Visibility valueOf(java.lang.String)
+pl.llp.aircasting.model.Note: java.util.Date date
+pl.llp.aircasting.model.Note: java.lang.String text
+pl.llp.aircasting.model.Note: double latitude
+pl.llp.aircasting.model.Note: double longitude
+pl.llp.aircasting.model.Note: int number
+pl.llp.aircasting.model.Note: java.lang.String photoPath
+pl.llp.aircasting.model.Note: Note()
+pl.llp.aircasting.model.Sensor: java.lang.String sensorName
+pl.llp.aircasting.model.Sensor: java.lang.String packageName
+pl.llp.aircasting.model.SensorManager: pl.llp.aircasting.helper.ResourceHelper resourceHelper
+pl.llp.aircasting.model.SensorManager: pl.llp.aircasting.sensor.external.ExternalSensors externalSensors
+pl.llp.aircasting.model.SensorManager: pl.llp.aircasting.model.SessionManager sessionManager
+pl.llp.aircasting.model.SensorManager: com.google.common.eventbus.EventBus eventBus
+pl.llp.aircasting.model.SensorManager: pl.llp.aircasting.activity.ApplicationState state
+pl.llp.aircasting.model.SensorManager: pl.llp.aircasting.helper.SettingsHelper settingsHelper
+pl.llp.aircasting.model.SensorManager: android.content.Context context
+pl.llp.aircasting.model.SensorManager: SensorManager()
+pl.llp.aircasting.model.SensorManager: void init()
+pl.llp.aircasting.model.SensorManager: void onEvent(pl.llp.aircasting.model.events.SensorEvent)
+pl.llp.aircasting.model.SensorManager: void onEvent(pl.llp.aircasting.event.ui.ViewStreamEvent)
+pl.llp.aircasting.model.SensorManager: void onEvent(pl.llp.aircasting.sensor.SensorStoppedEvent)
+pl.llp.aircasting.model.SensorManager: void onEvent(pl.llp.aircasting.activity.events.SessionStartedEvent)
+pl.llp.aircasting.model.SensorManager: void onEvent(pl.llp.aircasting.activity.events.SessionChangeEvent)
+pl.llp.aircasting.model.SensorManager: void onEvent(pl.llp.aircasting.event.ConnectionUnsuccessfulEvent)
+pl.llp.aircasting.model.Session: java.util.UUID uuid
+pl.llp.aircasting.model.Session: java.util.Map streams
+pl.llp.aircasting.model.Session: java.util.List notes
+pl.llp.aircasting.model.Session: java.lang.String title
+pl.llp.aircasting.model.Session: java.lang.String tags
+pl.llp.aircasting.model.Session: java.lang.String description
+pl.llp.aircasting.model.Session: int calibration
+pl.llp.aircasting.model.Session: boolean contribute
+pl.llp.aircasting.model.Session: java.lang.String osVersion
+pl.llp.aircasting.model.Session: java.lang.String phoneModel
+pl.llp.aircasting.model.Session: int offset60DB
+pl.llp.aircasting.model.Session: java.lang.String location
+pl.llp.aircasting.model.Session: boolean markedForRemoval
+pl.llp.aircasting.model.Session: java.util.Date start
+pl.llp.aircasting.model.Session: java.util.Date end
+pl.llp.aircasting.model.Session: Session()
+pl.llp.aircasting.model.SessionManager: pl.llp.aircasting.sensor.builtin.SimpleAudioReader audioReader
+pl.llp.aircasting.model.SessionManager: com.google.common.eventbus.EventBus eventBus
+pl.llp.aircasting.model.SessionManager: pl.llp.aircasting.storage.repository.SessionRepository sessionRepository
+pl.llp.aircasting.model.SessionManager: pl.llp.aircasting.storage.DatabaseTaskQueue dbQueue
+pl.llp.aircasting.model.SessionManager: pl.llp.aircasting.helper.LocationHelper locationHelper
+pl.llp.aircasting.model.SessionManager: pl.llp.aircasting.helper.NotificationHelper notificationHelper
+pl.llp.aircasting.model.SessionManager: android.app.Application applicationContext
+pl.llp.aircasting.model.SessionManager: android.telephony.TelephonyManager telephonyManager
+pl.llp.aircasting.model.SessionManager: pl.llp.aircasting.model.SensorManager sensorManager
+pl.llp.aircasting.model.SessionManager: pl.llp.aircasting.sensor.external.ExternalSensors externalSensors
+pl.llp.aircasting.model.SessionManager: pl.llp.aircasting.tracking.ContinuousTracker tracker
+pl.llp.aircasting.model.SessionManager: pl.llp.aircasting.activity.ApplicationState state
+pl.llp.aircasting.model.SessionManager: SessionManager()
+pl.llp.aircasting.model.SessionManager: void init()
+pl.llp.aircasting.model.SessionManager: void onEvent(pl.llp.aircasting.model.events.SensorEvent)
+pl.llp.aircasting.model.internal.MeasurementLevel: pl.llp.aircasting.model.internal.MeasurementLevel[] values()
+pl.llp.aircasting.model.internal.MeasurementLevel: pl.llp.aircasting.model.internal.MeasurementLevel valueOf(java.lang.String)
+pl.llp.aircasting.model.internal.Region: double north
+pl.llp.aircasting.model.internal.Region: double south
+pl.llp.aircasting.model.internal.Region: double east
+pl.llp.aircasting.model.internal.Region: double west
+pl.llp.aircasting.model.internal.Region: double value
+pl.llp.aircasting.model.internal.Region: Region()
+pl.llp.aircasting.receiver.NetworkReceiver
+pl.llp.aircasting.receiver.NetworkReceiver: android.net.ConnectivityManager connectivityManager
+pl.llp.aircasting.receiver.NetworkReceiver: NetworkReceiver()
+pl.llp.aircasting.receiver.SyncBroadcastReceiver
+pl.llp.aircasting.receiver.SyncBroadcastReceiver: android.content.Context context
+pl.llp.aircasting.receiver.SyncBroadcastReceiver: SyncBroadcastReceiver()
+pl.llp.aircasting.sensor.ExternalSensorDescriptor: java.lang.String name
+pl.llp.aircasting.sensor.ExternalSensorDescriptor: java.lang.String address
+pl.llp.aircasting.sensor.ExternalSensorDescriptor: java.lang.String action
+pl.llp.aircasting.sensor.Status: pl.llp.aircasting.sensor.Status[] values()
+pl.llp.aircasting.sensor.Status: pl.llp.aircasting.sensor.Status valueOf(java.lang.String)
+pl.llp.aircasting.sensor.ThresholdsHolder: pl.llp.aircasting.helper.SettingsHelper settings
+pl.llp.aircasting.sensor.ThresholdsHolder: com.google.common.eventbus.EventBus eventBus
+pl.llp.aircasting.sensor.ThresholdsHolder: ThresholdsHolder()
+pl.llp.aircasting.sensor.ThresholdsHolder: void init()
+pl.llp.aircasting.sensor.ThresholdsHolder: void onEvent(pl.llp.aircasting.event.sensor.ThresholdSetEvent)
+pl.llp.aircasting.sensor.TimestampTracker: TimestampTracker()
+pl.llp.aircasting.sensor.bioharness.Packet: Packet()
+pl.llp.aircasting.sensor.bioharness.Packet$Request: pl.llp.aircasting.sensor.bioharness.Packet$Request[] values()
+pl.llp.aircasting.sensor.bioharness.Packet$Request: pl.llp.aircasting.sensor.bioharness.Packet$Request valueOf(java.lang.String)
+pl.llp.aircasting.sensor.bioharness.PacketType: pl.llp.aircasting.sensor.bioharness.PacketType[] values()
+pl.llp.aircasting.sensor.bioharness.PacketType: pl.llp.aircasting.sensor.bioharness.PacketType valueOf(java.lang.String)
+pl.llp.aircasting.sensor.bioharness.RepeatedValueTracker: RepeatedValueTracker()
+pl.llp.aircasting.sensor.builtin.AudioReader: AudioReader()
+pl.llp.aircasting.sensor.builtin.AudioReader$Listener: AudioReader$Listener()
+pl.llp.aircasting.sensor.builtin.SignalPower: SignalPower()
+pl.llp.aircasting.sensor.builtin.SimpleAudioReader: pl.llp.aircasting.helper.SettingsHelper settingsHelper
+pl.llp.aircasting.sensor.builtin.SimpleAudioReader: pl.llp.aircasting.sensor.builtin.AudioReader audioReader
+pl.llp.aircasting.sensor.builtin.SimpleAudioReader: pl.llp.aircasting.sensor.builtin.SignalPower signalPower
+pl.llp.aircasting.sensor.builtin.SimpleAudioReader: com.google.common.eventbus.EventBus eventBus
+pl.llp.aircasting.sensor.builtin.SimpleAudioReader: pl.llp.aircasting.helper.CalibrationHelper calibrationHelper
+pl.llp.aircasting.sensor.builtin.SimpleAudioReader: SimpleAudioReader()
+pl.llp.aircasting.sensor.external.ExternalSensorParser: ExternalSensorParser()
+pl.llp.aircasting.sensor.external.ExternalSensorParser$Fields: pl.llp.aircasting.sensor.external.ExternalSensorParser$Fields[] values()
+pl.llp.aircasting.sensor.external.ExternalSensorParser$Fields: pl.llp.aircasting.sensor.external.ExternalSensorParser$Fields valueOf(java.lang.String)
+pl.llp.aircasting.sensor.external.ExternalSensors: android.bluetooth.BluetoothAdapter bluetoothAdapter
+pl.llp.aircasting.sensor.external.ExternalSensors: pl.llp.aircasting.helper.SettingsHelper settings
+pl.llp.aircasting.sensor.external.ExternalSensors: com.google.common.eventbus.EventBus eventBus
+pl.llp.aircasting.sensor.external.ExternalSensors: ExternalSensors()
+pl.llp.aircasting.sensor.external.ExternalSensors: void init()
+pl.llp.aircasting.sensor.external.ExternalSensors: void onEvent(pl.llp.aircasting.event.ConnectionUnsuccessfulEvent)
+pl.llp.aircasting.service.Colors: pl.llp.aircasting.service.Colors[] values()
+pl.llp.aircasting.service.Colors: pl.llp.aircasting.service.Colors valueOf(java.lang.String)
+pl.llp.aircasting.service.IOIOService
+pl.llp.aircasting.service.IOIOService: pl.llp.aircasting.model.SensorManager sensorManager
+pl.llp.aircasting.service.IOIOService: pl.llp.aircasting.helper.SoundHelper soundHelper
+pl.llp.aircasting.service.IOIOService: com.google.common.eventbus.EventBus eventBus
+pl.llp.aircasting.service.IOIOService: pl.llp.aircasting.helper.SettingsHelper settings
+pl.llp.aircasting.service.IOIOService: IOIOService()
+pl.llp.aircasting.service.IOIOService: void onEvent(pl.llp.aircasting.model.events.MeasurementLevelEvent)
+pl.llp.aircasting.service.SensorService
+pl.llp.aircasting.service.SensorService: pl.llp.aircasting.model.SessionManager sessionManager
+pl.llp.aircasting.service.SensorService: SensorService()
+pl.llp.aircasting.storage.DBHelper: DBHelper()
+pl.llp.aircasting.storage.DatabaseTaskQueue: DatabaseTaskQueue()
+pl.llp.aircasting.storage.DatabaseWriterService
+pl.llp.aircasting.storage.DatabaseWriterService: pl.llp.aircasting.storage.db.AirCastingDB db
+pl.llp.aircasting.storage.DatabaseWriterService: pl.llp.aircasting.storage.DatabaseTaskQueue taskService
+pl.llp.aircasting.storage.DatabaseWriterService: DatabaseWriterService()
+pl.llp.aircasting.storage.DatabaseWriterService: void init()
+pl.llp.aircasting.storage.UnfinishedSessionChecker: pl.llp.aircasting.storage.repository.SessionRepository repo
+pl.llp.aircasting.storage.UnfinishedSessionChecker: pl.llp.aircasting.activity.ApplicationState state
+pl.llp.aircasting.storage.UnfinishedSessionChecker: UnfinishedSessionChecker()
+pl.llp.aircasting.storage.db.CreateSQLWriter: CreateSQLWriter()
+pl.llp.aircasting.storage.db.Datatype: pl.llp.aircasting.storage.db.Datatype[] values()
+pl.llp.aircasting.storage.db.Datatype: pl.llp.aircasting.storage.db.Datatype valueOf(java.lang.String)
+pl.llp.aircasting.storage.db.MeasurementToStreamMigrator: MeasurementToStreamMigrator()
+pl.llp.aircasting.storage.db.SchemaCreator: SchemaCreator()
+pl.llp.aircasting.storage.db.SchemaMigrator: SchemaMigrator()
+pl.llp.aircasting.storage.db.UncalibratedMeasurementCalibrator: pl.llp.aircasting.storage.db.AirCastingDB airCastingDB
+pl.llp.aircasting.storage.db.UncalibratedMeasurementCalibrator: pl.llp.aircasting.helper.CalibrationHelper calibrations
+pl.llp.aircasting.storage.db.UncalibratedMeasurementCalibrator: UncalibratedMeasurementCalibrator()
+pl.llp.aircasting.storage.repository.NoteRepository: pl.llp.aircasting.storage.db.AirCastingDB dbAccessor
+pl.llp.aircasting.storage.repository.NoteRepository: NoteRepository()
+pl.llp.aircasting.storage.repository.SensorRepository: pl.llp.aircasting.storage.db.AirCastingDB airCastingDB
+pl.llp.aircasting.storage.repository.SensorRepository: SensorRepository()
+pl.llp.aircasting.storage.repository.SessionDAO: pl.llp.aircasting.storage.db.AirCastingDB dbAccessor
+pl.llp.aircasting.storage.repository.SessionDAO: SessionDAO()
+pl.llp.aircasting.storage.repository.SessionRepository: pl.llp.aircasting.storage.db.AirCastingDB dbAccessor
+pl.llp.aircasting.storage.repository.SessionRepository: pl.llp.aircasting.storage.repository.NoteRepository notes
+pl.llp.aircasting.storage.repository.SessionRepository: pl.llp.aircasting.storage.repository.StreamDAO streams
+pl.llp.aircasting.storage.repository.SessionRepository: pl.llp.aircasting.storage.repository.SessionDAO sessionDAO
+pl.llp.aircasting.storage.repository.SessionRepository: pl.llp.aircasting.storage.repository.SessionTrackerDAO trackedSessionsDAO
+pl.llp.aircasting.storage.repository.SessionRepository: SessionRepository()
+pl.llp.aircasting.storage.repository.SessionTrackerDAO: pl.llp.aircasting.storage.repository.SessionRepository sessions
+pl.llp.aircasting.storage.repository.SessionTrackerDAO: pl.llp.aircasting.storage.repository.StreamRepository streamRepo
+pl.llp.aircasting.storage.repository.SessionTrackerDAO: pl.llp.aircasting.storage.db.AirCastingDB dbAccessor
+pl.llp.aircasting.storage.repository.SessionTrackerDAO: SessionTrackerDAO()
+pl.llp.aircasting.storage.repository.StreamDAO: pl.llp.aircasting.storage.db.AirCastingDB airCastingDB
+pl.llp.aircasting.storage.repository.StreamDAO: StreamDAO()
+pl.llp.aircasting.storage.repository.StreamRepository: pl.llp.aircasting.storage.db.AirCastingDB airCastingDB
+pl.llp.aircasting.storage.repository.StreamRepository: StreamRepository()
+pl.llp.aircasting.sync.SessionTimeFixer: SessionTimeFixer()
+pl.llp.aircasting.sync.SyncService
+pl.llp.aircasting.sync.SyncService: android.net.ConnectivityManager connectivityManager
+pl.llp.aircasting.sync.SyncService: pl.llp.aircasting.storage.repository.SessionRepository sessionRepository
+pl.llp.aircasting.sync.SyncService: pl.llp.aircasting.api.SyncDriver syncDriver
+pl.llp.aircasting.sync.SyncService: pl.llp.aircasting.helper.SettingsHelper settingsHelper
+pl.llp.aircasting.sync.SyncService: pl.llp.aircasting.api.SessionDriver sessionDriver
+pl.llp.aircasting.sync.SyncService: pl.llp.aircasting.util.SyncState syncState
+pl.llp.aircasting.sync.SyncService: android.content.Context context
+pl.llp.aircasting.sync.SyncService: com.google.common.eventbus.EventBus events
+pl.llp.aircasting.sync.SyncService: pl.llp.aircasting.sync.SessionTimeFixer sessionTimes
+pl.llp.aircasting.sync.SyncService: SyncService()
+pl.llp.aircasting.tracking.ContinuousTracker: com.google.common.eventbus.EventBus eventBus
+pl.llp.aircasting.tracking.ContinuousTracker: pl.llp.aircasting.helper.MetadataHelper metadataHelper
+pl.llp.aircasting.tracking.ContinuousTracker: pl.llp.aircasting.helper.LocationHelper locationHelper
+pl.llp.aircasting.tracking.ContinuousTracker: pl.llp.aircasting.helper.SettingsHelper settingsHelper
+pl.llp.aircasting.tracking.ContinuousTracker: pl.llp.aircasting.storage.DatabaseTaskQueue taskQueue
+pl.llp.aircasting.tracking.ContinuousTracker: pl.llp.aircasting.storage.repository.SessionRepository sessions
+pl.llp.aircasting.tracking.ContinuousTracker: ContinuousTracker()
+pl.llp.aircasting.tracking.ContinuousTracker: void init()
+pl.llp.aircasting.util.Constants: Constants()
+pl.llp.aircasting.util.DrawableTransformer: DrawableTransformer()
+pl.llp.aircasting.util.Projection: Projection()
+pl.llp.aircasting.util.Search: Search()
+pl.llp.aircasting.util.SyncState: pl.llp.aircasting.helper.SettingsHelper settings
+pl.llp.aircasting.util.SyncState: SyncState()
+pl.llp.aircasting.util.SyncState$States: pl.llp.aircasting.util.SyncState$States[] values()
+pl.llp.aircasting.util.SyncState$States: pl.llp.aircasting.util.SyncState$States valueOf(java.lang.String)
+pl.llp.aircasting.util.base64.Base64: Base64()
+pl.llp.aircasting.util.bitmap.BitmapHolder: BitmapHolder()
+pl.llp.aircasting.util.bitmap.BitmapTransformer: BitmapTransformer()
+pl.llp.aircasting.util.http.HttpBuilder: com.google.gson.Gson gson
+pl.llp.aircasting.util.http.HttpBuilder: pl.llp.aircasting.helper.SettingsHelper settingsHelper
+pl.llp.aircasting.util.http.HttpBuilder: HttpBuilder()
+pl.llp.aircasting.util.http.HttpBuilder$Method: pl.llp.aircasting.util.http.HttpBuilder$Method[] values()
+pl.llp.aircasting.util.http.HttpBuilder$Method: pl.llp.aircasting.util.http.HttpBuilder$Method valueOf(java.lang.String)
+pl.llp.aircasting.util.http.HttpResult: HttpResult()
+pl.llp.aircasting.util.http.Status: pl.llp.aircasting.util.http.Status[] values()
+pl.llp.aircasting.util.http.Status: pl.llp.aircasting.util.http.Status valueOf(java.lang.String)
+pl.llp.aircasting.util.map.PathSmoother: PathSmoother()
+pl.llp.aircasting.view.AirCastingMapView
+pl.llp.aircasting.view.AirCastingMapView: AirCastingMapView(android.content.Context,android.util.AttributeSet)
+pl.llp.aircasting.view.AirCastingMapView: AirCastingMapView(android.content.Context,android.util.AttributeSet,int)
+pl.llp.aircasting.view.NoisePlot
+pl.llp.aircasting.view.NoisePlot: NoisePlot(android.content.Context,android.util.AttributeSet)
+pl.llp.aircasting.view.NoisePlot: NoisePlot(android.content.Context,android.util.AttributeSet,int)
+pl.llp.aircasting.view.SensorsGridView
+pl.llp.aircasting.view.SensorsGridView: SensorsGridView(android.content.Context,android.util.AttributeSet)
+pl.llp.aircasting.view.SensorsGridView: SensorsGridView(android.content.Context,android.util.AttributeSet,int)
+pl.llp.aircasting.view.SensorsGridView$OnDragListener: SensorsGridView$OnDragListener()
+pl.llp.aircasting.view.SensorsGridView$OnItemDoubleClickListener: SensorsGridView$OnItemDoubleClickListener()
+pl.llp.aircasting.view.SensorsGridView$OnItemSingleTapListener: SensorsGridView$OnItemSingleTapListener()
+pl.llp.aircasting.view.TouchPane
+pl.llp.aircasting.view.TouchPane: com.google.common.eventbus.EventBus eventBus
+pl.llp.aircasting.view.TouchPane: TouchPane(android.content.Context,android.util.AttributeSet)
+pl.llp.aircasting.view.TouchPane: TouchPane(android.content.Context,android.util.AttributeSet,int)
+pl.llp.aircasting.view.overlay.BufferingOverlay: pl.llp.aircasting.util.bitmap.BitmapHolder bitmapHolder
+pl.llp.aircasting.view.overlay.BufferingOverlay: pl.llp.aircasting.model.SessionManager sessionManager
+pl.llp.aircasting.view.overlay.BufferingOverlay: BufferingOverlay()
+pl.llp.aircasting.view.overlay.HeatMapOverlay: pl.llp.aircasting.helper.SoundHelper soundHelper
+pl.llp.aircasting.view.overlay.HeatMapOverlay: pl.llp.aircasting.helper.ResourceHelper resourceHelper
+pl.llp.aircasting.view.overlay.HeatMapOverlay: android.graphics.Paint paint
+pl.llp.aircasting.view.overlay.HeatMapOverlay: pl.llp.aircasting.model.SensorManager sensors
+pl.llp.aircasting.view.overlay.HeatMapOverlay: HeatMapOverlay()
+pl.llp.aircasting.view.overlay.LocationOverlay: pl.llp.aircasting.helper.ResourceHelper resourceHelper
+pl.llp.aircasting.view.overlay.LocationOverlay: pl.llp.aircasting.helper.LocationHelper locationHelper
+pl.llp.aircasting.view.overlay.LocationOverlay: pl.llp.aircasting.model.SessionManager sessionManager
+pl.llp.aircasting.view.overlay.LocationOverlay: pl.llp.aircasting.model.SensorManager sensorManager
+pl.llp.aircasting.view.overlay.LocationOverlay: LocationOverlay()
+pl.llp.aircasting.view.overlay.RouteOverlay: pl.llp.aircasting.util.map.PathSmoother pathSmoother
+pl.llp.aircasting.view.overlay.RouteOverlay: pl.llp.aircasting.helper.ResourceHelper resourceHelper
+pl.llp.aircasting.view.overlay.RouteOverlay: pl.llp.aircasting.model.SessionManager sessionManager
+pl.llp.aircasting.view.overlay.RouteOverlay: RouteOverlay()
+pl.llp.aircasting.view.overlay.RouteOverlay: void init()
+pl.llp.aircasting.view.overlay.RouteOverlay: void onEvent(pl.llp.aircasting.activity.events.SessionStartedEvent)
+pl.llp.aircasting.view.overlay.RouteOverlay: void onEvent(pl.llp.aircasting.activity.events.SessionStoppedEvent)
+pl.llp.aircasting.view.overlay.RouteOverlay: void onEvent(pl.llp.aircasting.activity.events.SessionLoadedEvent)
+pl.llp.aircasting.view.overlay.TraceOverlay: pl.llp.aircasting.view.presenter.MeasurementPresenter measurementPresenter
+pl.llp.aircasting.view.overlay.TraceOverlay: pl.llp.aircasting.helper.ResourceHelper resourceHelper
+pl.llp.aircasting.view.overlay.TraceOverlay: pl.llp.aircasting.model.SensorManager sensorManager
+pl.llp.aircasting.view.overlay.TraceOverlay: pl.llp.aircasting.helper.SoundHelper soundHelper
+pl.llp.aircasting.view.overlay.TraceOverlay: TraceOverlay()
+pl.llp.aircasting.view.presenter.MeasurementAggregator: MeasurementAggregator()
+pl.llp.aircasting.view.presenter.MeasurementPresenter: pl.llp.aircasting.model.SessionManager sessionManager
+pl.llp.aircasting.view.presenter.MeasurementPresenter: pl.llp.aircasting.helper.SettingsHelper settingsHelper
+pl.llp.aircasting.view.presenter.MeasurementPresenter: android.content.SharedPreferences preferences
+pl.llp.aircasting.view.presenter.MeasurementPresenter: com.google.common.eventbus.EventBus eventBus
+pl.llp.aircasting.view.presenter.MeasurementPresenter: pl.llp.aircasting.model.SensorManager sensorManager
+pl.llp.aircasting.view.presenter.MeasurementPresenter: pl.llp.aircasting.view.presenter.MeasurementAggregator aggregator
+pl.llp.aircasting.view.presenter.MeasurementPresenter: pl.llp.aircasting.activity.ApplicationState state
+pl.llp.aircasting.view.presenter.MeasurementPresenter: MeasurementPresenter()
+pl.llp.aircasting.view.presenter.MeasurementPresenter: void init()
+pl.llp.aircasting.view.presenter.MeasurementPresenter: void onEvent(pl.llp.aircasting.model.events.MeasurementEvent)
+pl.llp.aircasting.view.presenter.MeasurementPresenter: void onEvent(pl.llp.aircasting.activity.events.SessionChangeEvent)
+pl.llp.aircasting.view.presenter.MeasurementPresenter: void onEvent(pl.llp.aircasting.event.ui.ViewStreamEvent)
+roboguice.activity.RoboAccountAuthenticatorActivity
+roboguice.activity.RoboAccountAuthenticatorActivity: void setContentView(android.view.View)
+roboguice.activity.RoboActivity
+roboguice.activity.RoboActivity: RoboActivity()
+roboguice.activity.RoboActivity: void setContentView(android.view.View)
+roboguice.activity.RoboActivityGroup
+roboguice.activity.RoboActivityGroup: void setContentView(android.view.View)
+roboguice.activity.RoboExpandableListActivity
+roboguice.activity.RoboExpandableListActivity: void setContentView(android.view.View)
+roboguice.activity.RoboLauncherActivity
+roboguice.activity.RoboLauncherActivity: void setContentView(android.view.View)
+roboguice.activity.RoboListActivity
+roboguice.activity.RoboListActivity: RoboListActivity()
+roboguice.activity.RoboListActivity: void setContentView(android.view.View)
+roboguice.activity.RoboMapActivity
+roboguice.activity.RoboMapActivity: RoboMapActivity()
+roboguice.activity.RoboMapActivity: void setContentView(android.view.View)
+roboguice.activity.RoboPreferenceActivity
+roboguice.activity.RoboPreferenceActivity: RoboPreferenceActivity()
+roboguice.activity.RoboPreferenceActivity: void setContentView(android.view.View)
+roboguice.activity.RoboSplashActivity
+roboguice.activity.RoboTabActivity
+roboguice.activity.RoboTabActivity: void setContentView(android.view.View)
+roboguice.activity.event.OnActivityResultEvent
+roboguice.activity.event.OnConfigurationChangedEvent
+roboguice.activity.event.OnContentChangedEvent
+roboguice.activity.event.OnContentViewAvailableEvent
+roboguice.activity.event.OnCreateEvent
+roboguice.activity.event.OnDestroyEvent
+roboguice.activity.event.OnNewIntentEvent
+roboguice.activity.event.OnPauseEvent
+roboguice.activity.event.OnRestartEvent
+roboguice.activity.event.OnResumeEvent
+roboguice.activity.event.OnStartEvent
+roboguice.activity.event.OnStopEvent
+roboguice.adapter.IterableAdapter
+roboguice.application.RoboApplication
+roboguice.application.RoboApplication: RoboApplication()
+roboguice.application.RoboInjectableApplication
+roboguice.config.AbstractAndroidModule
+roboguice.config.EventManagerModule
+roboguice.config.RoboModule
+roboguice.event.EventListener
+roboguice.event.EventListener: void onEvent(java.lang.Object)
+roboguice.event.EventManager
+roboguice.event.EventManager: com.google.inject.Provider contextProvider
+roboguice.event.EventManager$NullEventManager
+roboguice.event.EventManager$ObserverMethodListener
+roboguice.event.EventManager$ObserverMethodListener: void onEvent(java.lang.Object)
+roboguice.event.Observes
+roboguice.event.ObservesTypeListener
+roboguice.event.ObservesTypeListener$ContextObserverMethodInjector
+roboguice.event.javaassist.RuntimeSupport
+roboguice.inject.ActivityProvider
+roboguice.inject.ActivityProvider: com.google.inject.Provider contextProvider
+roboguice.inject.AssetManagerProvider
+roboguice.inject.AssetManagerProvider: android.content.Context context
+roboguice.inject.ContentResolverProvider
+roboguice.inject.ContentResolverProvider: android.content.Context context
+roboguice.inject.ContextScope
+roboguice.inject.ContextScope$WeakActiveStack
+roboguice.inject.ContextScoped
+roboguice.inject.ExtraConverter
+roboguice.inject.ExtrasListener
+roboguice.inject.ExtrasListener$ExtrasMembersInjector
+roboguice.inject.InjectExtra
+roboguice.inject.InjectPreference
+roboguice.inject.InjectResource
+roboguice.inject.InjectView
+roboguice.inject.InjectorProvider
+roboguice.inject.PreferenceListener
+roboguice.inject.ResourceFactory
+roboguice.inject.ResourceListener
+roboguice.inject.ResourceListener$ResourceMembersInjector
+roboguice.inject.ResourcesProvider
+roboguice.inject.ResourcesProvider: ResourcesProvider(android.app.Application)
+roboguice.inject.RoboApplicationProvider
+roboguice.inject.RoboApplicationProvider: android.app.Application application
+roboguice.inject.SharedPreferencesName
+roboguice.inject.SharedPreferencesProvider
+roboguice.inject.SharedPreferencesProvider: com.google.inject.Provider contextProvider
+roboguice.inject.SharedPreferencesProvider: SharedPreferencesProvider(roboguice.inject.SharedPreferencesProvider$PreferencesNameHolder)
+roboguice.inject.SharedPreferencesProvider$PreferencesNameHolder
+roboguice.inject.SharedPreferencesProvider$PreferencesNameHolder: java.lang.String value
+roboguice.inject.StaticTypeListener
+roboguice.inject.StringResourceFactory
+roboguice.inject.StringResourceFactory: StringResourceFactory(android.content.res.Resources)
+roboguice.inject.SystemServiceProvider
+roboguice.inject.SystemServiceProvider: com.google.inject.Provider contextProvider
+roboguice.inject.ViewListener
+roboguice.receiver.RoboBroadcastReceiver
+roboguice.receiver.RoboBroadcastReceiver: RoboBroadcastReceiver()
+roboguice.service.RoboIntentService
+roboguice.service.RoboService
+roboguice.service.RoboService: RoboService()
+roboguice.service.event.OnConfigurationChangedEvent
+roboguice.service.event.OnCreateEvent
+roboguice.service.event.OnDestroyEvent
+roboguice.service.event.OnStartEvent
+roboguice.test.RoboActivityUnitTestCase
+roboguice.test.RoboUnitTestCase
+roboguice.util.Ln
+roboguice.util.Ln: roboguice.util.Ln$BaseConfig config
+roboguice.util.Ln: roboguice.util.Ln$Print print
+roboguice.util.Ln$BaseConfig
+roboguice.util.Ln$BaseConfig: Ln$BaseConfig(android.content.Context)
+roboguice.util.Ln$Config
+roboguice.util.Ln$Print
+roboguice.util.RoboAsyncTask
+roboguice.util.RoboAsyncTask: com.google.inject.Provider contextProvider
+roboguice.util.RoboAsyncTask: com.google.inject.Provider scopeProvider
+roboguice.util.RoboAsyncTask$Task
+roboguice.util.RoboLooperThread
+roboguice.util.RoboThread
+roboguice.util.RoboThread: com.google.inject.Provider contextProvider
+roboguice.util.RoboThread: com.google.inject.Provider scopeProvider
+roboguice.util.SafeAsyncTask
+roboguice.util.SafeAsyncTask$Task
+roboguice.util.Strings

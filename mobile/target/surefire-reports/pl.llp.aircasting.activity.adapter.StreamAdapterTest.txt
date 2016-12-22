@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: pl.llp.aircasting.activity.adapter.StreamAdapterTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.662 sec - in pl.llp.aircasting.activity.adapter.StreamAdapterTest

@@ -1,0 +1,299 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:20:4-112:12
+	package
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:20:128-155
+	android:versionName
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:20:99-127
+	android:versionCode
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:20:73-98
+		INJECTED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml
+		INJECTED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:20:14-72
+uses-sdk
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:22:3-69
+	android:targetSdkVersion
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:22:39-67
+	android:minSdkVersion
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:22:13-38
+supports-screens
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:25:3-133
+	android:largeScreens
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:25:47-74
+	android:smallScreens
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:25:104-131
+	android:normalScreens
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:25:75-103
+	android:anyDensity
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:25:21-46
+uses-permission#android.permission.INTERNET
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:28:3-64
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:28:20-62
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:29:3-76
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:29:20-74
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:30:3-78
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:30:20-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:31:3-76
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:31:20-74
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:32:3-68
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:32:20-66
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:33:3-72
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:33:20-70
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:34:3-78
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:34:20-76
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:35:3-65
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:35:20-63
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:36:3-71
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:36:20-69
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:37:3-63
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:37:20-61
+application
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:39:3-111:17
+	android:label
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:39:72-104
+	android:debuggable
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:39:16-41
+	android:icon
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:39:42-71
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:39:105-148
+uses-library#com.google.android.maps
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:42:5-59
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:42:19-57
+activity#pl.llp.aircasting.activity.SplashActivity
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:45:5-50:16
+	android:label
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:45:15-47
+	android:noHistory
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:45:88-112
+	android:theme
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:45:113-151
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:45:48-87
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:46:7-49:23
+action#android.intent.action.MAIN
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:47:9-60
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:47:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:48:9-68
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:48:19-66
+activity#pl.llp.aircasting.activity.GraphActivity
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:52:5-127
+	android:label
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:52:15-47
+	android:theme
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:52:87-125
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:52:48-86
+activity#pl.llp.aircasting.activity.SessionsActivity
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:54:5-130
+	android:label
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:54:15-47
+	android:theme
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:54:90-128
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:54:48-89
+activity#pl.llp.aircasting.activity.SaveSessionActivity
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:56:5-131
+	android:label
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:56:15-54
+	android:theme
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:56:100-129
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:56:55-99
+activity#pl.llp.aircasting.activity.SaveOrDiscardRestoredSessionActivity
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:58:5-148
+	android:label
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:58:15-54
+	android:theme
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:58:117-146
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:58:55-116
+activity#pl.llp.aircasting.activity.EditSessionActivity
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:60:5-131
+	android:label
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:60:15-54
+	android:theme
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:60:100-129
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:60:55-99
+activity#pl.llp.aircasting.activity.SettingsActivity
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:62:5-97
+	android:theme
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:62:57-95
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:62:15-56
+activity#pl.llp.aircasting.activity.OpenSessionActivity
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:64:5-131
+	android:label
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:64:15-54
+	android:theme
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:64:100-129
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:64:55-99
+activity#pl.llp.aircasting.activity.AirCastingMapActivity
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:66:5-102
+	android:theme
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:66:62-100
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:66:15-61
+activity#pl.llp.aircasting.activity.AboutActivity
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:68:5-94
+	android:theme
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:68:54-92
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:68:15-53
+activity#pl.llp.aircasting.activity.MakeANoteActivity
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:70:5-125
+	android:label
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:70:15-50
+	android:theme
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:70:94-123
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:70:51-93
+activity#pl.llp.aircasting.activity.ThresholdsActivity
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:72:5-126
+	android:label
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:72:15-50
+	android:theme
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:72:95-124
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:72:51-94
+activity#pl.llp.aircasting.activity.SignUpActivity
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:74:5-132
+	android:label
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:74:15-60
+	android:theme
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:74:101-130
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:74:61-100
+activity#pl.llp.aircasting.activity.SignOutActivity
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:76:5-120
+	android:label
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:76:15-47
+	android:theme
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:76:89-118
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:76:48-88
+activity#pl.llp.aircasting.activity.SignInActivity
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:78:5-118
+	android:label
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:78:15-46
+	android:theme
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:78:87-116
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:78:47-86
+activity#pl.llp.aircasting.activity.ResetPasswordActivity
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:80:5-132
+	android:label
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:80:15-53
+	android:theme
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:80:101-130
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:80:54-100
+activity#pl.llp.aircasting.activity.ProfileActivity
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:82:5-119
+	android:label
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:82:15-46
+	android:theme
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:82:88-117
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:82:47-87
+activity#pl.llp.aircasting.activity.ContributeActivity
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:84:5-138
+	android:label
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:84:15-62
+	android:theme
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:84:107-136
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:84:63-106
+activity#pl.llp.aircasting.activity.ShareSessionActivity
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:86:5-130
+	android:label
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:86:15-52
+	android:theme
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:86:99-128
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:86:53-98
+activity#pl.llp.aircasting.activity.extsens.ExternalSensorActivity
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:88:5-143
+	android:label
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:88:15-55
+	android:theme
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:88:112-141
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:88:56-111
+activity#pl.llp.aircasting.activity.StreamsActivity
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:90:5-140
+	android:label
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:90:15-58
+	android:theme
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:90:100-138
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:90:59-99
+activity#pl.llp.aircasting.activity.settings.BackendSettingsActivity
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:92:5-145
+	android:label
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:92:15-55
+	android:theme
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:92:114-143
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:92:56-113
+activity#pl.llp.aircasting.activity.settings.DisableMapSettingsActivity
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:94:5-144
+	android:label
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:94:15-51
+	android:theme
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:94:113-142
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:94:52-112
+service#pl.llp.aircasting.service.SensorService
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:97:5-53
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:97:14-51
+service#pl.llp.aircasting.storage.DatabaseWriterService
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:99:5-61
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:99:14-59
+service#pl.llp.aircasting.sync.SyncService
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:101:5-48
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:101:14-46
+service#pl.llp.aircasting.service.IOIOService
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:103:5-51
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:103:14-49
+receiver#pl.llp.aircasting.receiver.NetworkReceiver
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:106:5-110:16
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:106:15-55
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:107:7-109:23
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:108:9-70
+	android:name
+		ADDED from /Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/AndroidManifest.xml:108:17-68

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_alignParentTop="true"
+                  android:layout_alignParentLeft="true"
+                  android:layout_margin="3dp">
+
+        <TextView android:id="@+id/name"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="20dp"
+                  android:textStyle="bold"
+                  android:text="Name"
+                  android:layout_margin="3dp"/>
+
+        <TextView android:id="@+id/address"
+                  android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                  android:layout_weight="1"
+                  android:textSize="20dp"
+                  android:layout_margin="3dp"
+                  android:text="Address"
+                  android:ellipsize="end"/>
+
+    </LinearLayout>
+
+    <TextView android:id="@+id/action"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Action"
+              android:textSize="14dp"
+              android:background="@drawable/blue_box"
+              android:textColor="@android:color/white"
+              android:layout_marginTop="42dp"
+              android:layout_marginRight="3dp"
+              android:paddingLeft="10dp"
+              android:paddingTop="3dp"
+              android:paddingRight="10dp"
+              android:paddingBottom="3dp"
+              android:layout_alignParentTop="true"
+              android:layout_alignParentRight="true"
+              android:layout_gravity="center_vertical" />
+</RelativeLayout>
+<!-- From: file:/Users/josephzuhusky/Desktop/AirCastingAndroidClient-master/res/layout/external_sensor_item.xml -->

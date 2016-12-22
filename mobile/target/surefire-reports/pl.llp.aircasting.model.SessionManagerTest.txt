@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: pl.llp.aircasting.model.SessionManagerTest
+-------------------------------------------------------------------------------
+Tests run: 32, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 1.644 sec - in pl.llp.aircasting.model.SessionManagerTest
