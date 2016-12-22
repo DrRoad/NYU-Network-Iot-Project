@@ -3,9 +3,10 @@
     <output-path>$PROJECT_DIR$/classes/artifacts/iot_server_jar</output-path>
     <root id="archive" name="iot-server.jar">
       <element id="module-output" name="iot-server" />
-      <element id="library" level="project" name="gson-2.8.0-javadoc" />
       <element id="library" level="project" name="gson-2.8.0-sources" />
       <element id="extracted-dir" path="$USER_HOME$/Downloads/gson-2.8.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/mysql-connector-java-5.1.40-bin.jar" path-in-jar="/" />
+      <element id="library" level="project" name="gson-2.8.0-javadoc" />
     </root>
   </artifact>
 </component>
